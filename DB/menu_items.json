@@ -156,9 +156,8 @@
 
   { "id": "ICE_SPOON", "name": "스푼", "price": 0, "category": "아이스크림&빙수", "group": "용품", "type": "item" },
   { "id": "ICE_FORK", "name": "포크", "price": 0, "category": "아이스크림&빙수", "group": "용품", "type": "item" },
-  { "id": "ICE_PAPER_BAG_SMALL", "name": "종이 쇼핑백_소", "price": 200, "category": "아이스크림&빙수", "group": "용품", "type": "item" },
-  { "id": "ICE_PAPER_BAG_LARGE", "name": "종이 쇼핑백_대", "price": 200, "category": "아이스크림&빙수", "group": "용품", "type": "item" }
-
+  { "id": "PAPER_BAG_SMALL", "name": "종이 쇼핑백_소", "price": 200, "category": "COMMON", "group": "BAG" },
+  { "id": "PAPER_BAG_LARGE", "name": "종이 쇼핑백_대", "price": 200, "category": "COMMON", "group": "BAG" },
 
   
   { "id": "CAKE_SPOONABLE_PEACH", "name": "떠먹는 피치생", "price": null, "category": "케이크", "group": "피스케이크", "type": "soldout" },
@@ -219,15 +218,15 @@
   { "id": "DISPOSABLE_FORK", "name": "일회용 포크", "price": 50, "category": "케이크", "group": "초/기타" },
   { "id": "DISPOSABLE_KNIFE", "name": "일회용 나이프", "price": 50, "category": "케이크", "group": "초/기타" },
 
-  { "id": "PAPER_BAG_SMALL", "name": "종이 쇼핑백_소", "price": 200, "category": "케이크", "group": "초/기타" },
-  { "id": "PAPER_BAG_LARGE", "name": "종이 쇼핑백_대", "price": 200, "category": "케이크", "group": "초/기타" }
+ 
+
 
 
 
   
   { "id": "CANDLE_NUMBER_0", "name": "숫자초 0", "price": 900, "category": "케이크", "group": "초/기타" },
   { "id": "CANDLE_NUMBER_5", "name": "숫자초 5", "price": 900, "category": "케이크", "group": "초/기타" },
-  { "id": "CANDLE_HEART_RED", "name": "하트초 레드", "price": 900, "category": "케이크", "group": "초/기타" },
+  
   { "id": "CANDLE_HAPPYDAY_HAT", "name": "오 해피데이 고깔", "price": 2000, "category": "케이크", "group": "초/기타" },
 
   { "id": "CANDLE_NUMBER_1", "name": "숫자초 1", "price": 900, "category": "케이크", "group": "초/기타" },
@@ -247,10 +246,10 @@
   { "id": "CANDLE_NUMBER_9", "name": "숫자초 9", "price": 900, "category": "케이크", "group": "초/기타" },
   { "id": "CANDLE_TWOSOME_BIRTHDAY", "name": "투썸 해피 캔들(해피벌스데이)", "price": 2500, "category": "케이크", "group": "초/기타" },
 
-  { "id": "DISPOSABLE_FORK", "name": "일회용 포크", "price": 50, "category": "케이크", "group": "초/기타" },
-  { "id": "DISPOSABLE_KNIFE", "name": "일회용 나이프", "price": 50, "category": "케이크", "group": "초/기타" },
-  { "id": "PAPER_BAG_SMALL", "name": "종이 쇼핑백_소", "price": 200, "category": "케이크", "group": "초/기타" },
-  { "id": "PAPER_BAG_LARGE", "name": "종이 쇼핑백_대", "price": 200, "category": "케이크", "group": "초/기타" },
+  
+  
+
+
 
 
 
@@ -482,7 +481,5 @@
 
   { "id": "MD_STAGE_MUG_GREY", "name": "N 베이지 스테이지 스 머그(그레이)", "price": 17000, "category": "MD", "group": "상시MD" },
   { "id": "MD_TUMBLER_MAX_STEEL", "name": "투썸 MAX 스틸 텀블러", "price": 27000, "category": "MD", "group": "상시MD" }
-]
-]
 
 ]
