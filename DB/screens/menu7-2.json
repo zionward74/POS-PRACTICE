@@ -1,0 +1,39 @@
+{
+  "screenId": "menu7-2",
+  "cells": [
+    { "id": "MD_TUMBLER_SIGNATURE_HANDLE_DIAMOND_ORANGE" },
+    { "id": "MD_TUMBLER_SIGNATURE_MAX_HANDLE_DIAMOND_ORANGE" },
+    { "id": "MD_BOTTLE_HF_MICRO_HIDE_320_WHITE" },
+    { "id": "MD_BOTTLE_HF_MICRO_HIDE_320_TEA_ROSE" },
+    { "id": "MD_STAGE_MUG_GREY" },
+    null,
+
+    { "id": "MD_TUMBLER_SIGNATURE_HANDLE_PASTEL_YELLOW" },
+    { "id": "MD_TUMBLER_SIGNATURE_MAX_HANDLE_PASTEL_YELLOW" },
+    { "id": "MD_BOTTLE_HF_MICRO_HIDE_320_BLACK" },
+    { "id": "MD_BOTTLE_HF_MICRO_HIDE_320_ALOE_GREEN" },
+    { "id": "MD_TUMBLER_MAX_STEEL" },
+    null,
+
+    { "id": "MD_TUMBLER_SIGNATURE_HANDLE_SKY_BLUE" },
+    { "id": "MD_TUMBLER_SIGNATURE_MAX_HANDLE_SKY_BLUE" },
+    { "id": "MD_BOTTLE_HF_MICRO_HIDE_320_OAT" },
+    { "id": "MD_BOTTLE_HF_TRAVEL_709_SUPER_BLUE" },
+    null,
+    { "id": "PAPER_BAG_SMALL" },
+
+    null,
+    null,
+    { "id": "MD_BOTTLE_HF_MICRO_HIDE_320_AGAVE" },
+    { "id": "MD_BOTTLE_HF_TRAVEL_709_ALOE_GREEN" },
+    null,
+    { "id": "PAPER_BAG_LARGE" },
+
+    { "id": "MD_MUG_PEARL_HANDLE" },
+    { "id": "MD_MUG_NAVY_HANDLE" },
+    null,
+    null,
+    null,
+    null
+  ]
+}

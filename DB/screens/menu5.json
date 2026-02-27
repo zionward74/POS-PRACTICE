@@ -1,0 +1,34 @@
+{
+  "screenId": "menu5",
+  "cells": [
+    { "id": "BAKERY_BAGEL_CLASSIC" },
+    { "id": "BAKERY_FINANCIER_CHOCOLATE_BATON" },
+    { "id": "BAKERY_SCONE_BLUEBERRY" },
+    { "id": "BAKERY_MADELEINE_BRIJIT_VANILLA_CHOCOLATE" },
+    { "id": "OPT_HEAT_NONE" },
+
+    { "id": "BAKERY_BAGEL_BLUEBERRY" },
+    { "id": "BAKERY_FINANCIER_HAZELNUT_BATON" },
+    { "id": "BAKERY_SCONE_FRESHCREAM_BUTTER" },
+    null,
+    { "id": "OPT_HEAT_DELI" },
+
+    { "id": "BAKERY_BAGEL_SALT_PRETZEL" },
+    { "id": "BAKERY_COOKIE_WALNUT_CHOCOLATE" },
+    { "id": "BAKERY_CROISSANT_COCONUT_COVER" },
+    null,
+    null,
+
+    { "id": "BAKERY_BAGEL_OLIVE_CHEESE" },
+    { "id": "BAKERY_COOKIE_CHOCOLATE_MACADAMIA" },
+    { "id": "BAKERY_CROISSANT_BLUEBERRY_ALMOND" },
+    null,
+    { "id": "PAPER_BAG_SMALL" },
+
+    { "id": "BAKERY_SPREAD_PLAIN_CREAMCHEESE" },
+    { "id": "BAKERY_JAM_SMUCKERS_STRAWBERRY" },
+    null,
+    null,
+    null
+  ]
+}

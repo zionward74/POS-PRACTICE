@@ -1,0 +1,39 @@
+{
+  "screenId": "menu3-2",
+  "cells": [
+    { "id": "CANDLE_NUMBER_0" },
+    { "id": "CANDLE_NUMBER_5" },
+    { "id": "CANDLE_HEART_RED" },
+    { "id": "CANDLE_HAPPYDAY_HAT" },
+    null,
+
+    { "id": "CANDLE_NUMBER_1" },
+    { "id": "CANDLE_NUMBER_6" },
+    { "id": "CANDLE_TWOSOME_GAMMA" },
+    { "id": "CANDLE_FRESH_CREAM" },
+    null,
+
+    { "id": "CANDLE_NUMBER_2" },
+    { "id": "CANDLE_NUMBER_7" },
+    { "id": "CANDLE_TWOSOME_HBD" },
+    null,
+    null,
+
+    { "id": "CANDLE_NUMBER_3" },
+    { "id": "CANDLE_NUMBER_8" },
+    { "id": "CANDLE_TWOSOME_ILOVEYOU" },
+    null,
+    null,
+
+    { "id": "CANDLE_NUMBER_4" },
+    { "id": "CANDLE_NUMBER_9" },
+    { "id": "CANDLE_TWOSOME_BIRTHDAY" },
+    null,
+    null,
+
+    { "id": "DISPOSABLE_FORK" },
+    { "id": "DISPOSABLE_KNIFE" },
+    { "id": "PAPER_BAG_SMALL" },
+    { "id": "PAPER_BAG_LARGE" }
+  ]
+}

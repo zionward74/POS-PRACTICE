@@ -1,0 +1,32 @@
+{
+  "screenId": "menu4",
+  "cells": [
+    { "id": "DELI_PANINI_BBQ_CHICKEN" },
+    { "id": "DELI_WRAP_SOFT_EGG_MILK" },
+    { "id": "DELI_MUFFIN_OVEN_BAKED" },
+    { "id": "DELI_PANINI_BULGOGI_CHEESE" },
+    null,
+    { "id": "DISPOSABLE_FORK" },
+
+    { "id": "DELI_PANINI_MEXICAN" },
+    { "id": "DELI_CROQUE_MONSIEUR" },
+    { "id": "DELI_BRIOSSE_EGGHAM" },
+    { "id": "DELI_PANINI_SPICY_CHEESE_BULDAK" },
+    null,
+    { "id": "DISPOSABLE_KNIFE" },
+
+    { "id": "DELI_PANINI_PESTO_HAM_CHEESE" },
+    { "id": "DELI_BAGEL_MAPLE_CHEDDAR_BACON" },
+    { "id": "DELI_FOCACCIA_GRILLED_ONION_CHEESE" },
+    null,
+    { "id": "DELI_PANINI_CHICKEN_SALAD" },
+    { "id": "DELI_HEAT_OPTION" },
+
+    { "id": "DELI_PANINI_SHRIMP_BACON_Omelet" },
+    { "id": "DELI_SANDWICH_SCRAMBLE_EGG" },
+    { "id": "DELI_FOCACCIA_GRILLED_ONION_CHEESE" },
+    null,
+    { "id": "DELI_PANINI_EGG_SALAD" },
+    { "id": "PAPER_BAG_SMALL" }
+  ]
+}

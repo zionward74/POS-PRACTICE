@@ -1,0 +1,14 @@
+{
+  "screenId": "menu1-1-2",
+  "topTabId": "CAT_COFFEE",
+  "subTabId": "SUB_ESPRESSO_VAR",
+  "rows": 5,
+  "cols": 6,
+  "cells": [
+    "SUGAR_LIGHT", "SUGAR_NORMAL", "SUGAR_NONE", "SUGAR_HAZELNUT", "MILK_OAT", "ADD_SHOT",
+    "WHIP_NONE", "WHIP_LESS", "WHIP_MORE", "WHIP_CREAM", "TUMBLER_DISCOUNT", "CHANGE_MILK",
+    "ICE_NONE", "ICE_LESS", "ICE_MORE", null, null, null,
+    "WATER_NONE", "WATER_LESS", "WATER_MORE", "TEMP_LUKEWARM", "TEMP_HOT", "PERSONAL_CUP",
+    "FOAM_NONE", "FOAM_LESS", "FOAM_MORE", "MILK_LESS", "MILK_MORE", "NAV_PREV"
+  ]
+}

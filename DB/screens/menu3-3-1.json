@@ -1,0 +1,32 @@
+{
+  "screenId": "menu3-3-1",
+  "cells": [
+    { "id": "CAKE_WHOLE_SHA_CHO_SAENG" },
+    { "id": "CAKE_WHOLE_SO_CHO_SAENG_FRAISIER" },
+    { "id": "CAKE_PARTYPACK_ABAK" },
+    { "id": "CAKE_PARTYPACK_SO_CHO_SAENG" },
+    null,
+    null,
+
+    { "id": "CAKE_WHOLE_WHITE_SHA_CHO_SAENG" },
+    { "id": "CAKE_WHOLE_SO_CHO_SAENG_2TIER" },
+    { "id": "CAKE_PARTYPACK_MATCHA_ABAK" },
+    { "id": "CAKE_PARTYPACK_PEACH_SAENG" },
+    null,
+    { "id": "CANDLE_BIG" },
+
+    null,
+    null,
+    { "id": "CAKE_PARTYPACK_MASCARPONE_TIRAMISU" },
+    { "id": "CAKE_PARTYPACK_MANGO_SAENG" },
+    null,
+    { "id": "CANDLE_SMALL" },
+
+    null,
+    null,
+    null,
+    null,
+    null,
+    { "id": "CAKE_BOX_PLASTIC_BAG" }
+  ]
+}

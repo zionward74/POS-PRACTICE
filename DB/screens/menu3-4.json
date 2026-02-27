@@ -1,0 +1,32 @@
+{
+  "screenId": "menu3-4",
+  "cells": [
+    { "id": "CAKE_SEASON_MARSHMALLOW_CHOCO" },
+    { "id": "CAKE_SEASON_TWOSOME_SAENG_II_SPECIAL_EDITION" },
+    null,
+    null,
+    null,
+    null,
+
+    { "id": "CAKE_SEASON_STRAWBERRY_MILK_FRESHCREAM" },
+    { "id": "CAKE_SEASON_MATCHA_SO_CHO_SAENG" },
+    null,
+    null,
+    null,
+    { "id": "CANDLE_BIG" },
+
+    { "id": "CAKE_SEASON_STRAWBERRY_MATCHA_GANACHE" },
+    null,
+    null,
+    null,
+    null,
+    { "id": "CANDLE_SMALL" },
+
+    null,
+    null,
+    null,
+    null,
+    null,
+    { "id": "CAKE_BOX_PLASTIC_BAG" }
+  ]
+}

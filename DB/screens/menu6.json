@@ -1,0 +1,32 @@
+{
+  "screenId": "menu6",
+  "cells": [
+    { "id": "SNACK_BAR_SWEETPOTATO" },
+    { "id": "SNACK_BROWNIE_SEASONAL_PREMIUM_CHOCO" },
+    { "id": "SNACK_CANDY_STYLELAB_CANDY_PEACH" },
+    null,
+    { "id": "SNACK_SABLE_CHOCOLATE_PECAN" },
+    null,
+
+    { "id": "SNACK_BAR_GRAHAMCOOKIE" },
+    { "id": "SNACK_NUTS_AND_FRUITS" },
+    { "id": "SNACK_CANDY_STYLELAB_CANDY_MINT" },
+    null,
+    { "id": "SNACK_COOKIE_ALMOND_CRANBERRY" },
+    null,
+
+    { "id": "SNACK_BISCUIT_PIECE_CHOCO" },
+    { "id": "SNACK_BREAD_RUSK_CHOCOLATE" },
+    null,
+    null,
+    { "id": "SNACK_COOKIE_GLUTENFREE_ALMOND_COCONUT" },
+    { "id": "PAPER_BAG_SMALL" },
+
+    { "id": "SNACK_BISCUIT_PIECE_CHOCO_MILK" },
+    null,
+    null,
+    null,
+    { "id": "SNACK_COOKIE_SET_3" },
+    { "id": "PAPER_BAG_LARGE" }
+  ]
+}

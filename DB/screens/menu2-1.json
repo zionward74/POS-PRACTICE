@@ -1,0 +1,14 @@
+{
+  "screenId": "menu2-1",
+  "topTabId": "CAT_ICE",
+  "subTabId": "SUB_ICE",
+  "rows": 5,
+  "cols": 6,
+  "cells": [
+    "ICE_MONAKA_MILK", "ICE_VANILLA_AFFOGATO", "ICE_CROPLE", "ICE_TWO_BROWNIE", null, "ICE_SPOON",
+    "ICE_MONAKA_STRAWBERRY_CHOCO", null, "ICE_TWOSOME_CROPLE_SET", "ICE_TOPPING_CHOC", null, "ICE_FORK",
+    null, null, "ICE_SINGLE_SYRUP", "ICE_ADD_SHOT", null, "ICE_PAPER_BAG_SMALL",
+    null, null, null, null, null, "ICE_PAPER_BAG_LARGE",
+    null, null, null, null, null, "NAV_NEXT"
+  ]
+}

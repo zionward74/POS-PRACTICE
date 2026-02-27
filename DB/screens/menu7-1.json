@@ -1,0 +1,34 @@
+{
+  "screenId": "menu7-1",
+  "cells": [
+    { "id": "MD_TWG_FRENCH_EARLGREY" },
+    { "id": "MD_TWG_CHAMOMILE" },
+    { "id": "MD_ALIST_HEADDRIP_BLACKROUND" },
+    { "id": "MD_ALIST_CAPSULE_BLACKROUND" },
+    { "id": "MD_ALIST_COLD_BREW_CONCENTRATE" },
+
+    { "id": "MD_TWG_GRAND_TEA" },
+    { "id": "MD_TWG_CREAM_CARAMEL" },
+    { "id": "MD_ALIST_HEADDRIP_AROMANOTE" },
+    { "id": "MD_ALIST_CAPSULE_AROMANOTE" },
+    null,
+
+    { "id": "MD_TWG_ENGLISH_BREAKFAST" },
+    null,
+    { "id": "MD_ALIST_HEADDRIP_DECAF" },
+    { "id": "MD_ALIST_CAPSULE_DECAF" },
+    { "id": "MD_BEANS_BLACKROUND_200G" },
+
+    { "id": "MD_TWG_1837_BLACK_TEA" },
+    null,
+    { "id": "MD_ALIST_STICK_COFFEE" },
+    { "id": "MD_ALIST_VANILLA_LATTE" },
+    { "id": "MD_BEANS_AROMANOTE_200G" },
+
+    null,
+    null,
+    { "id": "MD_ALIST_STICK_COFFEE_DECAF" },
+    { "id": "MD_ALIST_CHOCOLATE_LATTE" },
+    { "id": "MD_BEANS_DECAF_200G" }
+  ]
+}

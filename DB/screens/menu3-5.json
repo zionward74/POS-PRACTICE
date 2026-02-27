@@ -1,0 +1,25 @@
+{
+  "screenId": "menu3-5",
+  "cells": [
+    { "id": "DESSERT_MACARON_MADAGASCAR_VANILLA" },
+    { "id": "DESSERT_MACARON_GRAPE_YOGURT" },
+    { "id": "DESSERT_MACARON_SET_6" },
+    null,
+    null,
+    { "id": "PAPER_BAG_SMALL" },
+
+    { "id": "DESSERT_MACARON_SANPEEL" },
+    { "id": "DESSERT_MACARON_HWANGCHI" },
+    { "id": "DESSERT_MACARON_SET_12" },
+    null,
+    null,
+    { "id": "PAPER_BAG_LARGE" },
+
+    { "id": "DESSERT_MACARON_CHOCOLATE" },
+    { "id": "DESSERT_MACARON_BLUEBERRY" },
+    null,
+    null,
+    null,
+    null
+  ]
+}

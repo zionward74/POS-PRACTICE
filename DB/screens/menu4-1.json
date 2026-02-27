@@ -1,0 +1,32 @@
+{
+  "screenId": "menu4-1",
+  "cells": [
+    { "id": "SET_DELI_PANINI_BBQ_CHICKEN" },
+    { "id": "SET_DELI_ENGLISH_MUFFIN_SOFT_EGG" },
+    { "id": "SET_DELI_RISOTTO_OVEN_TRUFFLE" },
+    { "id": "SET_DELI_PANINI_BULGOGI_CHEESE_MELT" },
+    { "id": "SYRUP_VANILLA" },
+    { "id": "DISPOSABLE_FORK" },
+
+    { "id": "SET_DELI_PANINI_MEXICAN" },
+    { "id": "SET_DELI_CROQUE_MONSIEUR" },
+    { "id": "SET_DELI_BRIOCHE_BUN_EGG_HAM" },
+    { "id": "SET_DELI_PANINI_BULDAK_CHEESE_MELT" },
+    { "id": "SYRUP_HAZELNUT" },
+    { "id": "DISPOSABLE_KNIFE" },
+
+    { "id": "SET_DELI_PANINI_PESTO_HAMCHEESE" },
+    { "id": "SET_DELI_BAGEL_BACON_CHEDDAR" },
+    { "id": "SET_DELI_FOCACCIA_GRILLED_ONION_CHEESE" },
+    null,
+    { "id": "SYRUP_CARAMEL" },
+    { "id": "DELI_HEAT_OPTION" },
+
+    { "id": "SET_DELI_PANINI_TRUFFLE_MUSHROOM_OMELET" },
+    { "id": "SET_DELI_SANDWICH_SCRAMBLE_EGG" },
+    { "id": "SET_DELI_FOCACCIA_OLIVE_HAMCHEESE" },
+    null,
+    { "id": "SIZE_UP_LARGE" },
+    { "id": "PAPER_BAG_LARGE" }
+  ]
+}

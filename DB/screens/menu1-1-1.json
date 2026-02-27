@@ -1,0 +1,43 @@
+{
+  "screenId": "menu1-1-1",
+  "topTabId": "CAT_COFFEE",
+  "subTabId": "SUB_ESPRESSO_VAR",
+  "rows": 5,
+  "cols": 6,
+  "cells": [
+    "AMERICANO_R",
+    "CAFE_LATTE_R",
+    "CAPPUCCINO_R",
+    "VANILLA_LATTE_R",
+    "CAFE_MOCHA_R",
+    "CARAMEL_MACCHIATO_R",
+
+    "COLD_BREW",
+    "COLD_BREW_LATTE",
+    "DECAF_COLD_BREW",
+    "DECAF_COLD_BREW_LATTE",
+    "VANILLA_BEAN_COLD_BREW_LATTE",
+    "DECAF_COLD_BREW_CREAM_LATTE",
+
+    "PEACH_ASHOTCHU",
+    "MINT_ASHOTCHU",
+    "APPLE_ASHOTCHU",
+    "BANANA_SHOT_LATTE",
+    "BANANA_SHOT_AMERICANO",
+    "PISTACHIO_CHOC_MOCHA",
+
+    "ESPRESSO",
+    "SHORT_LATTE",
+    "LONG_BLACK",
+    "VANILLA_BEAN_LATTE",
+    "SPANISH_CONDENSED_LATTE",
+    "OAT_WHITE_LATTE",
+
+    "ADDON_DECAF_BEAN",
+    "ADDON_SIZE_LARGE",
+    "ADDON_SIZE_MAX",
+    "EVENT_LUCKYDRAW_2026",
+    "CARRIER",
+    "NAV_NEXT"
+  ]
+}
