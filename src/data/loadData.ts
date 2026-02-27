@@ -54,8 +54,10 @@ function normalizeCell(input: ScreenCellInput): ScreenCell {
 
   // { id: "ITEM_ID" } 형태 (혹은 id 키가 다른 타입일 수도)
   if (typeof input === "object") {
-    const raw = (input as any).id;
-    const id = String(raw ?? "").trim();
+    // input이 객체이므로 id 속성이 있는지 확인
+    const obj = input as { id?: unknown };
+    const raw = obj.id;
+    const id = typeof raw === "string" ? raw.trim() : String(raw ?? "").trim();
     return id ? { id } : null;
   }
 
