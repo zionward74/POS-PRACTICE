@@ -31,7 +31,7 @@
       { "id": "SUB_ETC", "label": "초/기타" },
       { "id": "SUB_WHOLE", "label": "홀케이크" },
       { "id": "SUB_SEASON", "label": "시즌케이크" },
-      { "id": "SUB_DESSERT", "label": "디저트" },
+      { "id": "SUB_DESSERT", "label": "디저트" }
     ], 
 
     "CAT_DELI": [
@@ -86,7 +86,7 @@
       { "screenId": "menu3-2", "label": "1/1" }
     ],
   "CAT_CAKE|SUB_WHOLE": [
-      { "screenId": "menu3-3", "label": "1/2" }
+      { "screenId": "menu3-3", "label": "1/2" },
       { "screenId": "menu3-3-1", "label": "2/2" }
     ],
   "CAT_CAKE|SUB_SEASON": [
@@ -112,6 +112,6 @@
     ],
   "CAT_MD|SUB_MD_ALWAYS": [
       { "screenId": "menu7-2", "label": "1/1" }
-]
+    ]
   }
 }
