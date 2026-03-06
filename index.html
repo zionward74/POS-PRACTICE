@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Kiosk POS System</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+
+    <style data-purpose="custom-layout">
+      body {
+        background-color: #f0f0f0;
+        font-family: "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
+      }
+      .main-container {
+        width: 1021px;
+        height: 711px;
+        margin: 20px auto;
+        display: flex;
+        background-color: #ffffff;
+        overflow: hidden;
+        border: 1px solid #ccc;
+      }
+      .left-column {
+        width: 678px;
+        display: flex;
+        flex-direction: column;
+        border-right: 1px solid #777;
+      }
+      .right-column {
+        width: 343px;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+      }
+      .border-gutter {
+        border: 0.5px solid #d1d5db;
+      }
+    </style>
+
+    <style data-purpose="table-styling">
+      .table-header {
+        background-color: #c0003e;
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+        height: 35px;
+      }
+      .table-row {
+        height: 35px;
+        border-bottom: 1px solid #eee;
+        font-size: 13px;
+      }
+      .selected-row {
+        background-color: #222;
+        color: white;
+      }
+      .control-panel {
+        background-color: #757575;
+        width: 45px;
+        display: flex;
+        flex-direction: column;
+      }
+      .control-btn {
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        border-bottom: 1px solid #666;
+        font-size: 20px;
+      }
+    </style>
+
+    <style data-purpose="menu-grid-styling">
+      .tile-yellow {
+        background: #fff2a8;
+      }
+      .tile-sky {
+        background: #bfe7ff;
+      }
+      .tile-pink {
+        background: #f7b6c8;
+      }
+      .tile-gray {
+        background: #e6e6e6;
+      }
+      .tile-lime {
+        background: #ddf7b6;
+      }
+      .tile-orange {
+        background: #ffc48a;
+      }
+
+      /* ✅ 추가: 보라 */
+      .tile-purple {
+        background: #d9c6ff;
+      }
+
+      /* ✅ 추가: 선택없음(흰색) */
+      .tile-white {
+        background: #ffffff;
+      }
+    </style>
+
+    <!-- ✅ 추가만: 팔레트(색편집) UI를 "색칩"처럼 보이게 -->
+    <style data-purpose="palette-styling">
+      /* 팔레트 컨테이너 */
+      #palette.palette {
+        display: flex;
+        gap: 6px;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 6px;
+      }
+
+      /* 색칩 버튼 */
+      #palette .palette-swatch {
+        width: 34px;
+        height: 18px;
+        border: 1px solid #777;
+        border-radius: 2px;
+        padding: 0;
+        cursor: pointer;
+      }
+
+      /* 선택없음 버튼(흰색 + 글자) */
+      #palette .palette-none {
+        height: 18px;
+        padding: 0 10px;
+        border: 1px solid #777;
+        border-radius: 2px;
+        background: #ffffff;
+        cursor: pointer;
+        font-size: 12px;
+        line-height: 18px;
+        color: #111;
+      }
+
+      /* 눌렀을 때 피드백 */
+      #palette .palette-swatch:active,
+      #palette .palette-none:active {
+        transform: translateY(1px);
+      }
+    </style>
+
+    <style data-purpose="menu-grid-cell-styling">
+      .menu-grid-cell {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 64px;
+        padding: 6px 4px;
+        font-size: 12px;
+        line-height: 1.1;
+        text-align: center;
+        overflow: hidden;
+        white-space: normal;
+        word-break: keep-all;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        user-select: none;
+      }
+      .menu-grid-cell:hover {
+        filter: brightness(1.03);
+      }
+      .menu-grid-cell:active {
+        transform: translateY(1px);
+        filter: brightness(0.95);
+      }
+      .menu-grid-cell .name {
+        font-weight: 700;
+        max-height: 2.2em;
+        overflow: hidden;
+      }
+      .menu-grid-cell .price {
+        margin-top: 4px;
+        font-size: 11px;
+        opacity: 0.9;
+      }
+      .menu-grid-cell.inactive {
+        /* 기존 코드 유지 (필요하면 주석 해제)
+        background: #9ca3af !important;
+        opacity: 0.55;
+        cursor: default;
+        pointer-events: none;
+        */
+      }
+    </style>
+
+    <style data-purpose="menu-grid-nav-styling">
+      .menu-grid-nav-cell {
+        background: #ffffff;
+        display: flex;
+        border: 1px solid rgba(0, 0, 0, 0.10);
+        height: 64px;
+      }
+
+      .menu-grid-nav-btn {
+        flex: 1;
+        font-size: 18px;
+        font-weight: 700;
+        border-right: 1px solid rgba(0, 0, 0, 0.15);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .menu-grid-nav-btn:last-child {
+        border-right: none;
+      }
+    </style>
+
+    <!-- 서브탭을 상단탭과 같은 모양/사이즈로 + 오른쪽 < > 폭 더 좁게 (메인과 동일 높이 유지) -->
+    <style data-purpose="subtabs-match-top-tabs">
+      /* ✅ 오른쪽 < > 버튼 폭을 고정폭으로 더 줄이기 */
+      #sub-tabs-row {
+        grid-template-columns: repeat(7, 1fr) 34px 34px !important;
+      }
+
+      /* ✅ 서브탭 높이를 메인탭 느낌으로 키워서 동일하게 */
+      #sub-tabs-row > button,
+      #sub-tabs-row > div {
+        height: 36px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        line-height: 1.1;
+        padding: 0 6px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      #sub-tabs-row > button {
+        background: #666 !important;
+        color: #fff !important;
+        font-weight: 600;
+      }
+
+      /* 선택된 서브탭 (빨강) */
+      #sub-tabs-row > button.bg-\[\#c0003e\] {
+        background: #c0003e !important;
+        font-weight: 700 !important;
+      }
+
+      /* 가운데 채움용 영역 톤 맞춤 */
+      #sub-tabs-row > div.bg-\[\#888\] {
+        background: #666 !important;
+      }
+
+      /* 좌/우 버튼만 크게 */
+      #sub-tabs-row > button:nth-last-child(2),
+      #sub-tabs-row > button:last-child {
+        font-size: 18px !important;
+        padding: 0 !important;
+      }
+    </style>
+
+    <style data-purpose="adjust-first-subtab">
+      /* Allow the first sub-tab button to display text on two lines */
+      #sub-tabs-row > button:first-child {
+        white-space: normal;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: clip;
+      }
+    </style>
+
+    <style data-purpose="adjust-main-tabs">
+      /* Adjust grid-template-columns for the first tab row to reduce < > button width */
+      section[data-purpose="menu-grid"] > div.grid:first-of-type {
+        grid-template-columns: repeat(7, 1fr) 34px 34px !important;
+      }
+    </style>
+
+    <style data-purpose="match-main-tab-height">
+      /* Ensure main menu buttons match the height of sub-tabs */
+      section[data-purpose="menu-grid"] > div.grid:first-of-type > button {
+        height: 36px;
+        padding-top: 0;
+        padding-bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+
+    <!-- ✅ 추가만: 선택 표시 -->
+    <style>
+      .cell-selected {
+        outline: 3px solid #7c3aed;
+        outline-offset: -3px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="main-container shadow-2xl">
+      <!-- BEGIN: LeftColumn -->
+      <div class="left-column">
+        <!-- BEGIN: OrderTableSection -->
+        <section class="flex h-[284px] border-b border-gray-400" data-purpose="order-table">
+          <div class="flex-1 overflow-hidden">
+            <table class="w-full text-center border-collapse">
+              <thead>
+                <tr class="table-header">
+                  <th class="w-[322px] border-r border-white/20">상품명</th>
+                  <th class="w-[65px] border-r border-white/20">수량</th>
+                  <th class="w-[85px] border-r border-white/20">정가</th>
+                  <th class="w-[80px] border-r border-white/20">할인</th>
+                  <th class="w-[85px] border-r border-white/20">금액</th>
+                  <th class="w-auto">비고</th>
+                </tr>
+              </thead>
+              <tbody id="order-table-body">
+                <!-- empty on initial load -->
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Right side controls -->
+          <div class="control-panel">
+            <button class="control-btn">—</button>
+            <button class="control-btn">+</button>
+            <button class="control-btn text-2xl">×</button>
+            <button class="control-btn">∧</button>
+            <button class="control-btn border-b-0">∨</button>
+          </div>
+        </section>
+        <!-- END: OrderTableSection -->
+
+        <!-- BEGIN: MenuGridSection -->
+        <section class="flex-1 flex flex-col bg-[#9ca3af]" data-purpose="menu-grid">
+          <!-- Category Tabs (Top Tabs) -->
+          <div class="grid grid-cols-9 gap-[1px] bg-gray-400 border-b border-gray-400">
+            <button class="bg-[#c0003e] text-white text-xs py-3 font-bold">커피&음료</button>
+            <button class="bg-[#666] text-white text-[10px] py-1 px-1">아이스크림&빙수</button>
+            <button class="bg-[#666] text-white text-xs py-3">케이크</button>
+            <button class="bg-[#666] text-white text-xs py-3">델리</button>
+            <button class="bg-[#666] text-white text-xs py-3">베이커리</button>
+            <button class="bg-[#666] text-white text-xs py-3">상품</button>
+            <button class="bg-[#666] text-white text-xs py-3">MD</button>
+            <button class="bg-[#666] text-white text-lg py-1 border-l border-gray-500">&lt;</button>
+            <button class="bg-[#666] text-white text-lg py-1">&gt;</button>
+          </div>
+
+          <!-- ✅ Sub Tabs Row (서브 메뉴) -->
+          <div id="sub-tabs-row" class="grid grid-cols-9 gap-[1px] bg-gray-400 border-b border-gray-400">
+            <button class="col-span-1 bg-[#c0003e] text-white text-[10px] py-1 leading-tight font-bold">
+              에스프레소 베리에이션
+            </button>
+            <button class="col-span-1 bg-[#888] text-white text-[10px] py-1">티 베리에이션</button>
+            <button class="col-span-1 bg-[#888] text-white text-[10px] py-1">음료</button>
+            <button class="col-span-1 bg-[#888] text-white text-[10px] py-1">병음료</button>
+            <div class="col-span-1 bg-[#888]"></div>
+            <div class="col-span-1 bg-[#888]"></div>
+            <div class="col-span-1 bg-[#888]"></div>
+            <button class="bg-[#888] text-white text-lg py-1">&lt;</button>
+            <button class="bg-[#888] text-white text-lg py-1">&gt;</button>
+          </div>
+
+          <!-- Menu Grid Root (JS가 여기에 30개 버튼 렌더) -->
+          <div id="menu-grid-root" class="grid grid-cols-6 grid-rows-5 gap-[1px] bg-gray-400 flex-1 overflow-auto"></div>
+        </section>
+        <!-- END: MenuGridSection -->
+      </div>
+      <!-- END: LeftColumn -->
+
+      <!-- BEGIN: RightColumn -->
+      <div class="right-column border-l border-gray-400">
+        <div class="flex h-full">
+          <!-- Main Panel Content -->
+          <div class="flex-1 flex flex-col">
+            <!-- Black Header -->
+            <div class="h-[120px] bg-[#221f1f] border-b border-gray-600"></div>
+
+            <!-- Price Summary Section -->
+            <div class="p-4 space-y-2 text-[18px] font-medium text-gray-700 bg-white">
+              <div class="flex justify-between items-center border-b border-dotted border-gray-300 pb-1">
+                <span>총 수 량</span>
+                <span id="total-qty" class="text-2xl font-bold"></span>
+              </div>
+              <div class="flex justify-between items-center border-b border-dotted border-gray-300 pb-1">
+                <span>총매출액</span>
+                <span id="total-sales" class="text-2xl font-bold"></span>
+              </div>
+              <div class="flex justify-between items-center border-b border-dotted border-gray-300 pb-1">
+                <span>할인금액</span>
+                <span id="total-discount" class="text-2xl font-bold"></span>
+              </div>
+              <div class="flex justify-between items-center border-b border-dotted border-gray-300 pb-1 text-[#c0003e]">
+                <span>받을금액</span>
+                <span id="total-due" class="text-2xl font-bold"></span>
+              </div>
+              <div class="flex justify-between items-center border-b border-dotted border-gray-300 pb-1">
+                <span>받은금액</span>
+                <span id="total-received" class="text-2xl font-bold"></span>
+              </div>
+              <div class="flex justify-between items-center text-[#c0003e]">
+                <span>거스름돈</span>
+                <span id="total-change" class="text-2xl font-bold"></span>
+              </div>
+
+              <!-- Added Edit Panel -->
+              <div id="edit-panel" style="display: none">
+                <div style="display: flex; gap: 6px">
+                  <button id="btn-edit-toggle">🎨 색편집</button>
+                  <button id="btn-edit-lock">잠금</button>
+                </div>
+
+                <!-- ✅ 팔레트 -->
+                <div
+                  id="palette"
+                  class="palette"
+                  style="display: none; margin-top: 6px; display: flex; gap: 6px; flex-wrap: wrap"
+                >
+                  <button class="palette-swatch tile-pink" data-color="pink" aria-label="분홍"></button>
+                  <button class="palette-swatch tile-yellow" data-color="yellow" aria-label="노랑"></button>
+                  <button class="palette-swatch tile-lime" data-color="lime" aria-label="연두"></button>
+                  <button class="palette-swatch tile-gray" data-color="gray" aria-label="회색"></button>
+                  <button class="palette-swatch tile-sky" data-color="sky" aria-label="하늘"></button>
+                  <button class="palette-swatch tile-purple" data-color="purple" aria-label="보라"></button>
+                  <button class="palette-swatch tile-orange" data-color="orange" aria-label="주황"></button>
+                  <button class="palette-none" data-color="white">선택없음</button>
+                </div>
+
+                <!-- ✅ 추가: 선택된 키 이름/가격 편집 UI (추가만, 아직 기능 연결 X) -->
+                <div
+                  id="key-editor"
+                  style="margin-top: 8px; display: grid; grid-template-columns: 1fr; gap: 6px;"
+                >
+                  <div style="display:flex; gap:6px; align-items:center;">
+                    <span style="font-size:12px; color:#333; min-width:52px;">이름</span>
+                    <input
+                      id="edit-key-label"
+                      type="text"
+                      style="flex:1; border:1px solid #aaa; height:26px; padding:0 8px;"
+                    />
+                  </div>
+
+                  <div style="display:flex; gap:6px; align-items:center;">
+                    <span style="font-size:12px; color:#333; min-width:52px;">가격</span>
+                    <input
+                      id="edit-key-price"
+                      type="number"
+                      inputmode="numeric"
+                      style="flex:1; border:1px solid #aaa; height:26px; padding:0 8px;"
+                    />
+                  </div>
+
+                  <div style="display:flex; gap:6px;">
+                    <button
+                      id="btn-key-save"
+                      style="flex:1; height:28px; border:1px solid #777; background:#f3f3f3;"
+                    >
+                      저장
+                    </button>
+                    <button
+                      id="btn-key-clear"
+                      style="flex:1; height:28px; border:1px solid #777; background:#fff;"
+                    >
+                      해제
+                    </button>
+                  </div>
+
+                  <div style="font-size:11px; color:#666; line-height:1.3;">
+                    * 이 편집은 <b>화면 표시용</b>입니다. (주문 계산 로직은 기존 item 데이터 기준)
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Empty Grey Spacer -->
+            <div class="flex-1 bg-[#9ca3af] border-y border-gray-400"></div>
+
+            <!-- Keypad Section -->
+            <div class="bg-white">
+              <div class="grid grid-cols-3 border-t border-gray-300">
+                <button class="h-16 text-2xl border-r border-b border-gray-300 hover:bg-gray-100">7</button>
+                <button class="h-16 text-2xl border-r border-b border-gray-300 hover:bg-gray-100">8</button>
+                <button class="h-16 text-2xl border-b border-gray-300 hover:bg-gray-100">9</button>
+                <button class="h-16 text-2xl border-r border-b border-gray-300 hover:bg-gray-100">4</button>
+                <button class="h-16 text-2xl border-r border-b border-gray-300 hover:bg-gray-100">5</button>
+                <button class="h-16 text-2xl border-b border-gray-300 hover:bg-gray-100">6</button>
+                <button class="h-16 text-2xl border-r border-b border-gray-300 hover:bg-gray-100">1</button>
+                <button class="h-16 text-2xl border-r border-b border-gray-300 hover:bg-gray-100">2</button>
+                <button class="h-16 text-2xl border-b border-gray-300 hover:bg-gray-100">3</button>
+                <button class="h-16 text-2xl border-r border-gray-300 hover:bg-gray-100">0</button>
+                <button class="h-16 text-2xl border-r border-gray-300 hover:bg-gray-100">00</button>
+                <button class="h-16 text-lg border-gray-300 hover:bg-gray-100">초기화</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Vertical Buttons Sidebar -->
+          <div class="w-[110px] bg-[#606366] flex flex-col border-l border-gray-500">
+            <button class="h-[75px] text-white font-bold text-sm border-b border-white/20">프로모션</button>
+            <button class="h-[75px] text-white font-bold text-[10px] leading-tight px-1 border-b border-white/20">
+              TAKE-OUT(선택)
+            </button>
+            <button class="h-[75px] text-white font-bold text-sm border-b border-white/20">모바일쿠폰</button>
+            <button class="h-[75px] text-white font-bold text-sm border-b border-white/20">계산정정</button>
+            <button class="h-[75px] text-white font-bold text-sm border-b border-white/20">영수증조회</button>
+
+            <button class="h-[85px] bg-[#424242] text-white flex flex-col items-center justify-center border-y-2 border-[#555]">
+              <span class="block text-2xl mb-1">💳</span>
+              <span class="font-bold text-sm">신용<br />카드</span>
+            </button>
+
+            <button class="h-[85px] bg-[#424242] text-white flex flex-col items-center justify-center border-b-2 border-[#555]">
+              <span class="block text-2xl mb-1 text-yellow-500">💰</span>
+              <span class="font-bold text-sm">현금<br />결제</span>
+            </button>
+
+            <div class="flex-1 flex flex-col bg-[#606366]">
+              <button class="flex-1 text-white font-bold border-b border-white/10">판매</button>
+              <button class="flex-1 text-white font-bold border-b border-white/10">할인</button>
+              <button class="flex-1 text-white font-bold border-b border-white/10">결제</button>
+              <button class="flex-1 text-white font-bold border-b border-white/10">영업</button>
+              <button class="flex-1 text-white font-bold">관리</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END: RightColumn -->
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

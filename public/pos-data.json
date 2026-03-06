@@ -1,0 +1,6405 @@
+{
+  "rawItems": [
+    {
+      "id": "AMERICANO_R",
+      "name": "아메리카노",
+      "price": 4700,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    {
+      "id": "CAFE_LATTE_R",
+      "name": "카페 라떼",
+      "price": 5200,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    {
+      "id": "CAPPUCCINO_R",
+      "name": "카푸치노",
+      "price": 5200,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    {
+      "id": "VANILLA_LATTE_R",
+      "name": "바닐라 라떼",
+      "price": 5700,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    {
+      "id": "CAFE_MOCHA_R",
+      "name": "카페 모카",
+      "price": 5700,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    {
+      "id": "CARAMEL_MACCHIATO_R",
+      "name": "카라멜 마키아또",
+      "price": 6100,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    {
+      "id": "COLD_BREW",
+      "name": "콜드브루",
+      "price": 5100,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    {
+      "id": "COLD_BREW_LATTE",
+      "name": "콜드브루 라떼",
+      "price": 5600,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    {
+      "id": "DECAF_COLD_BREW",
+      "name": "디카페인 콜드브루",
+      "price": 5400,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    {
+      "id": "DECAF_COLD_BREW_LATTE",
+      "name": "디카페인 콜드브루 라떼",
+      "price": 5900,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    {
+      "id": "VANILLA_BEAN_COLD_BREW_LATTE",
+      "name": "바닐라빈 콜드브루 라떼",
+      "price": 6100,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    {
+      "id": "DECAF_COLD_BREW_CREAM_LATTE",
+      "name": "디카페인 콜드브루 크림라떼",
+      "price": 6200,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    {
+      "id": "PEACH_ASHOTCHU",
+      "name": "피치 아샷추",
+      "price": 5700,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    {
+      "id": "MINT_ASHOTCHU",
+      "name": "민트 아샷추",
+      "price": 5700,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    {
+      "id": "APPLE_ASHOTCHU",
+      "name": "애플 아샷추",
+      "price": 5700,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    {
+      "id": "BANANA_SHOT_LATTE",
+      "name": "바나나 샷 라떼",
+      "price": 5700,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    {
+      "id": "BANANA_SHOT_AMERICANO",
+      "name": "바나나 샷 아메리카노",
+      "price": 6000,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    {
+      "id": "PISTACHIO_CHOC_MOCHA",
+      "name": "피스타치오 초콜릿 모카",
+      "price": 6500,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    {
+      "id": "ESPRESSO",
+      "name": "에스프레소",
+      "price": 3900,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    {
+      "id": "SHORT_LATTE",
+      "name": "숏 라떼",
+      "price": 5200,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    {
+      "id": "LONG_BLACK",
+      "name": "롱 블랙",
+      "price": 4700,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    {
+      "id": "VANILLA_BEAN_LATTE",
+      "name": "바닐라빈 라떼",
+      "price": 6000,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    {
+      "id": "SPANISH_CONDENSED_LATTE",
+      "name": "스페니쉬 연유 라떼",
+      "price": 6000,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    {
+      "id": "OAT_WHITE_LATTE",
+      "name": "오트 화이트 라떼",
+      "price": 5800,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    {
+      "id": "ADDON_DECAF_BEAN",
+      "name": "디카페인원두변경",
+      "price": 500,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션",
+      "type": "addon"
+    },
+    {
+      "id": "ADDON_SIZE_LARGE",
+      "name": "라지 사이즈 업",
+      "price": 600,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션",
+      "type": "addon"
+    },
+    {
+      "id": "ADDON_SIZE_MAX",
+      "name": "맥스 사이즈 업",
+      "price": 800,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션",
+      "type": "addon"
+    },
+    {
+      "id": "EVENT_LUCKYDRAW_2026",
+      "name": "(신년)럭키드로우",
+      "price": 3800,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션",
+      "type": "event"
+    },
+    {
+      "id": "CARRIER",
+      "name": "캐리어",
+      "price": 0,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    {
+      "id": "NAV_PREV",
+      "name": "<",
+      "price": 0,
+      "category": "SYSTEM",
+      "group": "NAV",
+      "type": "nav"
+    },
+    {
+      "id": "NAV_NEXT",
+      "name": ">",
+      "price": 0,
+      "category": "SYSTEM",
+      "group": "NAV",
+      "type": "nav"
+    },
+    {
+      "id": "SUGAR_LIGHT",
+      "name": "연하게",
+      "price": 0,
+      "category": "OPTION",
+      "group": "SUGAR",
+      "type": "option"
+    },
+    {
+      "id": "SUGAR_NORMAL",
+      "name": "덜 달게",
+      "price": 0,
+      "category": "OPTION",
+      "group": "SUGAR",
+      "type": "option"
+    },
+    {
+      "id": "SUGAR_NONE",
+      "name": "시럽 없이",
+      "price": 0,
+      "category": "OPTION",
+      "group": "SUGAR",
+      "type": "option"
+    },
+    {
+      "id": "SUGAR_HAZELNUT",
+      "name": "헤이즐넛 시럽",
+      "price": 800,
+      "category": "OPTION",
+      "group": "SUGAR",
+      "type": "option"
+    },
+    {
+      "id": "MILK_OAT",
+      "name": "오트 음료(귀리)변경",
+      "price": 600,
+      "category": "OPTION",
+      "group": "MILK",
+      "type": "option"
+    },
+    {
+      "id": "ADD_SHOT",
+      "name": "에스프레소 샷 추가",
+      "price": 800,
+      "category": "OPTION",
+      "group": "ADDON",
+      "type": "option"
+    },
+    {
+      "id": "WHIP_NONE",
+      "name": "휘핑 없이",
+      "price": 0,
+      "category": "OPTION",
+      "group": "WHIP",
+      "type": "option"
+    },
+    {
+      "id": "WHIP_LESS",
+      "name": "휘핑 적게",
+      "price": 0,
+      "category": "OPTION",
+      "group": "WHIP",
+      "type": "option"
+    },
+    {
+      "id": "WHIP_MORE",
+      "name": "휘핑 많이",
+      "price": 0,
+      "category": "OPTION",
+      "group": "WHIP",
+      "type": "option"
+    },
+    {
+      "id": "WHIP_CREAM",
+      "name": "휘핑 크림",
+      "price": 800,
+      "category": "OPTION",
+      "group": "WHIP",
+      "type": "option"
+    },
+    {
+      "id": "TUMBLER_DISCOUNT",
+      "name": "텀블러 할인",
+      "price": -300,
+      "category": "OPTION",
+      "group": "DISCOUNT",
+      "type": "option"
+    },
+    {
+      "id": "CHANGE_MILK",
+      "name": "라떼 변경",
+      "price": 500,
+      "category": "OPTION",
+      "group": "ADDON",
+      "type": "option"
+    },
+    {
+      "id": "ICE_NONE",
+      "name": "얼음 없이",
+      "price": 0,
+      "category": "OPTION",
+      "group": "ICE",
+      "type": "option"
+    },
+    {
+      "id": "ICE_LESS",
+      "name": "얼음 적게",
+      "price": 0,
+      "category": "OPTION",
+      "group": "ICE",
+      "type": "option"
+    },
+    {
+      "id": "ICE_MORE",
+      "name": "얼음 많이",
+      "price": 0,
+      "category": "OPTION",
+      "group": "ICE",
+      "type": "option"
+    },
+    {
+      "id": "WATER_NONE",
+      "name": "물 없이",
+      "price": 0,
+      "category": "OPTION",
+      "group": "WATER",
+      "type": "option"
+    },
+    {
+      "id": "WATER_LESS",
+      "name": "물 적게",
+      "price": 0,
+      "category": "OPTION",
+      "group": "WATER",
+      "type": "option"
+    },
+    {
+      "id": "WATER_MORE",
+      "name": "물 많이",
+      "price": 0,
+      "category": "OPTION",
+      "group": "WATER",
+      "type": "option"
+    },
+    {
+      "id": "TEMP_LUKEWARM",
+      "name": "미지근하게",
+      "price": 0,
+      "category": "OPTION",
+      "group": "TEMP",
+      "type": "option"
+    },
+    {
+      "id": "TEMP_HOT",
+      "name": "아주 뜨겁게",
+      "price": 0,
+      "category": "OPTION",
+      "group": "TEMP",
+      "type": "option"
+    },
+    {
+      "id": "PERSONAL_CUP",
+      "name": "개인 컵 사용",
+      "price": 0,
+      "category": "OPTION",
+      "group": "DISCOUNT",
+      "type": "option"
+    },
+    {
+      "id": "FOAM_NONE",
+      "name": "거품 없이",
+      "price": 0,
+      "category": "OPTION",
+      "group": "FOAM",
+      "type": "option"
+    },
+    {
+      "id": "FOAM_LESS",
+      "name": "거품 적게",
+      "price": 0,
+      "category": "OPTION",
+      "group": "FOAM",
+      "type": "option"
+    },
+    {
+      "id": "FOAM_MORE",
+      "name": "거품 많이",
+      "price": 0,
+      "category": "OPTION",
+      "group": "FOAM",
+      "type": "option"
+    },
+    {
+      "id": "MILK_LESS",
+      "name": "우유 적게",
+      "price": 0,
+      "category": "OPTION",
+      "group": "MILK",
+      "type": "option"
+    },
+    {
+      "id": "MILK_MORE",
+      "name": "우유 많이",
+      "price": 0,
+      "category": "OPTION",
+      "group": "MILK",
+      "type": "option"
+    },
+    {
+      "id": "TEA_CHAMOMILE",
+      "name": "카모마일",
+      "price": 5300,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    {
+      "id": "TEA_GUNIWA_MINT",
+      "name": "그니와 민트",
+      "price": 5300,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    {
+      "id": "TEA_EARL_GREY",
+      "name": "얼그레이",
+      "price": 5300,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    {
+      "id": "TEA_CREAM_CARAMEL",
+      "name": "크림 카라멜",
+      "price": 5300,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    {
+      "id": "TEA_JEJU_ORGANIC_GREEN",
+      "name": "제주 유기농 녹차",
+      "price": 4800,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    {
+      "id": "TEA_HONEY_LEMON",
+      "name": "허니 레몬티",
+      "price": 6300,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    {
+      "id": "TEA_APPLE_MINT",
+      "name": "애플 민트티",
+      "price": 6300,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    {
+      "id": "TEA_ORANGE_GRAPEFRUIT",
+      "name": "오렌지 자몽티",
+      "price": 6100,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    {
+      "id": "TEA_YUJA_LEMON",
+      "name": "유자 레몬티",
+      "price": 5800,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    {
+      "id": "TEA_YUJA_GINGER",
+      "name": "유자 생강차",
+      "price": 5800,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    {
+      "id": "GREEN_TEA_LATTE",
+      "name": "그린티 라떼",
+      "price": 5200,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    {
+      "id": "ROYAL_MILK_TEA",
+      "name": "로얄 밀크티",
+      "price": 5700,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    {
+      "id": "ICEBELL_ROYAL_MILK_TEA",
+      "name": "ice벨 로얄 밀크티",
+      "price": 6000,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    {
+      "id": "ICEBELL_GREEN_TEA_LATTE",
+      "name": "ice벨 그린티 라떼",
+      "price": 5900,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    {
+      "id": "TEA_ROOIBOS_STRESS",
+      "name": "루이보스 스트레스 티",
+      "price": 5500,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    {
+      "id": "ROOIBOS_VANILLA_BEAN_MILK_TEA",
+      "name": "바닐라빈 루이보스 밀크티",
+      "price": 6500,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    {
+      "id": "MATCHA_CREAM_LATTE",
+      "name": "말차 크림 라떼",
+      "price": 5000,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    {
+      "id": "WONDER_BANGSHO",
+      "name": "윈터 뱅쇼",
+      "price": 6500,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    {
+      "id": "BANGSHO_MILK_SUGAR",
+      "name": "뱅쇼 로우 슈가",
+      "price": 6500,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    {
+      "id": "ROASTED_CHESTNUT_LATTE",
+      "name": "구운 밤 라떼",
+      "price": 5800,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    {
+      "id": "OUR_RICE_SHOT_ICED_ONLY",
+      "name": "우리 쌀 식혜(iced ONLY)",
+      "price": 5800,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    {
+      "id": "OUR_JUJUBE_SUJEONGGWA",
+      "name": "우리 대추 수정과",
+      "price": 5800,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    {
+      "id": "ICETEA_PEACH",
+      "name": "피치 아이스티",
+      "price": 5000,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    {
+      "id": "ICETEA_APPLE",
+      "name": "애플 아이스티",
+      "price": 5000,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    {
+      "id": "ICETEA_MINT",
+      "name": "민트 아이스티",
+      "price": 5000,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    {
+      "id": "ADDON_BUBBLE",
+      "name": "버블",
+      "price": 700,
+      "category": "커피&음료",
+      "group": "티 베리에이션",
+      "type": "addon"
+    },
+    {
+      "id": "DRINK_STRAWBERRY_PEACH_FRAPPE",
+      "name": "스트로베리 피치프라페",
+      "price": 6500,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    {
+      "id": "DRINK_YOGURT_FRAPPE",
+      "name": "요거트프라페",
+      "price": 5800,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    {
+      "id": "DRINK_MINT_CHOCO_LATTE",
+      "name": "민트 초코라떼",
+      "price": 5800,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    {
+      "id": "DRINK_COFFEE_COOKIE_FRAPPE",
+      "name": "커피 쿠키 프라페",
+      "price": 6500,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    {
+      "id": "DRINK_APPLEMANGO_PEACH_FRAPPE",
+      "name": "애플망고 피치 프라페",
+      "price": 6800,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    {
+      "id": "DRINK_STRAWBERRY_TOBUK_LATTE",
+      "name": "딸기 듬뿍 라떼",
+      "price": 6800,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    {
+      "id": "DRINK_VANILLA_MILK_SHAKE",
+      "name": "바닐라 밀크 쉐이크",
+      "price": 6000,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    {
+      "id": "DRINK_COOKIE_SHAKE",
+      "name": "쿠키 쉐이크",
+      "price": 6300,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    {
+      "id": "DRINK_MILKY_TEA_SHAKE",
+      "name": "밀크티 쉐이크",
+      "price": 6500,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    {
+      "id": "DRINK_PISTACHIO_CHOCO_GELATO_SHAKE",
+      "name": "피스타치오 초콜릿 젤라또 쉐이크",
+      "price": 7000,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    {
+      "id": "DRINK_STRAWBERRY_TOBUK_JUICE",
+      "name": "생딸기 듬뿍 주스",
+      "price": 7200,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    {
+      "id": "DRINK_MILK",
+      "name": "우유",
+      "price": 4000,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    {
+      "id": "DRINK_CHOCO_LATTE",
+      "name": "초콜릿 라떼",
+      "price": 5600,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    {
+      "id": "DRINK_SWEET_POTATO_LATTE",
+      "name": "꿀 고구마 라떼",
+      "price": 5800,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    {
+      "id": "DRINK_BLACK_SESAME_MISUGARU_LATTE",
+      "name": "현미 미숫가루",
+      "price": 6200,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    {
+      "id": "DRINK_BLUEBERRY_YOGURT",
+      "name": "블루베리 요거트링크",
+      "price": 5500,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    {
+      "id": "DRINK_STRAWBERRY_MILK_SHAKE",
+      "name": "딸기 밀크 쉐이크",
+      "price": 6500,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    {
+      "id": "DRINK_HONEY_LEMON_ADE",
+      "name": "허니 레몬 에이드",
+      "price": 5800,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    {
+      "id": "DRINK_GRAPEFRUIT_ADE",
+      "name": "자몽에이드",
+      "price": 6300,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    {
+      "id": "DRINK_ORANGE_ADE",
+      "name": "오렌지에이드",
+      "price": 6300,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    {
+      "id": "DRINK_SHINE_MUSCAT_GRAPEFRUIT_ADE",
+      "name": "샤인머스캣 청포도 에이드",
+      "price": 6500,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    {
+      "id": "DRINK_PEACH_ADE",
+      "name": "복숭아에이드",
+      "price": 6300,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    {
+      "id": "DRINK_STRAWBERRY_BANANA_SHAKE",
+      "name": "딸기 바나나 쉐이크",
+      "price": 6500,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    {
+      "id": "DRINK_ORANGE_TOBUK_JUICE",
+      "name": "오렌지 자몽 주스",
+      "price": 6300,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    {
+      "id": "DRINK_APPLEMANGO_TOBUK_JUICE",
+      "name": "애플망고 주스",
+      "price": 6500,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    {
+      "id": "DRINK_JEJU_CARROT_TOBUK_JUICE",
+      "name": "제주 한라봉 주스",
+      "price": 6500,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    {
+      "id": "DRINK_HONG_SI_JUICE_ICED_ONLY",
+      "name": "홍시 주스",
+      "price": 0,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    {
+      "id": "DRINK_PEACH_TOBUK_JUICE",
+      "name": "복숭아 주스",
+      "price": 6000,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    {
+      "id": "BOTTLE_SANGHA_ORGANIC_JUICE_APPLE",
+      "name": "상하목장 유기농 주스(사과)",
+      "price": 2000,
+      "category": "커피&음료",
+      "group": "병음료"
+    },
+    {
+      "id": "BOTTLE_SANGHA_ORGANIC_JUICE_GRAPE",
+      "name": "상하목장 유기농 주스(포도)",
+      "price": 2000,
+      "category": "커피&음료",
+      "group": "병음료"
+    },
+    {
+      "id": "BOTTLE_SANGHA_ORGANIC_MILK",
+      "name": "상하목장 유기농 우유",
+      "price": 2000,
+      "category": "커피&음료",
+      "group": "병음료"
+    },
+    {
+      "id": "ICE_MONAKA_MILK",
+      "name": "모나카 우유 맛",
+      "price": 3500,
+      "category": "아이스크림&빙수",
+      "group": "아이스크림"
+    },
+    {
+      "id": "ICE_MONAKA_STRAWBERRY_CHOCO",
+      "name": "모나카 딸기초코 맛",
+      "price": 3500,
+      "category": "아이스크림&빙수",
+      "group": "아이스크림"
+    },
+    {
+      "id": "ICE_VANILLA_AFFOGATO",
+      "name": "바닐라 아포가토",
+      "price": 5500,
+      "category": "아이스크림&빙수",
+      "group": "아이스크림"
+    },
+    {
+      "id": "ICE_CROPLE",
+      "name": "아이스크림 크로플",
+      "price": 6500,
+      "category": "아이스크림&빙수",
+      "group": "아이스크림"
+    },
+    {
+      "id": "ICE_TWO_BROWNIE",
+      "name": "투썸 브라우니",
+      "price": 5900,
+      "category": "아이스크림&빙수",
+      "group": "아이스크림"
+    },
+    {
+      "id": "ICE_TWOSOME_CROPLE_SET",
+      "name": "[투썸올데이]아이스크림 크로플",
+      "price": 9200,
+      "category": "아이스크림&빙수",
+      "group": "아이스크림",
+      "type": "event"
+    },
+    {
+      "id": "ICE_TOPPING_CHOC",
+      "name": "아이스크림 토핑 추가",
+      "price": 1500,
+      "category": "아이스크림&빙수",
+      "group": "아이스크림",
+      "type": "addon"
+    },
+    {
+      "id": "ICE_SINGLE_SYRUP",
+      "name": "단풍당 시럽",
+      "price": 500,
+      "category": "아이스크림&빙수",
+      "group": "아이스크림",
+      "type": "addon"
+    },
+    {
+      "id": "ICE_ADD_SHOT",
+      "name": "에스프레소 샷 추가",
+      "price": 800,
+      "category": "아이스크림&빙수",
+      "group": "아이스크림",
+      "type": "addon"
+    },
+    {
+      "id": "ICE_SPOON",
+      "name": "스푼",
+      "price": 0,
+      "category": "아이스크림&빙수",
+      "group": "용품",
+      "type": "item"
+    },
+    {
+      "id": "ICE_FORK",
+      "name": "포크",
+      "price": 0,
+      "category": "아이스크림&빙수",
+      "group": "용품",
+      "type": "item"
+    },
+    {
+      "id": "PAPER_BAG_SMALL",
+      "name": "종이 쇼핑백_소",
+      "price": 200,
+      "category": "COMMON",
+      "group": "BAG"
+    },
+    {
+      "id": "PAPER_BAG_LARGE",
+      "name": "종이 쇼핑백_대",
+      "price": 200,
+      "category": "COMMON",
+      "group": "BAG"
+    },
+    {
+      "id": "CAKE_SPOONABLE_PEACH",
+      "name": "떠먹는 피치생",
+      "price": null,
+      "category": "케이크",
+      "group": "피스케이크",
+      "type": "soldout"
+    },
+    {
+      "id": "CAKE_VANILLA_CROQUANT_LONG_SOU",
+      "name": "바닐라 크로캉 롱 슈",
+      "price": null,
+      "category": "케이크",
+      "group": "피스케이크",
+      "type": "soldout"
+    },
+    {
+      "id": "CAKE_P_NY_CHEESE",
+      "name": "P.뉴욕 치즈",
+      "price": null,
+      "category": "케이크",
+      "group": "피스케이크",
+      "type": "soldout"
+    },
+    {
+      "id": "CAKE_P_SWEETPOTATO_CREAM",
+      "name": "P.고구마 생크림 케이크",
+      "price": 5900,
+      "category": "케이크",
+      "group": "피스케이크"
+    },
+    {
+      "id": "CAKE_OVAL_TIRAMISU_PETIT",
+      "name": "투썸 오벌 티라미수(쁘띠)",
+      "price": 8000,
+      "category": "케이크",
+      "group": "피스케이크"
+    },
+    {
+      "id": "CAKE_CORN_CREAM_PETIT",
+      "name": "옥수수 생크림 케이크(쁘띠)",
+      "price": 8000,
+      "category": "케이크",
+      "group": "피스케이크"
+    },
+    {
+      "id": "CAKE_SPOONABLE_MALCHA_ABAK",
+      "name": "떠먹는 말차 아박",
+      "price": 6800,
+      "category": "케이크",
+      "group": "피스케이크"
+    },
+    {
+      "id": "CAKE_P_STRAWBERRY_CREAM",
+      "name": "P.생딸기 생크림 케이크",
+      "price": 6500,
+      "category": "케이크",
+      "group": "피스케이크"
+    },
+    {
+      "id": "CAKE_P_GRUYERE_CHEESE_MOUSSE",
+      "name": "P.그뤼에르 치즈 무스",
+      "price": 6200,
+      "category": "케이크",
+      "group": "피스케이크"
+    },
+    {
+      "id": "CAKE_P_TWG_EARLGREY_MILK_CHIFFON",
+      "name": "P.TWG 얼그레이 밀크 쉬폰",
+      "price": null,
+      "category": "케이크",
+      "group": "피스케이크",
+      "type": "soldout"
+    },
+    {
+      "id": "CAKE_PAVE_CHOC_PETIT",
+      "name": "파베 초콜릿 케이크(쁘띠)",
+      "price": null,
+      "category": "케이크",
+      "group": "피스케이크",
+      "type": "soldout"
+    },
+    {
+      "id": "CAKE_CHOCOL_SAENG_PETIT",
+      "name": "금귤생(쁘띠)",
+      "price": null,
+      "category": "케이크",
+      "group": "피스케이크",
+      "type": "soldout"
+    },
+    {
+      "id": "CAKE_SPOONABLE_ABAK_STAR",
+      "name": "떠먹는 아박*",
+      "price": 6800,
+      "category": "케이크",
+      "group": "피스케이크"
+    },
+    {
+      "id": "CAKE_SPOONABLE_CHOCHO_SAENG_STAR",
+      "name": "떠먹는 스초생*",
+      "price": null,
+      "category": "케이크",
+      "group": "피스케이크",
+      "type": "soldout"
+    },
+    {
+      "id": "CAKE_P_RED_VELVET",
+      "name": "P.투썸 레드 벨벳",
+      "price": 6800,
+      "category": "케이크",
+      "group": "피스케이크"
+    },
+    {
+      "id": "CAKE_P_QUEENS_CARROT",
+      "name": "P.투썸 퀸즈 캐롯",
+      "price": 6800,
+      "category": "케이크",
+      "group": "피스케이크"
+    },
+    {
+      "id": "CAKE_BLUEBERRY_YOGURT_CREAM_PETIT",
+      "name": "생블루베리 요거트 생크림(쁘띠)",
+      "price": 8800,
+      "category": "케이크",
+      "group": "피스케이크"
+    },
+    {
+      "id": "CAKE_BRISER_EARLGREY_PETIT",
+      "name": "브리제로 얼그레이 케이크(쁘띠)",
+      "price": null,
+      "category": "케이크",
+      "group": "피스케이크",
+      "type": "soldout"
+    },
+    {
+      "id": "CAKE_SPOONABLE_MANGO_SAENG",
+      "name": "떠먹는 망고생",
+      "price": null,
+      "category": "케이크",
+      "group": "피스케이크",
+      "type": "soldout"
+    },
+    {
+      "id": "CAKE_SPOONABLE_WHITE_CHOCO_SAENG",
+      "name": "떠먹는 화이트 초코생",
+      "price": null,
+      "category": "케이크",
+      "group": "피스케이크",
+      "type": "soldout"
+    },
+    {
+      "id": "CAKE_P_BASQUE_CHEESE_GORGONZOLA",
+      "name": "P.바스크 치즈 케이크(고르곤졸라)",
+      "price": 6900,
+      "category": "케이크",
+      "group": "피스케이크"
+    },
+    {
+      "id": "CAKE_P_CLASSIC_GATEAU_CHOCOLAT",
+      "name": "P.클래식 가토 쇼콜라",
+      "price": null,
+      "category": "케이크",
+      "group": "피스케이크",
+      "type": "soldout"
+    },
+    {
+      "id": "CAKE_SPOONABLE_MASCARPONE_TIRAMISU",
+      "name": "떠먹는 마스카포네 티라미수",
+      "price": null,
+      "category": "케이크",
+      "group": "피스케이크",
+      "type": "soldout"
+    },
+    {
+      "id": "CAKE_STRAWBERRY_MILK_CREAM_PETIT",
+      "name": "생딸기 듬뿍 우유 생크림(쁘띠)",
+      "price": null,
+      "category": "케이크",
+      "group": "피스케이크",
+      "type": "soldout"
+    },
+    {
+      "id": "CAKE_FORK",
+      "name": "포크",
+      "price": 0,
+      "category": "케이크",
+      "group": "용품"
+    },
+    {
+      "id": "CANDLE_NUM_0",
+      "name": "숫자초 0",
+      "price": 900,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    {
+      "id": "CANDLE_NUM_1",
+      "name": "숫자초 1",
+      "price": 900,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    {
+      "id": "CANDLE_NUM_2",
+      "name": "숫자초 2",
+      "price": 900,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    {
+      "id": "CANDLE_NUM_3",
+      "name": "숫자초 3",
+      "price": 900,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    {
+      "id": "CANDLE_NUM_4",
+      "name": "숫자초 4",
+      "price": 900,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    {
+      "id": "CANDLE_NUM_5",
+      "name": "숫자초 5",
+      "price": 900,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    {
+      "id": "CANDLE_NUM_6",
+      "name": "숫자초 6",
+      "price": 900,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    {
+      "id": "CANDLE_NUM_7",
+      "name": "숫자초 7",
+      "price": 900,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    {
+      "id": "CANDLE_NUM_8",
+      "name": "숫자초 8",
+      "price": 900,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    {
+      "id": "CANDLE_NUM_9",
+      "name": "숫자초 9",
+      "price": 900,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    {
+      "id": "CANDLE_HEART_RED",
+      "name": "하트초 레드",
+      "price": 900,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    {
+      "id": "CANDLE_TWOSOME_HAPPY_STRAWBERRY_LOVER",
+      "name": "투썸 해피 캔들(딸기러버)",
+      "price": 2500,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    {
+      "id": "CANDLE_TWOSOME_HAPPY_HBD",
+      "name": "투썸 해피 캔들(에이치비디)",
+      "price": 2500,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    {
+      "id": "CANDLE_TWOSOME_HAPPY_ILOVEYOU",
+      "name": "투썸 해피 캔들(아이러브유)",
+      "price": 2500,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    {
+      "id": "CANDLE_TWOSOME_HAPPY_HBDAY",
+      "name": "투썸 해피 캔들(해피벌스데이)",
+      "price": 2500,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    {
+      "id": "HAT_OH_HAPPYDAY_POINT",
+      "name": "오 해피데이 고깔",
+      "price": 2000,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    {
+      "id": "CANDLE_SANGGULIE",
+      "name": "샹들리에 캔들",
+      "price": 3000,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    {
+      "id": "DISPOSABLE_FORK",
+      "name": "일회용 포크",
+      "price": 50,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    {
+      "id": "DISPOSABLE_KNIFE",
+      "name": "일회용 나이프",
+      "price": 50,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    {
+      "id": "CANDLE_NUMBER_0",
+      "name": "숫자초 0",
+      "price": 900,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    {
+      "id": "CANDLE_NUMBER_5",
+      "name": "숫자초 5",
+      "price": 900,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    {
+      "id": "CANDLE_HAPPYDAY_HAT",
+      "name": "오 해피데이 고깔",
+      "price": 2000,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    {
+      "id": "CANDLE_NUMBER_1",
+      "name": "숫자초 1",
+      "price": 900,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    {
+      "id": "CANDLE_NUMBER_6",
+      "name": "숫자초 6",
+      "price": 900,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    {
+      "id": "CANDLE_TWOSOME_GAMMA",
+      "name": "투썸 해피 캔들(딸기러버)",
+      "price": 2500,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    {
+      "id": "CANDLE_FRESH_CREAM",
+      "name": "생크림 캔들",
+      "price": 3000,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    {
+      "id": "CANDLE_NUMBER_2",
+      "name": "숫자초 2",
+      "price": 900,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    {
+      "id": "CANDLE_NUMBER_7",
+      "name": "숫자초 7",
+      "price": 900,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    {
+      "id": "CANDLE_TWOSOME_HBD",
+      "name": "투썸 해피 캔들(데이치비디)",
+      "price": 2500,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    {
+      "id": "CANDLE_NUMBER_3",
+      "name": "숫자초 3",
+      "price": 900,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    {
+      "id": "CANDLE_NUMBER_8",
+      "name": "숫자초 8",
+      "price": 900,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    {
+      "id": "CANDLE_TWOSOME_ILOVEYOU",
+      "name": "투썸 해피 캔들(아이러브유)",
+      "price": 2500,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    {
+      "id": "CANDLE_NUMBER_4",
+      "name": "숫자초 4",
+      "price": 900,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    {
+      "id": "CANDLE_NUMBER_9",
+      "name": "숫자초 9",
+      "price": 900,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    {
+      "id": "CANDLE_TWOSOME_BIRTHDAY",
+      "name": "투썸 해피 캔들(해피벌스데이)",
+      "price": 2500,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    {
+      "id": "CAKE_WHOLE_STRAWBERRY_FRESHCREAM",
+      "name": "생딸기 생크림 케이크",
+      "price": 35000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    {
+      "id": "CAKE_WHOLE_SWEETPOTATO_FRESHCREAM",
+      "name": "고구마 생크림 케이크",
+      "price": 34000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    {
+      "id": "CAKE_WHOLE_NEWYORK_CHEESE",
+      "name": "뉴욕 치즈",
+      "price": 37000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    {
+      "id": "CAKE_WHOLE_BLUEBERRY_YOGURT_FRESHCREAM",
+      "name": "생블루베리 요거트 생크림",
+      "price": 38000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    {
+      "id": "CAKE_WHOLE_HAPPYDAY_BEAR",
+      "name": "투썸 해피데이 베어",
+      "price": 38000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    {
+      "id": "CAKE_WHOLE_BASQUE_GORGONZOLA",
+      "name": "바스크 치즈 케이크(고르곤졸라)",
+      "price": 38000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    {
+      "id": "CAKE_WHOLE_STRAWBERRY_FRESHCREAM_CLASSIC",
+      "name": "딸기 생크림",
+      "price": 36000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    {
+      "id": "CAKE_WHOLE_BLACK_GRUYERE_CHEESE_1HO",
+      "name": "더 블랙 그뤼에르 치즈(1호)",
+      "price": 36000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    {
+      "id": "CAKE_WHOLE_RED_VELVET",
+      "name": "투썸 레드 벨벳",
+      "price": 37000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    {
+      "id": "CAKE_WHOLE_MANGO_FRESHCREAM",
+      "name": "망고생",
+      "price": 38000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    {
+      "id": "CAKE_WHOLE_PAVE_CHOCOLATE",
+      "name": "파베 초콜릿 케이크",
+      "price": 38000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    {
+      "id": "CAKE_WHOLE_BRIJIT_EARLGREY",
+      "name": "브리제트 얼그레이 케이크",
+      "price": 39000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    {
+      "id": "CAKE_WHOLE_STRAWBERRY_CHOCOLATE_FRESHCREAM",
+      "name": "스초생",
+      "price": 39000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    {
+      "id": "CAKE_WHOLE_OVAL_TIRAMISU",
+      "name": "투썸 오벌 티라미수",
+      "price": 36000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    {
+      "id": "CAKE_WHOLE_QUEENS_CARROT",
+      "name": "투썸 퀸즈 캐롯",
+      "price": 37000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    {
+      "id": "CAKE_WHOLE_CHOCOLATE_FRESHCREAM",
+      "name": "쇼코생",
+      "price": 38000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    {
+      "id": "CAKE_WHOLE_CLASSIC_GATEAU_CHOCOLAT",
+      "name": "클래식 가토 쇼콜라",
+      "price": 40000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    {
+      "id": "CAKE_WHOLE_WHITE_STRAWBERRY_CHOCOLATE_FRESHCREAM",
+      "name": "화이트 스초생",
+      "price": 39000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    {
+      "id": "CAKE_WHOLE_MICKEY_MASCARPONE_CHOCO_FRESHCREAM",
+      "name": "미키 마스카포네 초코 생크림",
+      "price": 36000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    {
+      "id": "CAKE_WHOLE_MY_TWOSOME_HEART",
+      "name": "마이 투썸하트",
+      "price": 37000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    {
+      "id": "CAKE_WHOLE_ABAK",
+      "name": "아박 홀케이크",
+      "price": 34000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    {
+      "id": "CAKE_WHOLE_FRUIT_DUO_STRAWBERRY_MANGO",
+      "name": "과일생 듀오(딸기/망고)",
+      "price": 39000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    {
+      "id": "CAKE_WHOLE_TWG_EARLGREY_MILKTEA_CHIFFON",
+      "name": "TWG 얼그레이 밀크티 쉬폰",
+      "price": 36000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    {
+      "id": "CAKE_WHOLE_MY_TWOSOME_HEART_DUO",
+      "name": "마이 투썸하트 듀오",
+      "price": 37000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    {
+      "id": "CAKE_WHOLE_MATCHA_ABAK",
+      "name": "말차 아박 홀케이크",
+      "price": 35000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    {
+      "id": "CANDLE_BIG",
+      "name": "큰초",
+      "price": 0,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    {
+      "id": "CANDLE_SMALL",
+      "name": "작은초",
+      "price": 0,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    {
+      "id": "CAKE_WHOLE_SHA_CHO_SAENG",
+      "name": "샤초생",
+      "price": 39000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    {
+      "id": "CAKE_WHOLE_SO_CHO_SAENG_FRAISIER",
+      "name": "스초생 프레지제",
+      "price": 42000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    {
+      "id": "CAKE_WHOLE_WHITE_SHA_CHO_SAENG",
+      "name": "화이트 샤초생",
+      "price": 39000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    {
+      "id": "CAKE_WHOLE_SO_CHO_SAENG_2TIER",
+      "name": "스초생2단",
+      "price": 48000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    {
+      "id": "CAKE_PARTYPACK_ABAK",
+      "name": "파티팩 아박",
+      "price": 40800,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    {
+      "id": "CAKE_PARTYPACK_SO_CHO_SAENG",
+      "name": "파티팩 스초생",
+      "price": 43200,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    {
+      "id": "CAKE_PARTYPACK_MATCHA_ABAK",
+      "name": "파티팩 말차 아박",
+      "price": 40800,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    {
+      "id": "CAKE_PARTYPACK_PEACH_SAENG",
+      "name": "파티팩 피치생",
+      "price": 40200,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    {
+      "id": "CAKE_PARTYPACK_MASCARPONE_TIRAMISU",
+      "name": "파티팩 마스카포네 티라미수",
+      "price": 40800,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    {
+      "id": "CAKE_PARTYPACK_MANGO_SAENG",
+      "name": "파티팩 망고생",
+      "price": 40800,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    {
+      "id": "CAKE_BOX_PLASTIC_BAG",
+      "name": "케이크 지함 비닐백",
+      "price": 400,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    {
+      "id": "CAKE_SEASON_MARSHMALLOW_CHOCO",
+      "name": "마쉐멜로우 초코 케이크",
+      "price": 28000,
+      "category": "케이크",
+      "group": "시즌케이크"
+    },
+    {
+      "id": "CAKE_SEASON_TWOSOME_SAENG_II_SPECIAL_EDITION",
+      "name": "투썸 생 II (Special Edition)",
+      "price": 29000,
+      "category": "케이크",
+      "group": "시즌케이크"
+    },
+    {
+      "id": "CAKE_SEASON_STRAWBERRY_MILK_FRESHCREAM",
+      "name": "생딸기 듬뿍 우유 생크림",
+      "price": 39000,
+      "category": "케이크",
+      "group": "시즌케이크"
+    },
+    {
+      "id": "CAKE_SEASON_MATCHA_SO_CHO_SAENG",
+      "name": "말차 스초생",
+      "price": 39000,
+      "category": "케이크",
+      "group": "시즌케이크"
+    },
+    {
+      "id": "CAKE_SEASON_STRAWBERRY_MATCHA_GANACHE",
+      "name": "스트로베리 말차 가나슈",
+      "price": 45000,
+      "category": "케이크",
+      "group": "시즌케이크"
+    },
+    {
+      "id": "DESSERT_MACARON_MADAGASCAR_VANILLA",
+      "name": "마다가스카르 바닐라 마카롱",
+      "price": 2400,
+      "category": "케이크",
+      "group": "디저트"
+    },
+    {
+      "id": "DESSERT_MACARON_GRAPE_YOGURT",
+      "name": "청포도 요거트 마카롱",
+      "price": 2400,
+      "category": "케이크",
+      "group": "디저트"
+    },
+    {
+      "id": "DESSERT_MACARON_SANPEEL",
+      "name": "산딸기 마카롱",
+      "price": 2400,
+      "category": "케이크",
+      "group": "디저트"
+    },
+    {
+      "id": "DESSERT_MACARON_HWANGCHI",
+      "name": "황치즈 마카롱",
+      "price": 2400,
+      "category": "케이크",
+      "group": "디저트"
+    },
+    {
+      "id": "DESSERT_MACARON_CHOCOLATE",
+      "name": "초콜릿 마카롱",
+      "price": 2400,
+      "category": "케이크",
+      "group": "디저트"
+    },
+    {
+      "id": "DESSERT_MACARON_BLUEBERRY",
+      "name": "블루베리 마카롱",
+      "price": 2400,
+      "category": "케이크",
+      "group": "디저트"
+    },
+    {
+      "id": "DESSERT_MACARON_SET_6",
+      "name": "투썸 마카롱 세트(6개입)",
+      "price": 15500,
+      "category": "케이크",
+      "group": "디저트"
+    },
+    {
+      "id": "DESSERT_MACARON_SET_12",
+      "name": "투썸 마카롱 세트(12개입)",
+      "price": 30000,
+      "category": "케이크",
+      "group": "디저트"
+    },
+    {
+      "id": "DELI_PANINI_BBQ_CHICKEN",
+      "name": "바베큐 치킨 파니니",
+      "price": 6900,
+      "category": "델리",
+      "group": "샌드위치"
+    },
+    {
+      "id": "DELI_WRAP_SOFT_EGG_MILK",
+      "name": "부드러운 에그 잉글리쉬 머핀",
+      "price": 3900,
+      "category": "델리",
+      "group": "샌드위치"
+    },
+    {
+      "id": "DELI_MUFFIN_OVEN_BAKED",
+      "name": "오븐에 구운 몬테크리스토",
+      "price": 5900,
+      "category": "델리",
+      "group": "샌드위치"
+    },
+    {
+      "id": "DELI_PANINI_BULGOGI_CHEESE",
+      "name": "불고기 치즈 멜트 파니니",
+      "price": 6900,
+      "category": "델리",
+      "group": "샌드위치"
+    },
+    {
+      "id": "DELI_PANINI_SPICY_CHEESE_BULDAK",
+      "name": "불닭 치즈 멜트 파니니",
+      "price": 6700,
+      "category": "델리",
+      "group": "샌드위치"
+    },
+    {
+      "id": "DELI_PANINI_MEXICAN",
+      "name": "멕시칸 파니니",
+      "price": 6900,
+      "category": "델리",
+      "group": "샌드위치"
+    },
+    {
+      "id": "DELI_CROQUE_MONSIEUR",
+      "name": "크로크무슈",
+      "price": 4800,
+      "category": "델리",
+      "group": "샌드위치"
+    },
+    {
+      "id": "DELI_BRIOSSE_EGGHAM",
+      "name": "에그 햄박 브리오슈 번",
+      "price": 5900,
+      "category": "델리",
+      "group": "샌드위치"
+    },
+    {
+      "id": "DELI_PANINI_CHICKEN_SALAD",
+      "name": "참치 샐러드번",
+      "price": 0,
+      "category": "델리",
+      "group": "샌드위치"
+    },
+    {
+      "id": "DELI_PANINI_EGG_SALAD",
+      "name": "에그 샐러드번",
+      "price": 0,
+      "category": "델리",
+      "group": "샌드위치"
+    },
+    {
+      "id": "DELI_PANINI_PESTO_HAM_CHEESE",
+      "name": "페스토 햄치즈 파니니",
+      "price": 6900,
+      "category": "델리",
+      "group": "샌드위치"
+    },
+    {
+      "id": "DELI_BAGEL_MAPLE_CHEDDAR_BACON",
+      "name": "메이플 체다 베이글",
+      "price": 5500,
+      "category": "델리",
+      "group": "샌드위치"
+    },
+    {
+      "id": "DELI_FOCACCIA_GRILLED_ONION_CHEESE",
+      "name": "그릴드 어니언 치즈 포카치아",
+      "price": 5900,
+      "category": "델리",
+      "group": "샌드위치"
+    },
+    {
+      "id": "DELI_PANINI_SHRIMP_BACON_Omelet",
+      "name": "트러플 머쉬룸 오믈렛 파니니",
+      "price": 7300,
+      "category": "델리",
+      "group": "샌드위치"
+    },
+    {
+      "id": "DELI_SANDWICH_SCRAMBLE_EGG",
+      "name": "스크램블 에그 샌드위치",
+      "price": 0,
+      "category": "델리",
+      "group": "샌드위치"
+    },
+    {
+      "id": "DELI_PANINI_POTATO_SALAD",
+      "name": "감자 샐러드번",
+      "price": 0,
+      "category": "델리",
+      "group": "샌드위치"
+    },
+    {
+      "id": "DELI_HEAT_OPTION",
+      "name": "델리 데우기",
+      "price": 0,
+      "category": "델리",
+      "group": "샌드위치"
+    },
+    {
+      "id": "SET_DELI_PANINI_BBQ_CHICKEN",
+      "name": "[세트]바베큐 치킨 파니니",
+      "price": 9600,
+      "category": "델리",
+      "group": "올데이"
+    },
+    {
+      "id": "SET_DELI_ENGLISH_MUFFIN_SOFT_EGG",
+      "name": "[세트]부드러운 에그 잉글리쉬 머핀",
+      "price": 6600,
+      "category": "델리",
+      "group": "올데이"
+    },
+    {
+      "id": "SET_DELI_RISOTTO_OVEN_TRUFFLE",
+      "name": "[세트]오븐에 구운 트러플리소토",
+      "price": 8600,
+      "category": "델리",
+      "group": "올데이"
+    },
+    {
+      "id": "SET_DELI_PANINI_BULGOGI_CHEESE_MELT",
+      "name": "[세트]불고기 치즈 멜트 파니니",
+      "price": 9600,
+      "category": "델리",
+      "group": "올데이"
+    },
+    {
+      "id": "SET_DELI_PANINI_MEXICAN",
+      "name": "[세트]멕시칸 파니니",
+      "price": 9600,
+      "category": "델리",
+      "group": "올데이"
+    },
+    {
+      "id": "SET_DELI_CROQUE_MONSIEUR",
+      "name": "[세트]크로크무슈",
+      "price": 7500,
+      "category": "델리",
+      "group": "올데이"
+    },
+    {
+      "id": "SET_DELI_BRIOCHE_BUN_EGG_HAM",
+      "name": "[세트]에그 햄박 브리오슈 번",
+      "price": 8600,
+      "category": "델리",
+      "group": "올데이"
+    },
+    {
+      "id": "SET_DELI_PANINI_BULDAK_CHEESE_MELT",
+      "name": "[세트]불닭 치즈 멜트 파니니",
+      "price": 9400,
+      "category": "델리",
+      "group": "올데이"
+    },
+    {
+      "id": "SET_DELI_PANINI_PESTO_HAMCHEESE",
+      "name": "[세트]페스토 햄치즈 파니니",
+      "price": 9600,
+      "category": "델리",
+      "group": "올데이"
+    },
+    {
+      "id": "SET_DELI_BAGEL_BACON_CHEDDAR",
+      "name": "[세트]베이컨 체다 베이글",
+      "price": 8200,
+      "category": "델리",
+      "group": "올데이"
+    },
+    {
+      "id": "SET_DELI_FOCACCIA_GRILLED_ONION_CHEESE",
+      "name": "[세트]그릴드 어니언 치즈 포카치아",
+      "price": 8600,
+      "category": "델리",
+      "group": "올데이"
+    },
+    {
+      "id": "SET_DELI_PANINI_TRUFFLE_MUSHROOM_OMELET",
+      "name": "[세트]트러플 머쉬룸 오믈렛 파니니",
+      "price": 10000,
+      "category": "델리",
+      "group": "올데이"
+    },
+    {
+      "id": "SET_DELI_SANDWICH_SCRAMBLE_EGG",
+      "name": "[세트]스크램블 에그 샌드위치",
+      "price": 8200,
+      "category": "델리",
+      "group": "올데이"
+    },
+    {
+      "id": "SET_DELI_FOCACCIA_OLIVE_HAMCHEESE",
+      "name": "[세트]올리브 햄치즈 포카치아",
+      "price": 8600,
+      "category": "델리",
+      "group": "올데이"
+    },
+    {
+      "id": "SYRUP_VANILLA",
+      "name": "바닐라시럽",
+      "price": 800,
+      "category": "OPTION",
+      "group": "SYRUP",
+      "type": "option"
+    },
+    {
+      "id": "SYRUP_HAZELNUT",
+      "name": "헤이즐넛 시럽",
+      "price": 800,
+      "category": "OPTION",
+      "group": "SYRUP",
+      "type": "option"
+    },
+    {
+      "id": "SYRUP_CARAMEL",
+      "name": "카라멜 시럽",
+      "price": 800,
+      "category": "OPTION",
+      "group": "SYRUP",
+      "type": "option"
+    },
+    {
+      "id": "SIZE_UP_LARGE",
+      "name": "라지 사이즈 업",
+      "price": 600,
+      "category": "OPTION",
+      "group": "SIZE",
+      "type": "option"
+    },
+    {
+      "id": "BAKERY_BAGEL_CLASSIC",
+      "name": "클래식 베이글",
+      "price": 3300,
+      "category": "베이커리",
+      "group": "빵"
+    },
+    {
+      "id": "BAKERY_FINANCIER_CHOCOLATE_BATON",
+      "name": "초콜릿 바톤 휘낭시에",
+      "price": 2700,
+      "category": "베이커리",
+      "group": "빵"
+    },
+    {
+      "id": "BAKERY_SCONE_BLUEBERRY",
+      "name": "블루베리 스콘",
+      "price": 3900,
+      "category": "베이커리",
+      "group": "빵"
+    },
+    {
+      "id": "BAKERY_MADELEINE_BRIJIT_VANILLA_CHOCOLATE",
+      "name": "브리저튼 뿌띠 마들렌(바닐라&초콜릿)",
+      "price": 7500,
+      "category": "베이커리",
+      "group": "빵"
+    },
+    {
+      "id": "BAKERY_BAGEL_BLUEBERRY",
+      "name": "블루베리 베이글",
+      "price": 3600,
+      "category": "베이커리",
+      "group": "빵"
+    },
+    {
+      "id": "BAKERY_FINANCIER_HAZELNUT_BATON",
+      "name": "헤이즐넛 바톤 휘낭시에",
+      "price": 2700,
+      "category": "베이커리",
+      "group": "빵"
+    },
+    {
+      "id": "BAKERY_SCONE_FRESHCREAM_BUTTER",
+      "name": "생크림 버터 스콘",
+      "price": 3900,
+      "category": "베이커리",
+      "group": "빵"
+    },
+    {
+      "id": "BAKERY_BAGEL_SALT_PRETZEL",
+      "name": "소금 프레첼 베이글",
+      "price": 3800,
+      "category": "베이커리",
+      "group": "빵"
+    },
+    {
+      "id": "BAKERY_COOKIE_WALNUT_CHOCOLATE",
+      "name": "월넛 초콜릿 쿠키",
+      "price": 3000,
+      "category": "베이커리",
+      "group": "빵"
+    },
+    {
+      "id": "BAKERY_CROISSANT_COCONUT_COVER",
+      "name": "코코넛 커버 크루아상",
+      "price": 4500,
+      "category": "베이커리",
+      "group": "빵"
+    },
+    {
+      "id": "BAKERY_BAGEL_OLIVE_CHEESE",
+      "name": "올리브 치즈 베이글",
+      "price": 3800,
+      "category": "베이커리",
+      "group": "빵"
+    },
+    {
+      "id": "BAKERY_COOKIE_CHOCOLATE_MACADAMIA",
+      "name": "초코 마카다미아 쿠키",
+      "price": 3000,
+      "category": "베이커리",
+      "group": "빵"
+    },
+    {
+      "id": "BAKERY_CROISSANT_BLUEBERRY_ALMOND",
+      "name": "블루베리 아몬드 크루아상",
+      "price": 4500,
+      "category": "베이커리",
+      "group": "빵"
+    },
+    {
+      "id": "BAKERY_SPREAD_PLAIN_CREAMCHEESE",
+      "name": "플레인 크림치즈 스프레드",
+      "price": 0,
+      "category": "베이커리",
+      "group": "빵"
+    },
+    {
+      "id": "BAKERY_JAM_SMUCKERS_STRAWBERRY",
+      "name": "스머것즈 딸기잼",
+      "price": 300,
+      "category": "베이커리",
+      "group": "빵"
+    },
+    {
+      "id": "OPT_HEAT_NONE",
+      "name": "데우지 않기",
+      "price": 0,
+      "category": "OPTION",
+      "group": "HEAT",
+      "type": "option"
+    },
+    {
+      "id": "OPT_HEAT_DELI",
+      "name": "델리 데우기",
+      "price": 0,
+      "category": "OPTION",
+      "group": "HEAT",
+      "type": "option"
+    },
+    {
+      "id": "SNACK_BAR_SWEETPOTATO",
+      "name": "고구마 바",
+      "price": 1400,
+      "category": "상품",
+      "group": "과자"
+    },
+    {
+      "id": "SNACK_BAR_GRAHAMCOOKIE",
+      "name": "그림요거트 그램볼 라바",
+      "price": 1800,
+      "category": "상품",
+      "group": "과자"
+    },
+    {
+      "id": "SNACK_BISCUIT_PIECE_CHOCO",
+      "name": "픽업 초코 비스킷 바",
+      "price": 1700,
+      "category": "상품",
+      "group": "과자"
+    },
+    {
+      "id": "SNACK_BISCUIT_PIECE_CHOCO_MILK",
+      "name": "픽업 초코&밀크 비스킷 바",
+      "price": 1700,
+      "category": "상품",
+      "group": "과자"
+    },
+    {
+      "id": "SNACK_BROWNIE_SEASONAL_PREMIUM_CHOCO",
+      "name": "식물성 프리미엄 초코 브라우니",
+      "price": 2500,
+      "category": "상품",
+      "group": "과자"
+    },
+    {
+      "id": "SNACK_NUTS_AND_FRUITS",
+      "name": "넛츠 앤 푸르츠",
+      "price": 2800,
+      "category": "상품",
+      "group": "과자"
+    },
+    {
+      "id": "SNACK_BREAD_RUSK_CHOCOLATE",
+      "name": "촉촉한 우리 찐빵",
+      "price": 3200,
+      "category": "상품",
+      "group": "과자"
+    },
+    {
+      "id": "SNACK_CANDY_STYLELAB_CANDY_PEACH",
+      "name": "차일드론 캔디 배향",
+      "price": 3900,
+      "category": "상품",
+      "group": "과자"
+    },
+    {
+      "id": "SNACK_CANDY_STYLELAB_CANDY_MINT",
+      "name": "차일드론 캔디 민트향",
+      "price": 3900,
+      "category": "상품",
+      "group": "과자"
+    },
+    {
+      "id": "SNACK_SABLE_CHOCOLATE_PECAN",
+      "name": "초콜릿 피칸 사블레",
+      "price": 6500,
+      "category": "상품",
+      "group": "과자"
+    },
+    {
+      "id": "SNACK_COOKIE_ALMOND_CRANBERRY",
+      "name": "아몬드 크랜베리 쿠키",
+      "price": 6500,
+      "category": "상품",
+      "group": "과자"
+    },
+    {
+      "id": "SNACK_COOKIE_GLUTENFREE_ALMOND_COCONUT",
+      "name": "글루텐 프리 아몬드 코코넛 튀일",
+      "price": 6500,
+      "category": "상품",
+      "group": "과자"
+    },
+    {
+      "id": "SNACK_COOKIE_SET_3",
+      "name": "쿠키 선물 세트(3개입)",
+      "price": 20500,
+      "category": "상품",
+      "group": "과자"
+    },
+    {
+      "id": "MD_TWG_FRENCH_EARLGREY",
+      "name": "TWG 프렌치 얼그레이",
+      "price": 39500,
+      "category": "MD",
+      "group": "원두,티 가공상품"
+    },
+    {
+      "id": "MD_TWG_CHAMOMILE",
+      "name": "TWG 카모마일",
+      "price": 39500,
+      "category": "MD",
+      "group": "원두,티 가공상품"
+    },
+    {
+      "id": "MD_TWG_GRAND_TEA",
+      "name": "TWG 그나와 티",
+      "price": 39500,
+      "category": "MD",
+      "group": "원두,티 가공상품"
+    },
+    {
+      "id": "MD_TWG_CREAM_CARAMEL",
+      "name": "TWG 크림 카라멜",
+      "price": 39500,
+      "category": "MD",
+      "group": "원두,티 가공상품"
+    },
+    {
+      "id": "MD_TWG_ENGLISH_BREAKFAST",
+      "name": "TWG 잉글리쉬 브렉퍼스트 티",
+      "price": 39500,
+      "category": "MD",
+      "group": "원두,티 가공상품"
+    },
+    {
+      "id": "MD_TWG_1837_BLACK_TEA",
+      "name": "TWG 1837 블랙티",
+      "price": 39500,
+      "category": "MD",
+      "group": "원두,티 가공상품"
+    },
+    {
+      "id": "MD_ALIST_HEADDRIP_BLACKROUND",
+      "name": "a-LIST헤드드립 블랙라운드",
+      "price": 6500,
+      "category": "MD",
+      "group": "원두,티 가공상품"
+    },
+    {
+      "id": "MD_ALIST_CAPSULE_BLACKROUND",
+      "name": "a-LIST캡슐커피 블랙라운드",
+      "price": 7600,
+      "category": "MD",
+      "group": "원두,티 가공상품"
+    },
+    {
+      "id": "MD_ALIST_COLD_BREW_CONCENTRATE",
+      "name": "a-LIST 콜드브루 원액",
+      "price": 14000,
+      "category": "MD",
+      "group": "원두,티 가공상품"
+    },
+    {
+      "id": "MD_ALIST_HEADDRIP_AROMANOTE",
+      "name": "a-LIST헤드드립 아로마노트",
+      "price": 6500,
+      "category": "MD",
+      "group": "원두,티 가공상품"
+    },
+    {
+      "id": "MD_ALIST_CAPSULE_AROMANOTE",
+      "name": "a-LIST캡슐커피 아로마노트",
+      "price": 7800,
+      "category": "MD",
+      "group": "원두,티 가공상품"
+    },
+    {
+      "id": "MD_ALIST_HEADDRIP_DECAF",
+      "name": "a-LIST헤드드립 디카페인",
+      "price": 7000,
+      "category": "MD",
+      "group": "원두,티 가공상품"
+    },
+    {
+      "id": "MD_ALIST_CAPSULE_DECAF",
+      "name": "a-LIST캡슐커피 디카페인",
+      "price": 8100,
+      "category": "MD",
+      "group": "원두,티 가공상품"
+    },
+    {
+      "id": "MD_ALIST_STICK_COFFEE",
+      "name": "a-LIST스틱커피",
+      "price": 4800,
+      "category": "MD",
+      "group": "원두,티 가공상품"
+    },
+    {
+      "id": "MD_ALIST_VANILLA_LATTE",
+      "name": "a-LIST 바닐라 라떼",
+      "price": 6500,
+      "category": "MD",
+      "group": "원두,티 가공상품"
+    },
+    {
+      "id": "MD_ALIST_STICK_COFFEE_DECAF",
+      "name": "a-LIST스틱커피 디카페인",
+      "price": 5300,
+      "category": "MD",
+      "group": "원두,티 가공상품"
+    },
+    {
+      "id": "MD_ALIST_CHOCOLATE_LATTE",
+      "name": "a-LIST 초콜릿 라떼",
+      "price": 7000,
+      "category": "MD",
+      "group": "원두,티 가공상품"
+    },
+    {
+      "id": "MD_BEANS_BLACKROUND_200G",
+      "name": "블랙라운드 원두 200g",
+      "price": 17000,
+      "category": "MD",
+      "group": "원두,티 가공상품"
+    },
+    {
+      "id": "MD_BEANS_AROMANOTE_200G",
+      "name": "아로마노트 원두 200g",
+      "price": 18000,
+      "category": "MD",
+      "group": "원두,티 가공상품"
+    },
+    {
+      "id": "MD_BEANS_DECAF_200G",
+      "name": "디카페인원두 200g",
+      "price": 18000,
+      "category": "MD",
+      "group": "원두,티 가공상품"
+    },
+    {
+      "id": "MD_TUMBLER_SIGNATURE_HANDLE_DIAMOND_ORANGE",
+      "name": "시그니처 핸들텀블러(다이아오렌지)",
+      "price": 30000,
+      "category": "MD",
+      "group": "상시MD"
+    },
+    {
+      "id": "MD_TUMBLER_SIGNATURE_HANDLE_PASTEL_YELLOW",
+      "name": "시그니처 핸들텀블러(파티옐로우)",
+      "price": 30000,
+      "category": "MD",
+      "group": "상시MD"
+    },
+    {
+      "id": "MD_TUMBLER_SIGNATURE_HANDLE_SKY_BLUE",
+      "name": "시그니처 핸들텀블러(스카이블루)",
+      "price": 30000,
+      "category": "MD",
+      "group": "상시MD"
+    },
+    {
+      "id": "MD_TUMBLER_SIGNATURE_MAX_HANDLE_DIAMOND_ORANGE",
+      "name": "시그니처 MAX 핸들텀블러(다이아오렌지)",
+      "price": 35000,
+      "category": "MD",
+      "group": "상시MD"
+    },
+    {
+      "id": "MD_TUMBLER_SIGNATURE_MAX_HANDLE_PASTEL_YELLOW",
+      "name": "시그니처 MAX 핸들텀블러(파티옐로우)",
+      "price": 35000,
+      "category": "MD",
+      "group": "상시MD"
+    },
+    {
+      "id": "MD_TUMBLER_SIGNATURE_MAX_HANDLE_SKY_BLUE",
+      "name": "시그니처 MAX 핸들텀블러(스카이블루)",
+      "price": 35000,
+      "category": "MD",
+      "group": "상시MD"
+    },
+    {
+      "id": "MD_BOTTLE_HF_MICRO_HIDE_320_WHITE",
+      "name": "HF 마이크로 하이드로 보틀(화이트)",
+      "price": 32000,
+      "category": "MD",
+      "group": "상시MD"
+    },
+    {
+      "id": "MD_BOTTLE_HF_MICRO_HIDE_320_BLACK",
+      "name": "HF 마이크로 하이드로 보틀(블랙)",
+      "price": 32000,
+      "category": "MD",
+      "group": "상시MD"
+    },
+    {
+      "id": "MD_BOTTLE_HF_MICRO_HIDE_320_OAT",
+      "name": "HF 마이크로 하이드로 보틀(오트)",
+      "price": 32000,
+      "category": "MD",
+      "group": "상시MD"
+    },
+    {
+      "id": "MD_BOTTLE_HF_MICRO_HIDE_320_AGAVE",
+      "name": "HF 마이크로 하이드로 보틀(아가베)",
+      "price": 32000,
+      "category": "MD",
+      "group": "상시MD"
+    },
+    {
+      "id": "MD_BOTTLE_HF_MICRO_HIDE_320_TEA_ROSE",
+      "name": "HF 마이크로 하이드로 보틀(티핑크)",
+      "price": 32000,
+      "category": "MD",
+      "group": "상시MD"
+    },
+    {
+      "id": "MD_BOTTLE_HF_MICRO_HIDE_320_ALOE_GREEN",
+      "name": "HF 마이크로 하이드로 보틀(알로에그린)",
+      "price": 32000,
+      "category": "MD",
+      "group": "상시MD"
+    },
+    {
+      "id": "MD_BOTTLE_HF_TRAVEL_709_SUPER_BLUE",
+      "name": "HF 트래블 보틀 709mL(슈퍼블루)",
+      "price": 55000,
+      "category": "MD",
+      "group": "상시MD"
+    },
+    {
+      "id": "MD_BOTTLE_HF_TRAVEL_709_ALOE_GREEN",
+      "name": "HF 트래블 보틀 709mL(알로에그린)",
+      "price": 55000,
+      "category": "MD",
+      "group": "상시MD"
+    },
+    {
+      "id": "MD_MUG_NAVY_HANDLE",
+      "name": "핸들락 텀블러_네이비",
+      "price": 26000,
+      "category": "MD",
+      "group": "상시MD"
+    },
+    {
+      "id": "MD_MUG_PEARL_HANDLE",
+      "name": "핸들락 텀블러_퍼플",
+      "price": 26000,
+      "category": "MD",
+      "group": "상시MD"
+    },
+    {
+      "id": "MD_STAGE_MUG_GREY",
+      "name": "N 베이지 스테이지 스 머그(그레이)",
+      "price": 17000,
+      "category": "MD",
+      "group": "상시MD"
+    },
+    {
+      "id": "MD_TUMBLER_MAX_STEEL",
+      "name": "투썸 MAX 스틸 텀블러",
+      "price": 27000,
+      "category": "MD",
+      "group": "상시MD"
+    }
+  ],
+  "itemsById": {
+    "AMERICANO_R": {
+      "id": "AMERICANO_R",
+      "name": "아메리카노",
+      "price": 4700,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    "CAFE_LATTE_R": {
+      "id": "CAFE_LATTE_R",
+      "name": "카페 라떼",
+      "price": 5200,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    "CAPPUCCINO_R": {
+      "id": "CAPPUCCINO_R",
+      "name": "카푸치노",
+      "price": 5200,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    "VANILLA_LATTE_R": {
+      "id": "VANILLA_LATTE_R",
+      "name": "바닐라 라떼",
+      "price": 5700,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    "CAFE_MOCHA_R": {
+      "id": "CAFE_MOCHA_R",
+      "name": "카페 모카",
+      "price": 5700,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    "CARAMEL_MACCHIATO_R": {
+      "id": "CARAMEL_MACCHIATO_R",
+      "name": "카라멜 마키아또",
+      "price": 6100,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    "COLD_BREW": {
+      "id": "COLD_BREW",
+      "name": "콜드브루",
+      "price": 5100,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    "COLD_BREW_LATTE": {
+      "id": "COLD_BREW_LATTE",
+      "name": "콜드브루 라떼",
+      "price": 5600,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    "DECAF_COLD_BREW": {
+      "id": "DECAF_COLD_BREW",
+      "name": "디카페인 콜드브루",
+      "price": 5400,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    "DECAF_COLD_BREW_LATTE": {
+      "id": "DECAF_COLD_BREW_LATTE",
+      "name": "디카페인 콜드브루 라떼",
+      "price": 5900,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    "VANILLA_BEAN_COLD_BREW_LATTE": {
+      "id": "VANILLA_BEAN_COLD_BREW_LATTE",
+      "name": "바닐라빈 콜드브루 라떼",
+      "price": 6100,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    "DECAF_COLD_BREW_CREAM_LATTE": {
+      "id": "DECAF_COLD_BREW_CREAM_LATTE",
+      "name": "디카페인 콜드브루 크림라떼",
+      "price": 6200,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    "PEACH_ASHOTCHU": {
+      "id": "PEACH_ASHOTCHU",
+      "name": "피치 아샷추",
+      "price": 5700,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    "MINT_ASHOTCHU": {
+      "id": "MINT_ASHOTCHU",
+      "name": "민트 아샷추",
+      "price": 5700,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    "APPLE_ASHOTCHU": {
+      "id": "APPLE_ASHOTCHU",
+      "name": "애플 아샷추",
+      "price": 5700,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    "BANANA_SHOT_LATTE": {
+      "id": "BANANA_SHOT_LATTE",
+      "name": "바나나 샷 라떼",
+      "price": 5700,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    "BANANA_SHOT_AMERICANO": {
+      "id": "BANANA_SHOT_AMERICANO",
+      "name": "바나나 샷 아메리카노",
+      "price": 6000,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    "PISTACHIO_CHOC_MOCHA": {
+      "id": "PISTACHIO_CHOC_MOCHA",
+      "name": "피스타치오 초콜릿 모카",
+      "price": 6500,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    "ESPRESSO": {
+      "id": "ESPRESSO",
+      "name": "에스프레소",
+      "price": 3900,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    "SHORT_LATTE": {
+      "id": "SHORT_LATTE",
+      "name": "숏 라떼",
+      "price": 5200,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    "LONG_BLACK": {
+      "id": "LONG_BLACK",
+      "name": "롱 블랙",
+      "price": 4700,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    "VANILLA_BEAN_LATTE": {
+      "id": "VANILLA_BEAN_LATTE",
+      "name": "바닐라빈 라떼",
+      "price": 6000,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    "SPANISH_CONDENSED_LATTE": {
+      "id": "SPANISH_CONDENSED_LATTE",
+      "name": "스페니쉬 연유 라떼",
+      "price": 6000,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    "OAT_WHITE_LATTE": {
+      "id": "OAT_WHITE_LATTE",
+      "name": "오트 화이트 라떼",
+      "price": 5800,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    "ADDON_DECAF_BEAN": {
+      "id": "ADDON_DECAF_BEAN",
+      "name": "디카페인원두변경",
+      "price": 500,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션",
+      "type": "addon"
+    },
+    "ADDON_SIZE_LARGE": {
+      "id": "ADDON_SIZE_LARGE",
+      "name": "라지 사이즈 업",
+      "price": 600,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션",
+      "type": "addon"
+    },
+    "ADDON_SIZE_MAX": {
+      "id": "ADDON_SIZE_MAX",
+      "name": "맥스 사이즈 업",
+      "price": 800,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션",
+      "type": "addon"
+    },
+    "EVENT_LUCKYDRAW_2026": {
+      "id": "EVENT_LUCKYDRAW_2026",
+      "name": "(신년)럭키드로우",
+      "price": 3800,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션",
+      "type": "event"
+    },
+    "CARRIER": {
+      "id": "CARRIER",
+      "name": "캐리어",
+      "price": 0,
+      "category": "커피&음료",
+      "group": "에스프레소 베리에이션"
+    },
+    "NAV_PREV": {
+      "id": "NAV_PREV",
+      "name": "<",
+      "price": 0,
+      "category": "SYSTEM",
+      "group": "NAV",
+      "type": "nav"
+    },
+    "NAV_NEXT": {
+      "id": "NAV_NEXT",
+      "name": ">",
+      "price": 0,
+      "category": "SYSTEM",
+      "group": "NAV",
+      "type": "nav"
+    },
+    "SUGAR_LIGHT": {
+      "id": "SUGAR_LIGHT",
+      "name": "연하게",
+      "price": 0,
+      "category": "OPTION",
+      "group": "SUGAR",
+      "type": "option"
+    },
+    "SUGAR_NORMAL": {
+      "id": "SUGAR_NORMAL",
+      "name": "덜 달게",
+      "price": 0,
+      "category": "OPTION",
+      "group": "SUGAR",
+      "type": "option"
+    },
+    "SUGAR_NONE": {
+      "id": "SUGAR_NONE",
+      "name": "시럽 없이",
+      "price": 0,
+      "category": "OPTION",
+      "group": "SUGAR",
+      "type": "option"
+    },
+    "SUGAR_HAZELNUT": {
+      "id": "SUGAR_HAZELNUT",
+      "name": "헤이즐넛 시럽",
+      "price": 800,
+      "category": "OPTION",
+      "group": "SUGAR",
+      "type": "option"
+    },
+    "MILK_OAT": {
+      "id": "MILK_OAT",
+      "name": "오트 음료(귀리)변경",
+      "price": 600,
+      "category": "OPTION",
+      "group": "MILK",
+      "type": "option"
+    },
+    "ADD_SHOT": {
+      "id": "ADD_SHOT",
+      "name": "에스프레소 샷 추가",
+      "price": 800,
+      "category": "OPTION",
+      "group": "ADDON",
+      "type": "option"
+    },
+    "WHIP_NONE": {
+      "id": "WHIP_NONE",
+      "name": "휘핑 없이",
+      "price": 0,
+      "category": "OPTION",
+      "group": "WHIP",
+      "type": "option"
+    },
+    "WHIP_LESS": {
+      "id": "WHIP_LESS",
+      "name": "휘핑 적게",
+      "price": 0,
+      "category": "OPTION",
+      "group": "WHIP",
+      "type": "option"
+    },
+    "WHIP_MORE": {
+      "id": "WHIP_MORE",
+      "name": "휘핑 많이",
+      "price": 0,
+      "category": "OPTION",
+      "group": "WHIP",
+      "type": "option"
+    },
+    "WHIP_CREAM": {
+      "id": "WHIP_CREAM",
+      "name": "휘핑 크림",
+      "price": 800,
+      "category": "OPTION",
+      "group": "WHIP",
+      "type": "option"
+    },
+    "TUMBLER_DISCOUNT": {
+      "id": "TUMBLER_DISCOUNT",
+      "name": "텀블러 할인",
+      "price": -300,
+      "category": "OPTION",
+      "group": "DISCOUNT",
+      "type": "option"
+    },
+    "CHANGE_MILK": {
+      "id": "CHANGE_MILK",
+      "name": "라떼 변경",
+      "price": 500,
+      "category": "OPTION",
+      "group": "ADDON",
+      "type": "option"
+    },
+    "ICE_NONE": {
+      "id": "ICE_NONE",
+      "name": "얼음 없이",
+      "price": 0,
+      "category": "OPTION",
+      "group": "ICE",
+      "type": "option"
+    },
+    "ICE_LESS": {
+      "id": "ICE_LESS",
+      "name": "얼음 적게",
+      "price": 0,
+      "category": "OPTION",
+      "group": "ICE",
+      "type": "option"
+    },
+    "ICE_MORE": {
+      "id": "ICE_MORE",
+      "name": "얼음 많이",
+      "price": 0,
+      "category": "OPTION",
+      "group": "ICE",
+      "type": "option"
+    },
+    "WATER_NONE": {
+      "id": "WATER_NONE",
+      "name": "물 없이",
+      "price": 0,
+      "category": "OPTION",
+      "group": "WATER",
+      "type": "option"
+    },
+    "WATER_LESS": {
+      "id": "WATER_LESS",
+      "name": "물 적게",
+      "price": 0,
+      "category": "OPTION",
+      "group": "WATER",
+      "type": "option"
+    },
+    "WATER_MORE": {
+      "id": "WATER_MORE",
+      "name": "물 많이",
+      "price": 0,
+      "category": "OPTION",
+      "group": "WATER",
+      "type": "option"
+    },
+    "TEMP_LUKEWARM": {
+      "id": "TEMP_LUKEWARM",
+      "name": "미지근하게",
+      "price": 0,
+      "category": "OPTION",
+      "group": "TEMP",
+      "type": "option"
+    },
+    "TEMP_HOT": {
+      "id": "TEMP_HOT",
+      "name": "아주 뜨겁게",
+      "price": 0,
+      "category": "OPTION",
+      "group": "TEMP",
+      "type": "option"
+    },
+    "PERSONAL_CUP": {
+      "id": "PERSONAL_CUP",
+      "name": "개인 컵 사용",
+      "price": 0,
+      "category": "OPTION",
+      "group": "DISCOUNT",
+      "type": "option"
+    },
+    "FOAM_NONE": {
+      "id": "FOAM_NONE",
+      "name": "거품 없이",
+      "price": 0,
+      "category": "OPTION",
+      "group": "FOAM",
+      "type": "option"
+    },
+    "FOAM_LESS": {
+      "id": "FOAM_LESS",
+      "name": "거품 적게",
+      "price": 0,
+      "category": "OPTION",
+      "group": "FOAM",
+      "type": "option"
+    },
+    "FOAM_MORE": {
+      "id": "FOAM_MORE",
+      "name": "거품 많이",
+      "price": 0,
+      "category": "OPTION",
+      "group": "FOAM",
+      "type": "option"
+    },
+    "MILK_LESS": {
+      "id": "MILK_LESS",
+      "name": "우유 적게",
+      "price": 0,
+      "category": "OPTION",
+      "group": "MILK",
+      "type": "option"
+    },
+    "MILK_MORE": {
+      "id": "MILK_MORE",
+      "name": "우유 많이",
+      "price": 0,
+      "category": "OPTION",
+      "group": "MILK",
+      "type": "option"
+    },
+    "TEA_CHAMOMILE": {
+      "id": "TEA_CHAMOMILE",
+      "name": "카모마일",
+      "price": 5300,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    "TEA_GUNIWA_MINT": {
+      "id": "TEA_GUNIWA_MINT",
+      "name": "그니와 민트",
+      "price": 5300,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    "TEA_EARL_GREY": {
+      "id": "TEA_EARL_GREY",
+      "name": "얼그레이",
+      "price": 5300,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    "TEA_CREAM_CARAMEL": {
+      "id": "TEA_CREAM_CARAMEL",
+      "name": "크림 카라멜",
+      "price": 5300,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    "TEA_JEJU_ORGANIC_GREEN": {
+      "id": "TEA_JEJU_ORGANIC_GREEN",
+      "name": "제주 유기농 녹차",
+      "price": 4800,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    "TEA_HONEY_LEMON": {
+      "id": "TEA_HONEY_LEMON",
+      "name": "허니 레몬티",
+      "price": 6300,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    "TEA_APPLE_MINT": {
+      "id": "TEA_APPLE_MINT",
+      "name": "애플 민트티",
+      "price": 6300,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    "TEA_ORANGE_GRAPEFRUIT": {
+      "id": "TEA_ORANGE_GRAPEFRUIT",
+      "name": "오렌지 자몽티",
+      "price": 6100,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    "TEA_YUJA_LEMON": {
+      "id": "TEA_YUJA_LEMON",
+      "name": "유자 레몬티",
+      "price": 5800,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    "TEA_YUJA_GINGER": {
+      "id": "TEA_YUJA_GINGER",
+      "name": "유자 생강차",
+      "price": 5800,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    "GREEN_TEA_LATTE": {
+      "id": "GREEN_TEA_LATTE",
+      "name": "그린티 라떼",
+      "price": 5200,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    "ROYAL_MILK_TEA": {
+      "id": "ROYAL_MILK_TEA",
+      "name": "로얄 밀크티",
+      "price": 5700,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    "ICEBELL_ROYAL_MILK_TEA": {
+      "id": "ICEBELL_ROYAL_MILK_TEA",
+      "name": "ice벨 로얄 밀크티",
+      "price": 6000,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    "ICEBELL_GREEN_TEA_LATTE": {
+      "id": "ICEBELL_GREEN_TEA_LATTE",
+      "name": "ice벨 그린티 라떼",
+      "price": 5900,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    "TEA_ROOIBOS_STRESS": {
+      "id": "TEA_ROOIBOS_STRESS",
+      "name": "루이보스 스트레스 티",
+      "price": 5500,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    "ROOIBOS_VANILLA_BEAN_MILK_TEA": {
+      "id": "ROOIBOS_VANILLA_BEAN_MILK_TEA",
+      "name": "바닐라빈 루이보스 밀크티",
+      "price": 6500,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    "MATCHA_CREAM_LATTE": {
+      "id": "MATCHA_CREAM_LATTE",
+      "name": "말차 크림 라떼",
+      "price": 5000,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    "WONDER_BANGSHO": {
+      "id": "WONDER_BANGSHO",
+      "name": "윈터 뱅쇼",
+      "price": 6500,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    "BANGSHO_MILK_SUGAR": {
+      "id": "BANGSHO_MILK_SUGAR",
+      "name": "뱅쇼 로우 슈가",
+      "price": 6500,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    "ROASTED_CHESTNUT_LATTE": {
+      "id": "ROASTED_CHESTNUT_LATTE",
+      "name": "구운 밤 라떼",
+      "price": 5800,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    "OUR_RICE_SHOT_ICED_ONLY": {
+      "id": "OUR_RICE_SHOT_ICED_ONLY",
+      "name": "우리 쌀 식혜(iced ONLY)",
+      "price": 5800,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    "OUR_JUJUBE_SUJEONGGWA": {
+      "id": "OUR_JUJUBE_SUJEONGGWA",
+      "name": "우리 대추 수정과",
+      "price": 5800,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    "ICETEA_PEACH": {
+      "id": "ICETEA_PEACH",
+      "name": "피치 아이스티",
+      "price": 5000,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    "ICETEA_APPLE": {
+      "id": "ICETEA_APPLE",
+      "name": "애플 아이스티",
+      "price": 5000,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    "ICETEA_MINT": {
+      "id": "ICETEA_MINT",
+      "name": "민트 아이스티",
+      "price": 5000,
+      "category": "커피&음료",
+      "group": "티 베리에이션"
+    },
+    "ADDON_BUBBLE": {
+      "id": "ADDON_BUBBLE",
+      "name": "버블",
+      "price": 700,
+      "category": "커피&음료",
+      "group": "티 베리에이션",
+      "type": "addon"
+    },
+    "DRINK_STRAWBERRY_PEACH_FRAPPE": {
+      "id": "DRINK_STRAWBERRY_PEACH_FRAPPE",
+      "name": "스트로베리 피치프라페",
+      "price": 6500,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    "DRINK_YOGURT_FRAPPE": {
+      "id": "DRINK_YOGURT_FRAPPE",
+      "name": "요거트프라페",
+      "price": 5800,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    "DRINK_MINT_CHOCO_LATTE": {
+      "id": "DRINK_MINT_CHOCO_LATTE",
+      "name": "민트 초코라떼",
+      "price": 5800,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    "DRINK_COFFEE_COOKIE_FRAPPE": {
+      "id": "DRINK_COFFEE_COOKIE_FRAPPE",
+      "name": "커피 쿠키 프라페",
+      "price": 6500,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    "DRINK_APPLEMANGO_PEACH_FRAPPE": {
+      "id": "DRINK_APPLEMANGO_PEACH_FRAPPE",
+      "name": "애플망고 피치 프라페",
+      "price": 6800,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    "DRINK_STRAWBERRY_TOBUK_LATTE": {
+      "id": "DRINK_STRAWBERRY_TOBUK_LATTE",
+      "name": "딸기 듬뿍 라떼",
+      "price": 6800,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    "DRINK_VANILLA_MILK_SHAKE": {
+      "id": "DRINK_VANILLA_MILK_SHAKE",
+      "name": "바닐라 밀크 쉐이크",
+      "price": 6000,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    "DRINK_COOKIE_SHAKE": {
+      "id": "DRINK_COOKIE_SHAKE",
+      "name": "쿠키 쉐이크",
+      "price": 6300,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    "DRINK_MILKY_TEA_SHAKE": {
+      "id": "DRINK_MILKY_TEA_SHAKE",
+      "name": "밀크티 쉐이크",
+      "price": 6500,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    "DRINK_PISTACHIO_CHOCO_GELATO_SHAKE": {
+      "id": "DRINK_PISTACHIO_CHOCO_GELATO_SHAKE",
+      "name": "피스타치오 초콜릿 젤라또 쉐이크",
+      "price": 7000,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    "DRINK_STRAWBERRY_TOBUK_JUICE": {
+      "id": "DRINK_STRAWBERRY_TOBUK_JUICE",
+      "name": "생딸기 듬뿍 주스",
+      "price": 7200,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    "DRINK_MILK": {
+      "id": "DRINK_MILK",
+      "name": "우유",
+      "price": 4000,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    "DRINK_CHOCO_LATTE": {
+      "id": "DRINK_CHOCO_LATTE",
+      "name": "초콜릿 라떼",
+      "price": 5600,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    "DRINK_SWEET_POTATO_LATTE": {
+      "id": "DRINK_SWEET_POTATO_LATTE",
+      "name": "꿀 고구마 라떼",
+      "price": 5800,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    "DRINK_BLACK_SESAME_MISUGARU_LATTE": {
+      "id": "DRINK_BLACK_SESAME_MISUGARU_LATTE",
+      "name": "현미 미숫가루",
+      "price": 6200,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    "DRINK_BLUEBERRY_YOGURT": {
+      "id": "DRINK_BLUEBERRY_YOGURT",
+      "name": "블루베리 요거트링크",
+      "price": 5500,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    "DRINK_STRAWBERRY_MILK_SHAKE": {
+      "id": "DRINK_STRAWBERRY_MILK_SHAKE",
+      "name": "딸기 밀크 쉐이크",
+      "price": 6500,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    "DRINK_HONEY_LEMON_ADE": {
+      "id": "DRINK_HONEY_LEMON_ADE",
+      "name": "허니 레몬 에이드",
+      "price": 5800,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    "DRINK_GRAPEFRUIT_ADE": {
+      "id": "DRINK_GRAPEFRUIT_ADE",
+      "name": "자몽에이드",
+      "price": 6300,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    "DRINK_ORANGE_ADE": {
+      "id": "DRINK_ORANGE_ADE",
+      "name": "오렌지에이드",
+      "price": 6300,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    "DRINK_SHINE_MUSCAT_GRAPEFRUIT_ADE": {
+      "id": "DRINK_SHINE_MUSCAT_GRAPEFRUIT_ADE",
+      "name": "샤인머스캣 청포도 에이드",
+      "price": 6500,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    "DRINK_PEACH_ADE": {
+      "id": "DRINK_PEACH_ADE",
+      "name": "복숭아에이드",
+      "price": 6300,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    "DRINK_STRAWBERRY_BANANA_SHAKE": {
+      "id": "DRINK_STRAWBERRY_BANANA_SHAKE",
+      "name": "딸기 바나나 쉐이크",
+      "price": 6500,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    "DRINK_ORANGE_TOBUK_JUICE": {
+      "id": "DRINK_ORANGE_TOBUK_JUICE",
+      "name": "오렌지 자몽 주스",
+      "price": 6300,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    "DRINK_APPLEMANGO_TOBUK_JUICE": {
+      "id": "DRINK_APPLEMANGO_TOBUK_JUICE",
+      "name": "애플망고 주스",
+      "price": 6500,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    "DRINK_JEJU_CARROT_TOBUK_JUICE": {
+      "id": "DRINK_JEJU_CARROT_TOBUK_JUICE",
+      "name": "제주 한라봉 주스",
+      "price": 6500,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    "DRINK_HONG_SI_JUICE_ICED_ONLY": {
+      "id": "DRINK_HONG_SI_JUICE_ICED_ONLY",
+      "name": "홍시 주스",
+      "price": 0,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    "DRINK_PEACH_TOBUK_JUICE": {
+      "id": "DRINK_PEACH_TOBUK_JUICE",
+      "name": "복숭아 주스",
+      "price": 6000,
+      "category": "커피&음료",
+      "group": "음료"
+    },
+    "BOTTLE_SANGHA_ORGANIC_JUICE_APPLE": {
+      "id": "BOTTLE_SANGHA_ORGANIC_JUICE_APPLE",
+      "name": "상하목장 유기농 주스(사과)",
+      "price": 2000,
+      "category": "커피&음료",
+      "group": "병음료"
+    },
+    "BOTTLE_SANGHA_ORGANIC_JUICE_GRAPE": {
+      "id": "BOTTLE_SANGHA_ORGANIC_JUICE_GRAPE",
+      "name": "상하목장 유기농 주스(포도)",
+      "price": 2000,
+      "category": "커피&음료",
+      "group": "병음료"
+    },
+    "BOTTLE_SANGHA_ORGANIC_MILK": {
+      "id": "BOTTLE_SANGHA_ORGANIC_MILK",
+      "name": "상하목장 유기농 우유",
+      "price": 2000,
+      "category": "커피&음료",
+      "group": "병음료"
+    },
+    "ICE_MONAKA_MILK": {
+      "id": "ICE_MONAKA_MILK",
+      "name": "모나카 우유 맛",
+      "price": 3500,
+      "category": "아이스크림&빙수",
+      "group": "아이스크림"
+    },
+    "ICE_MONAKA_STRAWBERRY_CHOCO": {
+      "id": "ICE_MONAKA_STRAWBERRY_CHOCO",
+      "name": "모나카 딸기초코 맛",
+      "price": 3500,
+      "category": "아이스크림&빙수",
+      "group": "아이스크림"
+    },
+    "ICE_VANILLA_AFFOGATO": {
+      "id": "ICE_VANILLA_AFFOGATO",
+      "name": "바닐라 아포가토",
+      "price": 5500,
+      "category": "아이스크림&빙수",
+      "group": "아이스크림"
+    },
+    "ICE_CROPLE": {
+      "id": "ICE_CROPLE",
+      "name": "아이스크림 크로플",
+      "price": 6500,
+      "category": "아이스크림&빙수",
+      "group": "아이스크림"
+    },
+    "ICE_TWO_BROWNIE": {
+      "id": "ICE_TWO_BROWNIE",
+      "name": "투썸 브라우니",
+      "price": 5900,
+      "category": "아이스크림&빙수",
+      "group": "아이스크림"
+    },
+    "ICE_TWOSOME_CROPLE_SET": {
+      "id": "ICE_TWOSOME_CROPLE_SET",
+      "name": "[투썸올데이]아이스크림 크로플",
+      "price": 9200,
+      "category": "아이스크림&빙수",
+      "group": "아이스크림",
+      "type": "event"
+    },
+    "ICE_TOPPING_CHOC": {
+      "id": "ICE_TOPPING_CHOC",
+      "name": "아이스크림 토핑 추가",
+      "price": 1500,
+      "category": "아이스크림&빙수",
+      "group": "아이스크림",
+      "type": "addon"
+    },
+    "ICE_SINGLE_SYRUP": {
+      "id": "ICE_SINGLE_SYRUP",
+      "name": "단풍당 시럽",
+      "price": 500,
+      "category": "아이스크림&빙수",
+      "group": "아이스크림",
+      "type": "addon"
+    },
+    "ICE_ADD_SHOT": {
+      "id": "ICE_ADD_SHOT",
+      "name": "에스프레소 샷 추가",
+      "price": 800,
+      "category": "아이스크림&빙수",
+      "group": "아이스크림",
+      "type": "addon"
+    },
+    "ICE_SPOON": {
+      "id": "ICE_SPOON",
+      "name": "스푼",
+      "price": 0,
+      "category": "아이스크림&빙수",
+      "group": "용품",
+      "type": "item"
+    },
+    "ICE_FORK": {
+      "id": "ICE_FORK",
+      "name": "포크",
+      "price": 0,
+      "category": "아이스크림&빙수",
+      "group": "용품",
+      "type": "item"
+    },
+    "PAPER_BAG_SMALL": {
+      "id": "PAPER_BAG_SMALL",
+      "name": "종이 쇼핑백_소",
+      "price": 200,
+      "category": "COMMON",
+      "group": "BAG"
+    },
+    "PAPER_BAG_LARGE": {
+      "id": "PAPER_BAG_LARGE",
+      "name": "종이 쇼핑백_대",
+      "price": 200,
+      "category": "COMMON",
+      "group": "BAG"
+    },
+    "CAKE_SPOONABLE_PEACH": {
+      "id": "CAKE_SPOONABLE_PEACH",
+      "name": "떠먹는 피치생",
+      "price": null,
+      "category": "케이크",
+      "group": "피스케이크",
+      "type": "soldout"
+    },
+    "CAKE_VANILLA_CROQUANT_LONG_SOU": {
+      "id": "CAKE_VANILLA_CROQUANT_LONG_SOU",
+      "name": "바닐라 크로캉 롱 슈",
+      "price": null,
+      "category": "케이크",
+      "group": "피스케이크",
+      "type": "soldout"
+    },
+    "CAKE_P_NY_CHEESE": {
+      "id": "CAKE_P_NY_CHEESE",
+      "name": "P.뉴욕 치즈",
+      "price": null,
+      "category": "케이크",
+      "group": "피스케이크",
+      "type": "soldout"
+    },
+    "CAKE_P_SWEETPOTATO_CREAM": {
+      "id": "CAKE_P_SWEETPOTATO_CREAM",
+      "name": "P.고구마 생크림 케이크",
+      "price": 5900,
+      "category": "케이크",
+      "group": "피스케이크"
+    },
+    "CAKE_OVAL_TIRAMISU_PETIT": {
+      "id": "CAKE_OVAL_TIRAMISU_PETIT",
+      "name": "투썸 오벌 티라미수(쁘띠)",
+      "price": 8000,
+      "category": "케이크",
+      "group": "피스케이크"
+    },
+    "CAKE_CORN_CREAM_PETIT": {
+      "id": "CAKE_CORN_CREAM_PETIT",
+      "name": "옥수수 생크림 케이크(쁘띠)",
+      "price": 8000,
+      "category": "케이크",
+      "group": "피스케이크"
+    },
+    "CAKE_SPOONABLE_MALCHA_ABAK": {
+      "id": "CAKE_SPOONABLE_MALCHA_ABAK",
+      "name": "떠먹는 말차 아박",
+      "price": 6800,
+      "category": "케이크",
+      "group": "피스케이크"
+    },
+    "CAKE_P_STRAWBERRY_CREAM": {
+      "id": "CAKE_P_STRAWBERRY_CREAM",
+      "name": "P.생딸기 생크림 케이크",
+      "price": 6500,
+      "category": "케이크",
+      "group": "피스케이크"
+    },
+    "CAKE_P_GRUYERE_CHEESE_MOUSSE": {
+      "id": "CAKE_P_GRUYERE_CHEESE_MOUSSE",
+      "name": "P.그뤼에르 치즈 무스",
+      "price": 6200,
+      "category": "케이크",
+      "group": "피스케이크"
+    },
+    "CAKE_P_TWG_EARLGREY_MILK_CHIFFON": {
+      "id": "CAKE_P_TWG_EARLGREY_MILK_CHIFFON",
+      "name": "P.TWG 얼그레이 밀크 쉬폰",
+      "price": null,
+      "category": "케이크",
+      "group": "피스케이크",
+      "type": "soldout"
+    },
+    "CAKE_PAVE_CHOC_PETIT": {
+      "id": "CAKE_PAVE_CHOC_PETIT",
+      "name": "파베 초콜릿 케이크(쁘띠)",
+      "price": null,
+      "category": "케이크",
+      "group": "피스케이크",
+      "type": "soldout"
+    },
+    "CAKE_CHOCOL_SAENG_PETIT": {
+      "id": "CAKE_CHOCOL_SAENG_PETIT",
+      "name": "금귤생(쁘띠)",
+      "price": null,
+      "category": "케이크",
+      "group": "피스케이크",
+      "type": "soldout"
+    },
+    "CAKE_SPOONABLE_ABAK_STAR": {
+      "id": "CAKE_SPOONABLE_ABAK_STAR",
+      "name": "떠먹는 아박*",
+      "price": 6800,
+      "category": "케이크",
+      "group": "피스케이크"
+    },
+    "CAKE_SPOONABLE_CHOCHO_SAENG_STAR": {
+      "id": "CAKE_SPOONABLE_CHOCHO_SAENG_STAR",
+      "name": "떠먹는 스초생*",
+      "price": null,
+      "category": "케이크",
+      "group": "피스케이크",
+      "type": "soldout"
+    },
+    "CAKE_P_RED_VELVET": {
+      "id": "CAKE_P_RED_VELVET",
+      "name": "P.투썸 레드 벨벳",
+      "price": 6800,
+      "category": "케이크",
+      "group": "피스케이크"
+    },
+    "CAKE_P_QUEENS_CARROT": {
+      "id": "CAKE_P_QUEENS_CARROT",
+      "name": "P.투썸 퀸즈 캐롯",
+      "price": 6800,
+      "category": "케이크",
+      "group": "피스케이크"
+    },
+    "CAKE_BLUEBERRY_YOGURT_CREAM_PETIT": {
+      "id": "CAKE_BLUEBERRY_YOGURT_CREAM_PETIT",
+      "name": "생블루베리 요거트 생크림(쁘띠)",
+      "price": 8800,
+      "category": "케이크",
+      "group": "피스케이크"
+    },
+    "CAKE_BRISER_EARLGREY_PETIT": {
+      "id": "CAKE_BRISER_EARLGREY_PETIT",
+      "name": "브리제로 얼그레이 케이크(쁘띠)",
+      "price": null,
+      "category": "케이크",
+      "group": "피스케이크",
+      "type": "soldout"
+    },
+    "CAKE_SPOONABLE_MANGO_SAENG": {
+      "id": "CAKE_SPOONABLE_MANGO_SAENG",
+      "name": "떠먹는 망고생",
+      "price": null,
+      "category": "케이크",
+      "group": "피스케이크",
+      "type": "soldout"
+    },
+    "CAKE_SPOONABLE_WHITE_CHOCO_SAENG": {
+      "id": "CAKE_SPOONABLE_WHITE_CHOCO_SAENG",
+      "name": "떠먹는 화이트 초코생",
+      "price": null,
+      "category": "케이크",
+      "group": "피스케이크",
+      "type": "soldout"
+    },
+    "CAKE_P_BASQUE_CHEESE_GORGONZOLA": {
+      "id": "CAKE_P_BASQUE_CHEESE_GORGONZOLA",
+      "name": "P.바스크 치즈 케이크(고르곤졸라)",
+      "price": 6900,
+      "category": "케이크",
+      "group": "피스케이크"
+    },
+    "CAKE_P_CLASSIC_GATEAU_CHOCOLAT": {
+      "id": "CAKE_P_CLASSIC_GATEAU_CHOCOLAT",
+      "name": "P.클래식 가토 쇼콜라",
+      "price": null,
+      "category": "케이크",
+      "group": "피스케이크",
+      "type": "soldout"
+    },
+    "CAKE_SPOONABLE_MASCARPONE_TIRAMISU": {
+      "id": "CAKE_SPOONABLE_MASCARPONE_TIRAMISU",
+      "name": "떠먹는 마스카포네 티라미수",
+      "price": null,
+      "category": "케이크",
+      "group": "피스케이크",
+      "type": "soldout"
+    },
+    "CAKE_STRAWBERRY_MILK_CREAM_PETIT": {
+      "id": "CAKE_STRAWBERRY_MILK_CREAM_PETIT",
+      "name": "생딸기 듬뿍 우유 생크림(쁘띠)",
+      "price": null,
+      "category": "케이크",
+      "group": "피스케이크",
+      "type": "soldout"
+    },
+    "CAKE_FORK": {
+      "id": "CAKE_FORK",
+      "name": "포크",
+      "price": 0,
+      "category": "케이크",
+      "group": "용품"
+    },
+    "CANDLE_NUM_0": {
+      "id": "CANDLE_NUM_0",
+      "name": "숫자초 0",
+      "price": 900,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    "CANDLE_NUM_1": {
+      "id": "CANDLE_NUM_1",
+      "name": "숫자초 1",
+      "price": 900,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    "CANDLE_NUM_2": {
+      "id": "CANDLE_NUM_2",
+      "name": "숫자초 2",
+      "price": 900,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    "CANDLE_NUM_3": {
+      "id": "CANDLE_NUM_3",
+      "name": "숫자초 3",
+      "price": 900,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    "CANDLE_NUM_4": {
+      "id": "CANDLE_NUM_4",
+      "name": "숫자초 4",
+      "price": 900,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    "CANDLE_NUM_5": {
+      "id": "CANDLE_NUM_5",
+      "name": "숫자초 5",
+      "price": 900,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    "CANDLE_NUM_6": {
+      "id": "CANDLE_NUM_6",
+      "name": "숫자초 6",
+      "price": 900,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    "CANDLE_NUM_7": {
+      "id": "CANDLE_NUM_7",
+      "name": "숫자초 7",
+      "price": 900,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    "CANDLE_NUM_8": {
+      "id": "CANDLE_NUM_8",
+      "name": "숫자초 8",
+      "price": 900,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    "CANDLE_NUM_9": {
+      "id": "CANDLE_NUM_9",
+      "name": "숫자초 9",
+      "price": 900,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    "CANDLE_HEART_RED": {
+      "id": "CANDLE_HEART_RED",
+      "name": "하트초 레드",
+      "price": 900,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    "CANDLE_TWOSOME_HAPPY_STRAWBERRY_LOVER": {
+      "id": "CANDLE_TWOSOME_HAPPY_STRAWBERRY_LOVER",
+      "name": "투썸 해피 캔들(딸기러버)",
+      "price": 2500,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    "CANDLE_TWOSOME_HAPPY_HBD": {
+      "id": "CANDLE_TWOSOME_HAPPY_HBD",
+      "name": "투썸 해피 캔들(에이치비디)",
+      "price": 2500,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    "CANDLE_TWOSOME_HAPPY_ILOVEYOU": {
+      "id": "CANDLE_TWOSOME_HAPPY_ILOVEYOU",
+      "name": "투썸 해피 캔들(아이러브유)",
+      "price": 2500,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    "CANDLE_TWOSOME_HAPPY_HBDAY": {
+      "id": "CANDLE_TWOSOME_HAPPY_HBDAY",
+      "name": "투썸 해피 캔들(해피벌스데이)",
+      "price": 2500,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    "HAT_OH_HAPPYDAY_POINT": {
+      "id": "HAT_OH_HAPPYDAY_POINT",
+      "name": "오 해피데이 고깔",
+      "price": 2000,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    "CANDLE_SANGGULIE": {
+      "id": "CANDLE_SANGGULIE",
+      "name": "샹들리에 캔들",
+      "price": 3000,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    "DISPOSABLE_FORK": {
+      "id": "DISPOSABLE_FORK",
+      "name": "일회용 포크",
+      "price": 50,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    "DISPOSABLE_KNIFE": {
+      "id": "DISPOSABLE_KNIFE",
+      "name": "일회용 나이프",
+      "price": 50,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    "CANDLE_NUMBER_0": {
+      "id": "CANDLE_NUMBER_0",
+      "name": "숫자초 0",
+      "price": 900,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    "CANDLE_NUMBER_5": {
+      "id": "CANDLE_NUMBER_5",
+      "name": "숫자초 5",
+      "price": 900,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    "CANDLE_HAPPYDAY_HAT": {
+      "id": "CANDLE_HAPPYDAY_HAT",
+      "name": "오 해피데이 고깔",
+      "price": 2000,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    "CANDLE_NUMBER_1": {
+      "id": "CANDLE_NUMBER_1",
+      "name": "숫자초 1",
+      "price": 900,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    "CANDLE_NUMBER_6": {
+      "id": "CANDLE_NUMBER_6",
+      "name": "숫자초 6",
+      "price": 900,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    "CANDLE_TWOSOME_GAMMA": {
+      "id": "CANDLE_TWOSOME_GAMMA",
+      "name": "투썸 해피 캔들(딸기러버)",
+      "price": 2500,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    "CANDLE_FRESH_CREAM": {
+      "id": "CANDLE_FRESH_CREAM",
+      "name": "생크림 캔들",
+      "price": 3000,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    "CANDLE_NUMBER_2": {
+      "id": "CANDLE_NUMBER_2",
+      "name": "숫자초 2",
+      "price": 900,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    "CANDLE_NUMBER_7": {
+      "id": "CANDLE_NUMBER_7",
+      "name": "숫자초 7",
+      "price": 900,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    "CANDLE_TWOSOME_HBD": {
+      "id": "CANDLE_TWOSOME_HBD",
+      "name": "투썸 해피 캔들(데이치비디)",
+      "price": 2500,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    "CANDLE_NUMBER_3": {
+      "id": "CANDLE_NUMBER_3",
+      "name": "숫자초 3",
+      "price": 900,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    "CANDLE_NUMBER_8": {
+      "id": "CANDLE_NUMBER_8",
+      "name": "숫자초 8",
+      "price": 900,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    "CANDLE_TWOSOME_ILOVEYOU": {
+      "id": "CANDLE_TWOSOME_ILOVEYOU",
+      "name": "투썸 해피 캔들(아이러브유)",
+      "price": 2500,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    "CANDLE_NUMBER_4": {
+      "id": "CANDLE_NUMBER_4",
+      "name": "숫자초 4",
+      "price": 900,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    "CANDLE_NUMBER_9": {
+      "id": "CANDLE_NUMBER_9",
+      "name": "숫자초 9",
+      "price": 900,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    "CANDLE_TWOSOME_BIRTHDAY": {
+      "id": "CANDLE_TWOSOME_BIRTHDAY",
+      "name": "투썸 해피 캔들(해피벌스데이)",
+      "price": 2500,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    "CAKE_WHOLE_STRAWBERRY_FRESHCREAM": {
+      "id": "CAKE_WHOLE_STRAWBERRY_FRESHCREAM",
+      "name": "생딸기 생크림 케이크",
+      "price": 35000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    "CAKE_WHOLE_SWEETPOTATO_FRESHCREAM": {
+      "id": "CAKE_WHOLE_SWEETPOTATO_FRESHCREAM",
+      "name": "고구마 생크림 케이크",
+      "price": 34000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    "CAKE_WHOLE_NEWYORK_CHEESE": {
+      "id": "CAKE_WHOLE_NEWYORK_CHEESE",
+      "name": "뉴욕 치즈",
+      "price": 37000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    "CAKE_WHOLE_BLUEBERRY_YOGURT_FRESHCREAM": {
+      "id": "CAKE_WHOLE_BLUEBERRY_YOGURT_FRESHCREAM",
+      "name": "생블루베리 요거트 생크림",
+      "price": 38000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    "CAKE_WHOLE_HAPPYDAY_BEAR": {
+      "id": "CAKE_WHOLE_HAPPYDAY_BEAR",
+      "name": "투썸 해피데이 베어",
+      "price": 38000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    "CAKE_WHOLE_BASQUE_GORGONZOLA": {
+      "id": "CAKE_WHOLE_BASQUE_GORGONZOLA",
+      "name": "바스크 치즈 케이크(고르곤졸라)",
+      "price": 38000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    "CAKE_WHOLE_STRAWBERRY_FRESHCREAM_CLASSIC": {
+      "id": "CAKE_WHOLE_STRAWBERRY_FRESHCREAM_CLASSIC",
+      "name": "딸기 생크림",
+      "price": 36000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    "CAKE_WHOLE_BLACK_GRUYERE_CHEESE_1HO": {
+      "id": "CAKE_WHOLE_BLACK_GRUYERE_CHEESE_1HO",
+      "name": "더 블랙 그뤼에르 치즈(1호)",
+      "price": 36000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    "CAKE_WHOLE_RED_VELVET": {
+      "id": "CAKE_WHOLE_RED_VELVET",
+      "name": "투썸 레드 벨벳",
+      "price": 37000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    "CAKE_WHOLE_MANGO_FRESHCREAM": {
+      "id": "CAKE_WHOLE_MANGO_FRESHCREAM",
+      "name": "망고생",
+      "price": 38000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    "CAKE_WHOLE_PAVE_CHOCOLATE": {
+      "id": "CAKE_WHOLE_PAVE_CHOCOLATE",
+      "name": "파베 초콜릿 케이크",
+      "price": 38000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    "CAKE_WHOLE_BRIJIT_EARLGREY": {
+      "id": "CAKE_WHOLE_BRIJIT_EARLGREY",
+      "name": "브리제트 얼그레이 케이크",
+      "price": 39000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    "CAKE_WHOLE_STRAWBERRY_CHOCOLATE_FRESHCREAM": {
+      "id": "CAKE_WHOLE_STRAWBERRY_CHOCOLATE_FRESHCREAM",
+      "name": "스초생",
+      "price": 39000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    "CAKE_WHOLE_OVAL_TIRAMISU": {
+      "id": "CAKE_WHOLE_OVAL_TIRAMISU",
+      "name": "투썸 오벌 티라미수",
+      "price": 36000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    "CAKE_WHOLE_QUEENS_CARROT": {
+      "id": "CAKE_WHOLE_QUEENS_CARROT",
+      "name": "투썸 퀸즈 캐롯",
+      "price": 37000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    "CAKE_WHOLE_CHOCOLATE_FRESHCREAM": {
+      "id": "CAKE_WHOLE_CHOCOLATE_FRESHCREAM",
+      "name": "쇼코생",
+      "price": 38000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    "CAKE_WHOLE_CLASSIC_GATEAU_CHOCOLAT": {
+      "id": "CAKE_WHOLE_CLASSIC_GATEAU_CHOCOLAT",
+      "name": "클래식 가토 쇼콜라",
+      "price": 40000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    "CAKE_WHOLE_WHITE_STRAWBERRY_CHOCOLATE_FRESHCREAM": {
+      "id": "CAKE_WHOLE_WHITE_STRAWBERRY_CHOCOLATE_FRESHCREAM",
+      "name": "화이트 스초생",
+      "price": 39000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    "CAKE_WHOLE_MICKEY_MASCARPONE_CHOCO_FRESHCREAM": {
+      "id": "CAKE_WHOLE_MICKEY_MASCARPONE_CHOCO_FRESHCREAM",
+      "name": "미키 마스카포네 초코 생크림",
+      "price": 36000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    "CAKE_WHOLE_MY_TWOSOME_HEART": {
+      "id": "CAKE_WHOLE_MY_TWOSOME_HEART",
+      "name": "마이 투썸하트",
+      "price": 37000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    "CAKE_WHOLE_ABAK": {
+      "id": "CAKE_WHOLE_ABAK",
+      "name": "아박 홀케이크",
+      "price": 34000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    "CAKE_WHOLE_FRUIT_DUO_STRAWBERRY_MANGO": {
+      "id": "CAKE_WHOLE_FRUIT_DUO_STRAWBERRY_MANGO",
+      "name": "과일생 듀오(딸기/망고)",
+      "price": 39000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    "CAKE_WHOLE_TWG_EARLGREY_MILKTEA_CHIFFON": {
+      "id": "CAKE_WHOLE_TWG_EARLGREY_MILKTEA_CHIFFON",
+      "name": "TWG 얼그레이 밀크티 쉬폰",
+      "price": 36000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    "CAKE_WHOLE_MY_TWOSOME_HEART_DUO": {
+      "id": "CAKE_WHOLE_MY_TWOSOME_HEART_DUO",
+      "name": "마이 투썸하트 듀오",
+      "price": 37000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    "CAKE_WHOLE_MATCHA_ABAK": {
+      "id": "CAKE_WHOLE_MATCHA_ABAK",
+      "name": "말차 아박 홀케이크",
+      "price": 35000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    "CANDLE_BIG": {
+      "id": "CANDLE_BIG",
+      "name": "큰초",
+      "price": 0,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    "CANDLE_SMALL": {
+      "id": "CANDLE_SMALL",
+      "name": "작은초",
+      "price": 0,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    "CAKE_WHOLE_SHA_CHO_SAENG": {
+      "id": "CAKE_WHOLE_SHA_CHO_SAENG",
+      "name": "샤초생",
+      "price": 39000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    "CAKE_WHOLE_SO_CHO_SAENG_FRAISIER": {
+      "id": "CAKE_WHOLE_SO_CHO_SAENG_FRAISIER",
+      "name": "스초생 프레지제",
+      "price": 42000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    "CAKE_WHOLE_WHITE_SHA_CHO_SAENG": {
+      "id": "CAKE_WHOLE_WHITE_SHA_CHO_SAENG",
+      "name": "화이트 샤초생",
+      "price": 39000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    "CAKE_WHOLE_SO_CHO_SAENG_2TIER": {
+      "id": "CAKE_WHOLE_SO_CHO_SAENG_2TIER",
+      "name": "스초생2단",
+      "price": 48000,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    "CAKE_PARTYPACK_ABAK": {
+      "id": "CAKE_PARTYPACK_ABAK",
+      "name": "파티팩 아박",
+      "price": 40800,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    "CAKE_PARTYPACK_SO_CHO_SAENG": {
+      "id": "CAKE_PARTYPACK_SO_CHO_SAENG",
+      "name": "파티팩 스초생",
+      "price": 43200,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    "CAKE_PARTYPACK_MATCHA_ABAK": {
+      "id": "CAKE_PARTYPACK_MATCHA_ABAK",
+      "name": "파티팩 말차 아박",
+      "price": 40800,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    "CAKE_PARTYPACK_PEACH_SAENG": {
+      "id": "CAKE_PARTYPACK_PEACH_SAENG",
+      "name": "파티팩 피치생",
+      "price": 40200,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    "CAKE_PARTYPACK_MASCARPONE_TIRAMISU": {
+      "id": "CAKE_PARTYPACK_MASCARPONE_TIRAMISU",
+      "name": "파티팩 마스카포네 티라미수",
+      "price": 40800,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    "CAKE_PARTYPACK_MANGO_SAENG": {
+      "id": "CAKE_PARTYPACK_MANGO_SAENG",
+      "name": "파티팩 망고생",
+      "price": 40800,
+      "category": "케이크",
+      "group": "홀케이크"
+    },
+    "CAKE_BOX_PLASTIC_BAG": {
+      "id": "CAKE_BOX_PLASTIC_BAG",
+      "name": "케이크 지함 비닐백",
+      "price": 400,
+      "category": "케이크",
+      "group": "초/기타"
+    },
+    "CAKE_SEASON_MARSHMALLOW_CHOCO": {
+      "id": "CAKE_SEASON_MARSHMALLOW_CHOCO",
+      "name": "마쉐멜로우 초코 케이크",
+      "price": 28000,
+      "category": "케이크",
+      "group": "시즌케이크"
+    },
+    "CAKE_SEASON_TWOSOME_SAENG_II_SPECIAL_EDITION": {
+      "id": "CAKE_SEASON_TWOSOME_SAENG_II_SPECIAL_EDITION",
+      "name": "투썸 생 II (Special Edition)",
+      "price": 29000,
+      "category": "케이크",
+      "group": "시즌케이크"
+    },
+    "CAKE_SEASON_STRAWBERRY_MILK_FRESHCREAM": {
+      "id": "CAKE_SEASON_STRAWBERRY_MILK_FRESHCREAM",
+      "name": "생딸기 듬뿍 우유 생크림",
+      "price": 39000,
+      "category": "케이크",
+      "group": "시즌케이크"
+    },
+    "CAKE_SEASON_MATCHA_SO_CHO_SAENG": {
+      "id": "CAKE_SEASON_MATCHA_SO_CHO_SAENG",
+      "name": "말차 스초생",
+      "price": 39000,
+      "category": "케이크",
+      "group": "시즌케이크"
+    },
+    "CAKE_SEASON_STRAWBERRY_MATCHA_GANACHE": {
+      "id": "CAKE_SEASON_STRAWBERRY_MATCHA_GANACHE",
+      "name": "스트로베리 말차 가나슈",
+      "price": 45000,
+      "category": "케이크",
+      "group": "시즌케이크"
+    },
+    "DESSERT_MACARON_MADAGASCAR_VANILLA": {
+      "id": "DESSERT_MACARON_MADAGASCAR_VANILLA",
+      "name": "마다가스카르 바닐라 마카롱",
+      "price": 2400,
+      "category": "케이크",
+      "group": "디저트"
+    },
+    "DESSERT_MACARON_GRAPE_YOGURT": {
+      "id": "DESSERT_MACARON_GRAPE_YOGURT",
+      "name": "청포도 요거트 마카롱",
+      "price": 2400,
+      "category": "케이크",
+      "group": "디저트"
+    },
+    "DESSERT_MACARON_SANPEEL": {
+      "id": "DESSERT_MACARON_SANPEEL",
+      "name": "산딸기 마카롱",
+      "price": 2400,
+      "category": "케이크",
+      "group": "디저트"
+    },
+    "DESSERT_MACARON_HWANGCHI": {
+      "id": "DESSERT_MACARON_HWANGCHI",
+      "name": "황치즈 마카롱",
+      "price": 2400,
+      "category": "케이크",
+      "group": "디저트"
+    },
+    "DESSERT_MACARON_CHOCOLATE": {
+      "id": "DESSERT_MACARON_CHOCOLATE",
+      "name": "초콜릿 마카롱",
+      "price": 2400,
+      "category": "케이크",
+      "group": "디저트"
+    },
+    "DESSERT_MACARON_BLUEBERRY": {
+      "id": "DESSERT_MACARON_BLUEBERRY",
+      "name": "블루베리 마카롱",
+      "price": 2400,
+      "category": "케이크",
+      "group": "디저트"
+    },
+    "DESSERT_MACARON_SET_6": {
+      "id": "DESSERT_MACARON_SET_6",
+      "name": "투썸 마카롱 세트(6개입)",
+      "price": 15500,
+      "category": "케이크",
+      "group": "디저트"
+    },
+    "DESSERT_MACARON_SET_12": {
+      "id": "DESSERT_MACARON_SET_12",
+      "name": "투썸 마카롱 세트(12개입)",
+      "price": 30000,
+      "category": "케이크",
+      "group": "디저트"
+    },
+    "DELI_PANINI_BBQ_CHICKEN": {
+      "id": "DELI_PANINI_BBQ_CHICKEN",
+      "name": "바베큐 치킨 파니니",
+      "price": 6900,
+      "category": "델리",
+      "group": "샌드위치"
+    },
+    "DELI_WRAP_SOFT_EGG_MILK": {
+      "id": "DELI_WRAP_SOFT_EGG_MILK",
+      "name": "부드러운 에그 잉글리쉬 머핀",
+      "price": 3900,
+      "category": "델리",
+      "group": "샌드위치"
+    },
+    "DELI_MUFFIN_OVEN_BAKED": {
+      "id": "DELI_MUFFIN_OVEN_BAKED",
+      "name": "오븐에 구운 몬테크리스토",
+      "price": 5900,
+      "category": "델리",
+      "group": "샌드위치"
+    },
+    "DELI_PANINI_BULGOGI_CHEESE": {
+      "id": "DELI_PANINI_BULGOGI_CHEESE",
+      "name": "불고기 치즈 멜트 파니니",
+      "price": 6900,
+      "category": "델리",
+      "group": "샌드위치"
+    },
+    "DELI_PANINI_SPICY_CHEESE_BULDAK": {
+      "id": "DELI_PANINI_SPICY_CHEESE_BULDAK",
+      "name": "불닭 치즈 멜트 파니니",
+      "price": 6700,
+      "category": "델리",
+      "group": "샌드위치"
+    },
+    "DELI_PANINI_MEXICAN": {
+      "id": "DELI_PANINI_MEXICAN",
+      "name": "멕시칸 파니니",
+      "price": 6900,
+      "category": "델리",
+      "group": "샌드위치"
+    },
+    "DELI_CROQUE_MONSIEUR": {
+      "id": "DELI_CROQUE_MONSIEUR",
+      "name": "크로크무슈",
+      "price": 4800,
+      "category": "델리",
+      "group": "샌드위치"
+    },
+    "DELI_BRIOSSE_EGGHAM": {
+      "id": "DELI_BRIOSSE_EGGHAM",
+      "name": "에그 햄박 브리오슈 번",
+      "price": 5900,
+      "category": "델리",
+      "group": "샌드위치"
+    },
+    "DELI_PANINI_CHICKEN_SALAD": {
+      "id": "DELI_PANINI_CHICKEN_SALAD",
+      "name": "참치 샐러드번",
+      "price": 0,
+      "category": "델리",
+      "group": "샌드위치"
+    },
+    "DELI_PANINI_EGG_SALAD": {
+      "id": "DELI_PANINI_EGG_SALAD",
+      "name": "에그 샐러드번",
+      "price": 0,
+      "category": "델리",
+      "group": "샌드위치"
+    },
+    "DELI_PANINI_PESTO_HAM_CHEESE": {
+      "id": "DELI_PANINI_PESTO_HAM_CHEESE",
+      "name": "페스토 햄치즈 파니니",
+      "price": 6900,
+      "category": "델리",
+      "group": "샌드위치"
+    },
+    "DELI_BAGEL_MAPLE_CHEDDAR_BACON": {
+      "id": "DELI_BAGEL_MAPLE_CHEDDAR_BACON",
+      "name": "메이플 체다 베이글",
+      "price": 5500,
+      "category": "델리",
+      "group": "샌드위치"
+    },
+    "DELI_FOCACCIA_GRILLED_ONION_CHEESE": {
+      "id": "DELI_FOCACCIA_GRILLED_ONION_CHEESE",
+      "name": "그릴드 어니언 치즈 포카치아",
+      "price": 5900,
+      "category": "델리",
+      "group": "샌드위치"
+    },
+    "DELI_PANINI_SHRIMP_BACON_Omelet": {
+      "id": "DELI_PANINI_SHRIMP_BACON_Omelet",
+      "name": "트러플 머쉬룸 오믈렛 파니니",
+      "price": 7300,
+      "category": "델리",
+      "group": "샌드위치"
+    },
+    "DELI_SANDWICH_SCRAMBLE_EGG": {
+      "id": "DELI_SANDWICH_SCRAMBLE_EGG",
+      "name": "스크램블 에그 샌드위치",
+      "price": 0,
+      "category": "델리",
+      "group": "샌드위치"
+    },
+    "DELI_PANINI_POTATO_SALAD": {
+      "id": "DELI_PANINI_POTATO_SALAD",
+      "name": "감자 샐러드번",
+      "price": 0,
+      "category": "델리",
+      "group": "샌드위치"
+    },
+    "DELI_HEAT_OPTION": {
+      "id": "DELI_HEAT_OPTION",
+      "name": "델리 데우기",
+      "price": 0,
+      "category": "델리",
+      "group": "샌드위치"
+    },
+    "SET_DELI_PANINI_BBQ_CHICKEN": {
+      "id": "SET_DELI_PANINI_BBQ_CHICKEN",
+      "name": "[세트]바베큐 치킨 파니니",
+      "price": 9600,
+      "category": "델리",
+      "group": "올데이"
+    },
+    "SET_DELI_ENGLISH_MUFFIN_SOFT_EGG": {
+      "id": "SET_DELI_ENGLISH_MUFFIN_SOFT_EGG",
+      "name": "[세트]부드러운 에그 잉글리쉬 머핀",
+      "price": 6600,
+      "category": "델리",
+      "group": "올데이"
+    },
+    "SET_DELI_RISOTTO_OVEN_TRUFFLE": {
+      "id": "SET_DELI_RISOTTO_OVEN_TRUFFLE",
+      "name": "[세트]오븐에 구운 트러플리소토",
+      "price": 8600,
+      "category": "델리",
+      "group": "올데이"
+    },
+    "SET_DELI_PANINI_BULGOGI_CHEESE_MELT": {
+      "id": "SET_DELI_PANINI_BULGOGI_CHEESE_MELT",
+      "name": "[세트]불고기 치즈 멜트 파니니",
+      "price": 9600,
+      "category": "델리",
+      "group": "올데이"
+    },
+    "SET_DELI_PANINI_MEXICAN": {
+      "id": "SET_DELI_PANINI_MEXICAN",
+      "name": "[세트]멕시칸 파니니",
+      "price": 9600,
+      "category": "델리",
+      "group": "올데이"
+    },
+    "SET_DELI_CROQUE_MONSIEUR": {
+      "id": "SET_DELI_CROQUE_MONSIEUR",
+      "name": "[세트]크로크무슈",
+      "price": 7500,
+      "category": "델리",
+      "group": "올데이"
+    },
+    "SET_DELI_BRIOCHE_BUN_EGG_HAM": {
+      "id": "SET_DELI_BRIOCHE_BUN_EGG_HAM",
+      "name": "[세트]에그 햄박 브리오슈 번",
+      "price": 8600,
+      "category": "델리",
+      "group": "올데이"
+    },
+    "SET_DELI_PANINI_BULDAK_CHEESE_MELT": {
+      "id": "SET_DELI_PANINI_BULDAK_CHEESE_MELT",
+      "name": "[세트]불닭 치즈 멜트 파니니",
+      "price": 9400,
+      "category": "델리",
+      "group": "올데이"
+    },
+    "SET_DELI_PANINI_PESTO_HAMCHEESE": {
+      "id": "SET_DELI_PANINI_PESTO_HAMCHEESE",
+      "name": "[세트]페스토 햄치즈 파니니",
+      "price": 9600,
+      "category": "델리",
+      "group": "올데이"
+    },
+    "SET_DELI_BAGEL_BACON_CHEDDAR": {
+      "id": "SET_DELI_BAGEL_BACON_CHEDDAR",
+      "name": "[세트]베이컨 체다 베이글",
+      "price": 8200,
+      "category": "델리",
+      "group": "올데이"
+    },
+    "SET_DELI_FOCACCIA_GRILLED_ONION_CHEESE": {
+      "id": "SET_DELI_FOCACCIA_GRILLED_ONION_CHEESE",
+      "name": "[세트]그릴드 어니언 치즈 포카치아",
+      "price": 8600,
+      "category": "델리",
+      "group": "올데이"
+    },
+    "SET_DELI_PANINI_TRUFFLE_MUSHROOM_OMELET": {
+      "id": "SET_DELI_PANINI_TRUFFLE_MUSHROOM_OMELET",
+      "name": "[세트]트러플 머쉬룸 오믈렛 파니니",
+      "price": 10000,
+      "category": "델리",
+      "group": "올데이"
+    },
+    "SET_DELI_SANDWICH_SCRAMBLE_EGG": {
+      "id": "SET_DELI_SANDWICH_SCRAMBLE_EGG",
+      "name": "[세트]스크램블 에그 샌드위치",
+      "price": 8200,
+      "category": "델리",
+      "group": "올데이"
+    },
+    "SET_DELI_FOCACCIA_OLIVE_HAMCHEESE": {
+      "id": "SET_DELI_FOCACCIA_OLIVE_HAMCHEESE",
+      "name": "[세트]올리브 햄치즈 포카치아",
+      "price": 8600,
+      "category": "델리",
+      "group": "올데이"
+    },
+    "SYRUP_VANILLA": {
+      "id": "SYRUP_VANILLA",
+      "name": "바닐라시럽",
+      "price": 800,
+      "category": "OPTION",
+      "group": "SYRUP",
+      "type": "option"
+    },
+    "SYRUP_HAZELNUT": {
+      "id": "SYRUP_HAZELNUT",
+      "name": "헤이즐넛 시럽",
+      "price": 800,
+      "category": "OPTION",
+      "group": "SYRUP",
+      "type": "option"
+    },
+    "SYRUP_CARAMEL": {
+      "id": "SYRUP_CARAMEL",
+      "name": "카라멜 시럽",
+      "price": 800,
+      "category": "OPTION",
+      "group": "SYRUP",
+      "type": "option"
+    },
+    "SIZE_UP_LARGE": {
+      "id": "SIZE_UP_LARGE",
+      "name": "라지 사이즈 업",
+      "price": 600,
+      "category": "OPTION",
+      "group": "SIZE",
+      "type": "option"
+    },
+    "BAKERY_BAGEL_CLASSIC": {
+      "id": "BAKERY_BAGEL_CLASSIC",
+      "name": "클래식 베이글",
+      "price": 3300,
+      "category": "베이커리",
+      "group": "빵"
+    },
+    "BAKERY_FINANCIER_CHOCOLATE_BATON": {
+      "id": "BAKERY_FINANCIER_CHOCOLATE_BATON",
+      "name": "초콜릿 바톤 휘낭시에",
+      "price": 2700,
+      "category": "베이커리",
+      "group": "빵"
+    },
+    "BAKERY_SCONE_BLUEBERRY": {
+      "id": "BAKERY_SCONE_BLUEBERRY",
+      "name": "블루베리 스콘",
+      "price": 3900,
+      "category": "베이커리",
+      "group": "빵"
+    },
+    "BAKERY_MADELEINE_BRIJIT_VANILLA_CHOCOLATE": {
+      "id": "BAKERY_MADELEINE_BRIJIT_VANILLA_CHOCOLATE",
+      "name": "브리저튼 뿌띠 마들렌(바닐라&초콜릿)",
+      "price": 7500,
+      "category": "베이커리",
+      "group": "빵"
+    },
+    "BAKERY_BAGEL_BLUEBERRY": {
+      "id": "BAKERY_BAGEL_BLUEBERRY",
+      "name": "블루베리 베이글",
+      "price": 3600,
+      "category": "베이커리",
+      "group": "빵"
+    },
+    "BAKERY_FINANCIER_HAZELNUT_BATON": {
+      "id": "BAKERY_FINANCIER_HAZELNUT_BATON",
+      "name": "헤이즐넛 바톤 휘낭시에",
+      "price": 2700,
+      "category": "베이커리",
+      "group": "빵"
+    },
+    "BAKERY_SCONE_FRESHCREAM_BUTTER": {
+      "id": "BAKERY_SCONE_FRESHCREAM_BUTTER",
+      "name": "생크림 버터 스콘",
+      "price": 3900,
+      "category": "베이커리",
+      "group": "빵"
+    },
+    "BAKERY_BAGEL_SALT_PRETZEL": {
+      "id": "BAKERY_BAGEL_SALT_PRETZEL",
+      "name": "소금 프레첼 베이글",
+      "price": 3800,
+      "category": "베이커리",
+      "group": "빵"
+    },
+    "BAKERY_COOKIE_WALNUT_CHOCOLATE": {
+      "id": "BAKERY_COOKIE_WALNUT_CHOCOLATE",
+      "name": "월넛 초콜릿 쿠키",
+      "price": 3000,
+      "category": "베이커리",
+      "group": "빵"
+    },
+    "BAKERY_CROISSANT_COCONUT_COVER": {
+      "id": "BAKERY_CROISSANT_COCONUT_COVER",
+      "name": "코코넛 커버 크루아상",
+      "price": 4500,
+      "category": "베이커리",
+      "group": "빵"
+    },
+    "BAKERY_BAGEL_OLIVE_CHEESE": {
+      "id": "BAKERY_BAGEL_OLIVE_CHEESE",
+      "name": "올리브 치즈 베이글",
+      "price": 3800,
+      "category": "베이커리",
+      "group": "빵"
+    },
+    "BAKERY_COOKIE_CHOCOLATE_MACADAMIA": {
+      "id": "BAKERY_COOKIE_CHOCOLATE_MACADAMIA",
+      "name": "초코 마카다미아 쿠키",
+      "price": 3000,
+      "category": "베이커리",
+      "group": "빵"
+    },
+    "BAKERY_CROISSANT_BLUEBERRY_ALMOND": {
+      "id": "BAKERY_CROISSANT_BLUEBERRY_ALMOND",
+      "name": "블루베리 아몬드 크루아상",
+      "price": 4500,
+      "category": "베이커리",
+      "group": "빵"
+    },
+    "BAKERY_SPREAD_PLAIN_CREAMCHEESE": {
+      "id": "BAKERY_SPREAD_PLAIN_CREAMCHEESE",
+      "name": "플레인 크림치즈 스프레드",
+      "price": 0,
+      "category": "베이커리",
+      "group": "빵"
+    },
+    "BAKERY_JAM_SMUCKERS_STRAWBERRY": {
+      "id": "BAKERY_JAM_SMUCKERS_STRAWBERRY",
+      "name": "스머것즈 딸기잼",
+      "price": 300,
+      "category": "베이커리",
+      "group": "빵"
+    },
+    "OPT_HEAT_NONE": {
+      "id": "OPT_HEAT_NONE",
+      "name": "데우지 않기",
+      "price": 0,
+      "category": "OPTION",
+      "group": "HEAT",
+      "type": "option"
+    },
+    "OPT_HEAT_DELI": {
+      "id": "OPT_HEAT_DELI",
+      "name": "델리 데우기",
+      "price": 0,
+      "category": "OPTION",
+      "group": "HEAT",
+      "type": "option"
+    },
+    "SNACK_BAR_SWEETPOTATO": {
+      "id": "SNACK_BAR_SWEETPOTATO",
+      "name": "고구마 바",
+      "price": 1400,
+      "category": "상품",
+      "group": "과자"
+    },
+    "SNACK_BAR_GRAHAMCOOKIE": {
+      "id": "SNACK_BAR_GRAHAMCOOKIE",
+      "name": "그림요거트 그램볼 라바",
+      "price": 1800,
+      "category": "상품",
+      "group": "과자"
+    },
+    "SNACK_BISCUIT_PIECE_CHOCO": {
+      "id": "SNACK_BISCUIT_PIECE_CHOCO",
+      "name": "픽업 초코 비스킷 바",
+      "price": 1700,
+      "category": "상품",
+      "group": "과자"
+    },
+    "SNACK_BISCUIT_PIECE_CHOCO_MILK": {
+      "id": "SNACK_BISCUIT_PIECE_CHOCO_MILK",
+      "name": "픽업 초코&밀크 비스킷 바",
+      "price": 1700,
+      "category": "상품",
+      "group": "과자"
+    },
+    "SNACK_BROWNIE_SEASONAL_PREMIUM_CHOCO": {
+      "id": "SNACK_BROWNIE_SEASONAL_PREMIUM_CHOCO",
+      "name": "식물성 프리미엄 초코 브라우니",
+      "price": 2500,
+      "category": "상품",
+      "group": "과자"
+    },
+    "SNACK_NUTS_AND_FRUITS": {
+      "id": "SNACK_NUTS_AND_FRUITS",
+      "name": "넛츠 앤 푸르츠",
+      "price": 2800,
+      "category": "상품",
+      "group": "과자"
+    },
+    "SNACK_BREAD_RUSK_CHOCOLATE": {
+      "id": "SNACK_BREAD_RUSK_CHOCOLATE",
+      "name": "촉촉한 우리 찐빵",
+      "price": 3200,
+      "category": "상품",
+      "group": "과자"
+    },
+    "SNACK_CANDY_STYLELAB_CANDY_PEACH": {
+      "id": "SNACK_CANDY_STYLELAB_CANDY_PEACH",
+      "name": "차일드론 캔디 배향",
+      "price": 3900,
+      "category": "상품",
+      "group": "과자"
+    },
+    "SNACK_CANDY_STYLELAB_CANDY_MINT": {
+      "id": "SNACK_CANDY_STYLELAB_CANDY_MINT",
+      "name": "차일드론 캔디 민트향",
+      "price": 3900,
+      "category": "상품",
+      "group": "과자"
+    },
+    "SNACK_SABLE_CHOCOLATE_PECAN": {
+      "id": "SNACK_SABLE_CHOCOLATE_PECAN",
+      "name": "초콜릿 피칸 사블레",
+      "price": 6500,
+      "category": "상품",
+      "group": "과자"
+    },
+    "SNACK_COOKIE_ALMOND_CRANBERRY": {
+      "id": "SNACK_COOKIE_ALMOND_CRANBERRY",
+      "name": "아몬드 크랜베리 쿠키",
+      "price": 6500,
+      "category": "상품",
+      "group": "과자"
+    },
+    "SNACK_COOKIE_GLUTENFREE_ALMOND_COCONUT": {
+      "id": "SNACK_COOKIE_GLUTENFREE_ALMOND_COCONUT",
+      "name": "글루텐 프리 아몬드 코코넛 튀일",
+      "price": 6500,
+      "category": "상품",
+      "group": "과자"
+    },
+    "SNACK_COOKIE_SET_3": {
+      "id": "SNACK_COOKIE_SET_3",
+      "name": "쿠키 선물 세트(3개입)",
+      "price": 20500,
+      "category": "상품",
+      "group": "과자"
+    },
+    "MD_TWG_FRENCH_EARLGREY": {
+      "id": "MD_TWG_FRENCH_EARLGREY",
+      "name": "TWG 프렌치 얼그레이",
+      "price": 39500,
+      "category": "MD",
+      "group": "원두,티 가공상품"
+    },
+    "MD_TWG_CHAMOMILE": {
+      "id": "MD_TWG_CHAMOMILE",
+      "name": "TWG 카모마일",
+      "price": 39500,
+      "category": "MD",
+      "group": "원두,티 가공상품"
+    },
+    "MD_TWG_GRAND_TEA": {
+      "id": "MD_TWG_GRAND_TEA",
+      "name": "TWG 그나와 티",
+      "price": 39500,
+      "category": "MD",
+      "group": "원두,티 가공상품"
+    },
+    "MD_TWG_CREAM_CARAMEL": {
+      "id": "MD_TWG_CREAM_CARAMEL",
+      "name": "TWG 크림 카라멜",
+      "price": 39500,
+      "category": "MD",
+      "group": "원두,티 가공상품"
+    },
+    "MD_TWG_ENGLISH_BREAKFAST": {
+      "id": "MD_TWG_ENGLISH_BREAKFAST",
+      "name": "TWG 잉글리쉬 브렉퍼스트 티",
+      "price": 39500,
+      "category": "MD",
+      "group": "원두,티 가공상품"
+    },
+    "MD_TWG_1837_BLACK_TEA": {
+      "id": "MD_TWG_1837_BLACK_TEA",
+      "name": "TWG 1837 블랙티",
+      "price": 39500,
+      "category": "MD",
+      "group": "원두,티 가공상품"
+    },
+    "MD_ALIST_HEADDRIP_BLACKROUND": {
+      "id": "MD_ALIST_HEADDRIP_BLACKROUND",
+      "name": "a-LIST헤드드립 블랙라운드",
+      "price": 6500,
+      "category": "MD",
+      "group": "원두,티 가공상품"
+    },
+    "MD_ALIST_CAPSULE_BLACKROUND": {
+      "id": "MD_ALIST_CAPSULE_BLACKROUND",
+      "name": "a-LIST캡슐커피 블랙라운드",
+      "price": 7600,
+      "category": "MD",
+      "group": "원두,티 가공상품"
+    },
+    "MD_ALIST_COLD_BREW_CONCENTRATE": {
+      "id": "MD_ALIST_COLD_BREW_CONCENTRATE",
+      "name": "a-LIST 콜드브루 원액",
+      "price": 14000,
+      "category": "MD",
+      "group": "원두,티 가공상품"
+    },
+    "MD_ALIST_HEADDRIP_AROMANOTE": {
+      "id": "MD_ALIST_HEADDRIP_AROMANOTE",
+      "name": "a-LIST헤드드립 아로마노트",
+      "price": 6500,
+      "category": "MD",
+      "group": "원두,티 가공상품"
+    },
+    "MD_ALIST_CAPSULE_AROMANOTE": {
+      "id": "MD_ALIST_CAPSULE_AROMANOTE",
+      "name": "a-LIST캡슐커피 아로마노트",
+      "price": 7800,
+      "category": "MD",
+      "group": "원두,티 가공상품"
+    },
+    "MD_ALIST_HEADDRIP_DECAF": {
+      "id": "MD_ALIST_HEADDRIP_DECAF",
+      "name": "a-LIST헤드드립 디카페인",
+      "price": 7000,
+      "category": "MD",
+      "group": "원두,티 가공상품"
+    },
+    "MD_ALIST_CAPSULE_DECAF": {
+      "id": "MD_ALIST_CAPSULE_DECAF",
+      "name": "a-LIST캡슐커피 디카페인",
+      "price": 8100,
+      "category": "MD",
+      "group": "원두,티 가공상품"
+    },
+    "MD_ALIST_STICK_COFFEE": {
+      "id": "MD_ALIST_STICK_COFFEE",
+      "name": "a-LIST스틱커피",
+      "price": 4800,
+      "category": "MD",
+      "group": "원두,티 가공상품"
+    },
+    "MD_ALIST_VANILLA_LATTE": {
+      "id": "MD_ALIST_VANILLA_LATTE",
+      "name": "a-LIST 바닐라 라떼",
+      "price": 6500,
+      "category": "MD",
+      "group": "원두,티 가공상품"
+    },
+    "MD_ALIST_STICK_COFFEE_DECAF": {
+      "id": "MD_ALIST_STICK_COFFEE_DECAF",
+      "name": "a-LIST스틱커피 디카페인",
+      "price": 5300,
+      "category": "MD",
+      "group": "원두,티 가공상품"
+    },
+    "MD_ALIST_CHOCOLATE_LATTE": {
+      "id": "MD_ALIST_CHOCOLATE_LATTE",
+      "name": "a-LIST 초콜릿 라떼",
+      "price": 7000,
+      "category": "MD",
+      "group": "원두,티 가공상품"
+    },
+    "MD_BEANS_BLACKROUND_200G": {
+      "id": "MD_BEANS_BLACKROUND_200G",
+      "name": "블랙라운드 원두 200g",
+      "price": 17000,
+      "category": "MD",
+      "group": "원두,티 가공상품"
+    },
+    "MD_BEANS_AROMANOTE_200G": {
+      "id": "MD_BEANS_AROMANOTE_200G",
+      "name": "아로마노트 원두 200g",
+      "price": 18000,
+      "category": "MD",
+      "group": "원두,티 가공상품"
+    },
+    "MD_BEANS_DECAF_200G": {
+      "id": "MD_BEANS_DECAF_200G",
+      "name": "디카페인원두 200g",
+      "price": 18000,
+      "category": "MD",
+      "group": "원두,티 가공상품"
+    },
+    "MD_TUMBLER_SIGNATURE_HANDLE_DIAMOND_ORANGE": {
+      "id": "MD_TUMBLER_SIGNATURE_HANDLE_DIAMOND_ORANGE",
+      "name": "시그니처 핸들텀블러(다이아오렌지)",
+      "price": 30000,
+      "category": "MD",
+      "group": "상시MD"
+    },
+    "MD_TUMBLER_SIGNATURE_HANDLE_PASTEL_YELLOW": {
+      "id": "MD_TUMBLER_SIGNATURE_HANDLE_PASTEL_YELLOW",
+      "name": "시그니처 핸들텀블러(파티옐로우)",
+      "price": 30000,
+      "category": "MD",
+      "group": "상시MD"
+    },
+    "MD_TUMBLER_SIGNATURE_HANDLE_SKY_BLUE": {
+      "id": "MD_TUMBLER_SIGNATURE_HANDLE_SKY_BLUE",
+      "name": "시그니처 핸들텀블러(스카이블루)",
+      "price": 30000,
+      "category": "MD",
+      "group": "상시MD"
+    },
+    "MD_TUMBLER_SIGNATURE_MAX_HANDLE_DIAMOND_ORANGE": {
+      "id": "MD_TUMBLER_SIGNATURE_MAX_HANDLE_DIAMOND_ORANGE",
+      "name": "시그니처 MAX 핸들텀블러(다이아오렌지)",
+      "price": 35000,
+      "category": "MD",
+      "group": "상시MD"
+    },
+    "MD_TUMBLER_SIGNATURE_MAX_HANDLE_PASTEL_YELLOW": {
+      "id": "MD_TUMBLER_SIGNATURE_MAX_HANDLE_PASTEL_YELLOW",
+      "name": "시그니처 MAX 핸들텀블러(파티옐로우)",
+      "price": 35000,
+      "category": "MD",
+      "group": "상시MD"
+    },
+    "MD_TUMBLER_SIGNATURE_MAX_HANDLE_SKY_BLUE": {
+      "id": "MD_TUMBLER_SIGNATURE_MAX_HANDLE_SKY_BLUE",
+      "name": "시그니처 MAX 핸들텀블러(스카이블루)",
+      "price": 35000,
+      "category": "MD",
+      "group": "상시MD"
+    },
+    "MD_BOTTLE_HF_MICRO_HIDE_320_WHITE": {
+      "id": "MD_BOTTLE_HF_MICRO_HIDE_320_WHITE",
+      "name": "HF 마이크로 하이드로 보틀(화이트)",
+      "price": 32000,
+      "category": "MD",
+      "group": "상시MD"
+    },
+    "MD_BOTTLE_HF_MICRO_HIDE_320_BLACK": {
+      "id": "MD_BOTTLE_HF_MICRO_HIDE_320_BLACK",
+      "name": "HF 마이크로 하이드로 보틀(블랙)",
+      "price": 32000,
+      "category": "MD",
+      "group": "상시MD"
+    },
+    "MD_BOTTLE_HF_MICRO_HIDE_320_OAT": {
+      "id": "MD_BOTTLE_HF_MICRO_HIDE_320_OAT",
+      "name": "HF 마이크로 하이드로 보틀(오트)",
+      "price": 32000,
+      "category": "MD",
+      "group": "상시MD"
+    },
+    "MD_BOTTLE_HF_MICRO_HIDE_320_AGAVE": {
+      "id": "MD_BOTTLE_HF_MICRO_HIDE_320_AGAVE",
+      "name": "HF 마이크로 하이드로 보틀(아가베)",
+      "price": 32000,
+      "category": "MD",
+      "group": "상시MD"
+    },
+    "MD_BOTTLE_HF_MICRO_HIDE_320_TEA_ROSE": {
+      "id": "MD_BOTTLE_HF_MICRO_HIDE_320_TEA_ROSE",
+      "name": "HF 마이크로 하이드로 보틀(티핑크)",
+      "price": 32000,
+      "category": "MD",
+      "group": "상시MD"
+    },
+    "MD_BOTTLE_HF_MICRO_HIDE_320_ALOE_GREEN": {
+      "id": "MD_BOTTLE_HF_MICRO_HIDE_320_ALOE_GREEN",
+      "name": "HF 마이크로 하이드로 보틀(알로에그린)",
+      "price": 32000,
+      "category": "MD",
+      "group": "상시MD"
+    },
+    "MD_BOTTLE_HF_TRAVEL_709_SUPER_BLUE": {
+      "id": "MD_BOTTLE_HF_TRAVEL_709_SUPER_BLUE",
+      "name": "HF 트래블 보틀 709mL(슈퍼블루)",
+      "price": 55000,
+      "category": "MD",
+      "group": "상시MD"
+    },
+    "MD_BOTTLE_HF_TRAVEL_709_ALOE_GREEN": {
+      "id": "MD_BOTTLE_HF_TRAVEL_709_ALOE_GREEN",
+      "name": "HF 트래블 보틀 709mL(알로에그린)",
+      "price": 55000,
+      "category": "MD",
+      "group": "상시MD"
+    },
+    "MD_MUG_NAVY_HANDLE": {
+      "id": "MD_MUG_NAVY_HANDLE",
+      "name": "핸들락 텀블러_네이비",
+      "price": 26000,
+      "category": "MD",
+      "group": "상시MD"
+    },
+    "MD_MUG_PEARL_HANDLE": {
+      "id": "MD_MUG_PEARL_HANDLE",
+      "name": "핸들락 텀블러_퍼플",
+      "price": 26000,
+      "category": "MD",
+      "group": "상시MD"
+    },
+    "MD_STAGE_MUG_GREY": {
+      "id": "MD_STAGE_MUG_GREY",
+      "name": "N 베이지 스테이지 스 머그(그레이)",
+      "price": 17000,
+      "category": "MD",
+      "group": "상시MD"
+    },
+    "MD_TUMBLER_MAX_STEEL": {
+      "id": "MD_TUMBLER_MAX_STEEL",
+      "name": "투썸 MAX 스틸 텀블러",
+      "price": 27000,
+      "category": "MD",
+      "group": "상시MD"
+    }
+  },
+  "ui": {
+    "topTabs": [
+      {
+        "id": "CAT_COFFEE",
+        "label": "커피&음료"
+      },
+      {
+        "id": "CAT_ICE",
+        "label": "아이스크림&빙수"
+      },
+      {
+        "id": "CAT_CAKE",
+        "label": "케이크"
+      },
+      {
+        "id": "CAT_DELI",
+        "label": "델리"
+      },
+      {
+        "id": "CAT_BAKERY",
+        "label": "베이커리"
+      },
+      {
+        "id": "CAT_GOODS",
+        "label": "상품"
+      },
+      {
+        "id": "CAT_MD",
+        "label": "MD"
+      }
+    ],
+    "topTabPager": {
+      "prevAction": "TOPTAB_PREV",
+      "nextAction": "TOPTAB_NEXT"
+    },
+    "subTabsByTopTab": {
+      "CAT_COFFEE": [
+        {
+          "id": "SUB_ESPRESSO_VAR",
+          "label": "에스프레소 베리에이션"
+        },
+        {
+          "id": "SUB_TEA_VAR",
+          "label": "티 베리에이션"
+        },
+        {
+          "id": "SUB_DRINK",
+          "label": "음료"
+        },
+        {
+          "id": "SUB_BOTTLE",
+          "label": "병음료"
+        }
+      ],
+      "CAT_ICE": [
+        {
+          "id": "SUB_ICE",
+          "label": "아이스크림"
+        }
+      ],
+      "CAT_CAKE": [
+        {
+          "id": "SUB_PIECE",
+          "label": "피스케이크"
+        },
+        {
+          "id": "SUB_ETC",
+          "label": "초/기타"
+        },
+        {
+          "id": "SUB_WHOLE",
+          "label": "홀케이크"
+        },
+        {
+          "id": "SUB_SEASON",
+          "label": "시즌케이크"
+        },
+        {
+          "id": "SUB_DESSERT",
+          "label": "디저트"
+        }
+      ],
+      "CAT_DELI": [
+        {
+          "id": "SUB_SANDWICH",
+          "label": "샌드위치"
+        },
+        {
+          "id": "SUB_ALLDAY",
+          "label": "올데이"
+        }
+      ],
+      "CAT_BAKERY": [
+        {
+          "id": "SUB_BREAD",
+          "label": "빵"
+        }
+      ],
+      "CAT_GOODS": [
+        {
+          "id": "SUB_SNACK",
+          "label": "과자"
+        }
+      ],
+      "CAT_MD": [
+        {
+          "id": "SUB_MD_BEANS_TEA_PROCESSED",
+          "label": "원두,티 가공상품"
+        },
+        {
+          "id": "SUB_MD_ALWAYS",
+          "label": "상시MD"
+        },
+        {
+          "id": "SUB_MD_SEASON",
+          "label": "시즌MD"
+        }
+      ]
+    },
+    "subTabPager": {
+      "prevAction": "SUBTAB_PREV",
+      "nextAction": "SUBTAB_NEXT"
+    },
+    "pages": {
+      "CAT_COFFEE|SUB_ESPRESSO_VAR": [
+        {
+          "screenId": "menu1-1-1",
+          "label": "1/2"
+        },
+        {
+          "screenId": "menu1-1-2",
+          "label": "2/2"
+        }
+      ],
+      "CAT_COFFEE|SUB_TEA_VAR": [
+        {
+          "screenId": "menu1-2",
+          "label": "1/1"
+        }
+      ],
+      "CAT_COFFEE|SUB_DRINK": [
+        {
+          "screenId": "menu1-3",
+          "label": "1/1"
+        }
+      ],
+      "CAT_COFFEE|SUB_BOTTLE": [
+        {
+          "screenId": "menu1-4",
+          "label": "1/1"
+        }
+      ],
+      "CAT_ICE|SUB_ICE": [
+        {
+          "screenId": "menu2-1",
+          "label": "1/1"
+        }
+      ],
+      "CAT_CAKE|SUB_PIECE": [
+        {
+          "screenId": "menu3-1",
+          "label": "1/1"
+        }
+      ],
+      "CAT_CAKE|SUB_ETC": [
+        {
+          "screenId": "menu3-2",
+          "label": "1/1"
+        }
+      ],
+      "CAT_CAKE|SUB_WHOLE": [
+        {
+          "screenId": "menu3-3",
+          "label": "1/2"
+        },
+        {
+          "screenId": "menu3-3-1",
+          "label": "2/2"
+        }
+      ],
+      "CAT_CAKE|SUB_SEASON": [
+        {
+          "screenId": "menu3-4",
+          "label": "1/1"
+        }
+      ],
+      "CAT_CAKE|SUB_DESSERT": [
+        {
+          "screenId": "menu3-5",
+          "label": "1/1"
+        }
+      ],
+      "CAT_DELI|SUB_SANDWICH": [
+        {
+          "screenId": "menu4",
+          "label": "1/1"
+        }
+      ],
+      "CAT_DELI|SUB_ALLDAY": [
+        {
+          "screenId": "menu4-1",
+          "label": "1/1"
+        }
+      ],
+      "CAT_BAKERY|SUB_BREAD": [
+        {
+          "screenId": "menu5",
+          "label": "1/1"
+        }
+      ],
+      "CAT_GOODS|SUB_SNACK": [
+        {
+          "screenId": "menu6",
+          "label": "1/1"
+        }
+      ],
+      "CAT_MD|SUB_MD_BEANS_TEA_PROCESSED": [
+        {
+          "screenId": "menu7-1",
+          "label": "1/1"
+        }
+      ],
+      "CAT_MD|SUB_MD_ALWAYS": [
+        {
+          "screenId": "menu7-2",
+          "label": "1/1"
+        }
+      ]
+    }
+  },
+  "screensById": {
+    "menu1-1-1": {
+      "screenId": "menu1-1-1",
+      "cells": [
+        {
+          "id": "AMERICANO_R"
+        },
+        {
+          "id": "CAFE_LATTE_R"
+        },
+        {
+          "id": "CAPPUCCINO_R"
+        },
+        {
+          "id": "VANILLA_LATTE_R"
+        },
+        {
+          "id": "CAFE_MOCHA_R"
+        },
+        {
+          "id": "CARAMEL_MACCHIATO_R"
+        },
+        {
+          "id": "COLD_BREW"
+        },
+        {
+          "id": "COLD_BREW_LATTE"
+        },
+        {
+          "id": "DECAF_COLD_BREW"
+        },
+        {
+          "id": "DECAF_COLD_BREW_LATTE"
+        },
+        {
+          "id": "VANILLA_BEAN_COLD_BREW_LATTE"
+        },
+        {
+          "id": "DECAF_COLD_BREW_CREAM_LATTE"
+        },
+        {
+          "id": "PEACH_ASHOTCHU"
+        },
+        {
+          "id": "MINT_ASHOTCHU"
+        },
+        {
+          "id": "APPLE_ASHOTCHU"
+        },
+        {
+          "id": "BANANA_SHOT_LATTE"
+        },
+        {
+          "id": "BANANA_SHOT_AMERICANO"
+        },
+        {
+          "id": "PISTACHIO_CHOC_MOCHA"
+        },
+        {
+          "id": "ESPRESSO"
+        },
+        {
+          "id": "SHORT_LATTE"
+        },
+        {
+          "id": "LONG_BLACK"
+        },
+        {
+          "id": "VANILLA_BEAN_LATTE"
+        },
+        {
+          "id": "SPANISH_CONDENSED_LATTE"
+        },
+        {
+          "id": "OAT_WHITE_LATTE"
+        },
+        {
+          "id": "ADDON_DECAF_BEAN"
+        },
+        {
+          "id": "ADDON_SIZE_LARGE"
+        },
+        {
+          "id": "ADDON_SIZE_MAX"
+        },
+        {
+          "id": "EVENT_LUCKYDRAW_2026"
+        },
+        {
+          "id": "CARRIER"
+        },
+        {
+          "id": "NAV_NEXT"
+        }
+      ]
+    },
+    "menu1-1-2": {
+      "screenId": "menu1-1-2",
+      "cells": [
+        {
+          "id": "SUGAR_LIGHT"
+        },
+        {
+          "id": "SUGAR_NORMAL"
+        },
+        {
+          "id": "SUGAR_NONE"
+        },
+        {
+          "id": "SUGAR_HAZELNUT"
+        },
+        {
+          "id": "MILK_OAT"
+        },
+        {
+          "id": "ADD_SHOT"
+        },
+        {
+          "id": "WHIP_NONE"
+        },
+        {
+          "id": "WHIP_LESS"
+        },
+        {
+          "id": "WHIP_MORE"
+        },
+        {
+          "id": "WHIP_CREAM"
+        },
+        {
+          "id": "TUMBLER_DISCOUNT"
+        },
+        {
+          "id": "CHANGE_MILK"
+        },
+        {
+          "id": "ICE_NONE"
+        },
+        {
+          "id": "ICE_LESS"
+        },
+        {
+          "id": "ICE_MORE"
+        },
+        null,
+        null,
+        null,
+        {
+          "id": "WATER_NONE"
+        },
+        {
+          "id": "WATER_LESS"
+        },
+        {
+          "id": "WATER_MORE"
+        },
+        {
+          "id": "TEMP_LUKEWARM"
+        },
+        {
+          "id": "TEMP_HOT"
+        },
+        {
+          "id": "PERSONAL_CUP"
+        },
+        {
+          "id": "FOAM_NONE"
+        },
+        {
+          "id": "FOAM_LESS"
+        },
+        {
+          "id": "FOAM_MORE"
+        },
+        {
+          "id": "MILK_LESS"
+        },
+        {
+          "id": "MILK_MORE"
+        },
+        {
+          "id": "NAV_PREV"
+        }
+      ]
+    },
+    "menu1-2": {
+      "screenId": "menu1-2",
+      "cells": [
+        {
+          "id": "TEA_CHAMOMILE"
+        },
+        {
+          "id": "TEA_GUNIWA_MINT"
+        },
+        {
+          "id": "TEA_EARL_GREY"
+        },
+        {
+          "id": "TEA_CREAM_CARAMEL"
+        },
+        {
+          "id": "TEA_JEJU_ORGANIC_GREEN"
+        },
+        null,
+        {
+          "id": "TEA_HONEY_LEMON"
+        },
+        {
+          "id": "TEA_APPLE_MINT"
+        },
+        {
+          "id": "TEA_ORANGE_GRAPEFRUIT"
+        },
+        {
+          "id": "TEA_YUJA_LEMON"
+        },
+        {
+          "id": "TEA_YUJA_GINGER"
+        },
+        null,
+        {
+          "id": "GREEN_TEA_LATTE"
+        },
+        {
+          "id": "ROYAL_MILK_TEA"
+        },
+        {
+          "id": "ICEBELL_ROYAL_MILK_TEA"
+        },
+        {
+          "id": "ICEBELL_GREEN_TEA_LATTE"
+        },
+        {
+          "id": "TEA_ROOIBOS_STRESS"
+        },
+        {
+          "id": "ROOIBOS_VANILLA_BEAN_MILK_TEA"
+        },
+        {
+          "id": "MATCHA_CREAM_LATTE"
+        },
+        {
+          "id": "WONDER_BANGSHO"
+        },
+        {
+          "id": "BANGSHO_MILK_SUGAR"
+        },
+        {
+          "id": "ROASTED_CHESTNUT_LATTE"
+        },
+        {
+          "id": "OUR_RICE_SHOT_ICED_ONLY"
+        },
+        {
+          "id": "OUR_JUJUBE_SUJEONGGWA"
+        },
+        {
+          "id": "ICETEA_PEACH"
+        },
+        {
+          "id": "ICETEA_APPLE"
+        },
+        {
+          "id": "ICETEA_MINT"
+        },
+        {
+          "id": "ADDON_BUBBLE"
+        },
+        {
+          "id": "CARRIER"
+        },
+        {
+          "id": "NAV_NEXT"
+        }
+      ]
+    },
+    "menu1-3": {
+      "screenId": "menu1-3",
+      "cells": [
+        {
+          "id": "DRINK_STRAWBERRY_PEACH_FRAPPE"
+        },
+        {
+          "id": "DRINK_YOGURT_FRAPPE"
+        },
+        {
+          "id": "DRINK_MINT_CHOCO_LATTE"
+        },
+        {
+          "id": "DRINK_COFFEE_COOKIE_FRAPPE"
+        },
+        {
+          "id": "DRINK_APPLEMANGO_PEACH_FRAPPE"
+        },
+        {
+          "id": "DRINK_STRAWBERRY_TOBUK_LATTE"
+        },
+        {
+          "id": "DRINK_VANILLA_MILK_SHAKE"
+        },
+        {
+          "id": "DRINK_COOKIE_SHAKE"
+        },
+        {
+          "id": "DRINK_MILKY_TEA_SHAKE"
+        },
+        {
+          "id": "DRINK_PISTACHIO_CHOCO_GELATO_SHAKE"
+        },
+        null,
+        {
+          "id": "DRINK_STRAWBERRY_TOBUK_JUICE"
+        },
+        {
+          "id": "DRINK_MILK"
+        },
+        {
+          "id": "DRINK_CHOCO_LATTE"
+        },
+        {
+          "id": "DRINK_SWEET_POTATO_LATTE"
+        },
+        {
+          "id": "DRINK_BLACK_SESAME_MISUGARU_LATTE"
+        },
+        {
+          "id": "DRINK_BLUEBERRY_YOGURT"
+        },
+        {
+          "id": "DRINK_STRAWBERRY_MILK_SHAKE"
+        },
+        {
+          "id": "DRINK_HONEY_LEMON_ADE"
+        },
+        {
+          "id": "DRINK_GRAPEFRUIT_ADE"
+        },
+        {
+          "id": "DRINK_ORANGE_ADE"
+        },
+        {
+          "id": "DRINK_SHINE_MUSCAT_GRAPEFRUIT_ADE"
+        },
+        {
+          "id": "DRINK_PEACH_ADE"
+        },
+        {
+          "id": "DRINK_STRAWBERRY_BANANA_SHAKE"
+        },
+        {
+          "id": "DRINK_ORANGE_TOBUK_JUICE"
+        },
+        {
+          "id": "DRINK_APPLEMANGO_TOBUK_JUICE"
+        },
+        {
+          "id": "DRINK_JEJU_CARROT_TOBUK_JUICE"
+        },
+        {
+          "id": "DRINK_HONG_SI_JUICE_ICED_ONLY"
+        },
+        {
+          "id": "DRINK_PEACH_TOBUK_JUICE"
+        },
+        null
+      ]
+    },
+    "menu1-4": {
+      "screenId": "menu1-4",
+      "cells": [
+        {
+          "id": "BOTTLE_SANGHA_ORGANIC_JUICE_APPLE"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "BOTTLE_SANGHA_ORGANIC_JUICE_GRAPE"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "BOTTLE_SANGHA_ORGANIC_MILK"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "menu2-1": {
+      "screenId": "menu2-1",
+      "cells": [
+        {
+          "id": "ICE_MONAKA_MILK"
+        },
+        {
+          "id": "ICE_VANILLA_AFFOGATO"
+        },
+        {
+          "id": "ICE_CROPLE"
+        },
+        {
+          "id": "ICE_TWO_BROWNIE"
+        },
+        null,
+        {
+          "id": "ICE_SPOON"
+        },
+        {
+          "id": "ICE_MONAKA_STRAWBERRY_CHOCO"
+        },
+        null,
+        {
+          "id": "ICE_TWOSOME_CROPLE_SET"
+        },
+        {
+          "id": "ICE_TOPPING_CHOC"
+        },
+        null,
+        {
+          "id": "ICE_FORK"
+        },
+        null,
+        null,
+        {
+          "id": "ICE_SINGLE_SYRUP"
+        },
+        {
+          "id": "ICE_ADD_SHOT"
+        },
+        null,
+        {
+          "id": "PAPER_BAG_SMALL"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "PAPER_BAG_LARGE"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "NAV_NEXT"
+        }
+      ]
+    },
+    "menu3-1": {
+      "screenId": "menu3-1",
+      "cells": [
+        {
+          "id": "CAKE_SPOONABLE_PEACH"
+        },
+        {
+          "id": "CAKE_VANILLA_CROQUANT_LONG_SOU"
+        },
+        {
+          "id": "CAKE_P_NY_CHEESE"
+        },
+        {
+          "id": "CAKE_P_SWEETPOTATO_CREAM"
+        },
+        {
+          "id": "CAKE_OVAL_TIRAMISU_PETIT"
+        },
+        {
+          "id": "CAKE_CORN_CREAM_PETIT"
+        },
+        {
+          "id": "CAKE_SPOONABLE_MALCHA_ABAK"
+        },
+        {
+          "id": "CAKE_P_STRAWBERRY_CREAM"
+        },
+        {
+          "id": "CAKE_P_GRUYERE_CHEESE_MOUSSE"
+        },
+        {
+          "id": "CAKE_P_TWG_EARLGREY_MILK_CHIFFON"
+        },
+        {
+          "id": "CAKE_PAVE_CHOC_PETIT"
+        },
+        {
+          "id": "CAKE_CHOCOL_SAENG_PETIT"
+        },
+        {
+          "id": "CAKE_SPOONABLE_ABAK_STAR"
+        },
+        {
+          "id": "CAKE_SPOONABLE_CHOCHO_SAENG_STAR"
+        },
+        {
+          "id": "CAKE_P_RED_VELVET"
+        },
+        {
+          "id": "CAKE_P_QUEENS_CARROT"
+        },
+        {
+          "id": "CAKE_BLUEBERRY_YOGURT_CREAM_PETIT"
+        },
+        {
+          "id": "CAKE_BRISER_EARLGREY_PETIT"
+        },
+        {
+          "id": "CAKE_SPOONABLE_MANGO_SAENG"
+        },
+        {
+          "id": "CAKE_SPOONABLE_WHITE_CHOCO_SAENG"
+        },
+        {
+          "id": "CAKE_P_BASQUE_CHEESE_GORGONZOLA"
+        },
+        {
+          "id": "CAKE_P_CLASSIC_GATEAU_CHOCOLAT"
+        },
+        null,
+        null,
+        {
+          "id": "CAKE_SPOONABLE_MASCARPONE_TIRAMISU"
+        },
+        {
+          "id": "CAKE_STRAWBERRY_MILK_CREAM_PETIT"
+        },
+        null,
+        null,
+        {
+          "id": "CAKE_FORK"
+        },
+        {
+          "id": "NAV_NEXT"
+        }
+      ]
+    },
+    "menu3-2": {
+      "screenId": "menu3-2",
+      "cells": [
+        {
+          "id": "CANDLE_NUMBER_0"
+        },
+        {
+          "id": "CANDLE_NUMBER_5"
+        },
+        {
+          "id": "CANDLE_HEART_RED"
+        },
+        {
+          "id": "CANDLE_HAPPYDAY_HAT"
+        },
+        null,
+        {
+          "id": "CANDLE_NUMBER_1"
+        },
+        {
+          "id": "CANDLE_NUMBER_6"
+        },
+        {
+          "id": "CANDLE_TWOSOME_GAMMA"
+        },
+        {
+          "id": "CANDLE_FRESH_CREAM"
+        },
+        null,
+        {
+          "id": "CANDLE_NUMBER_2"
+        },
+        {
+          "id": "CANDLE_NUMBER_7"
+        },
+        {
+          "id": "CANDLE_TWOSOME_HBD"
+        },
+        null,
+        null,
+        {
+          "id": "CANDLE_NUMBER_3"
+        },
+        {
+          "id": "CANDLE_NUMBER_8"
+        },
+        {
+          "id": "CANDLE_TWOSOME_ILOVEYOU"
+        },
+        null,
+        null,
+        {
+          "id": "CANDLE_NUMBER_4"
+        },
+        {
+          "id": "CANDLE_NUMBER_9"
+        },
+        {
+          "id": "CANDLE_TWOSOME_BIRTHDAY"
+        },
+        null,
+        null,
+        {
+          "id": "DISPOSABLE_FORK"
+        },
+        {
+          "id": "DISPOSABLE_KNIFE"
+        },
+        {
+          "id": "PAPER_BAG_SMALL"
+        },
+        {
+          "id": "PAPER_BAG_LARGE"
+        }
+      ]
+    },
+    "menu3-3-1": {
+      "screenId": "menu3-3-1",
+      "cells": [
+        {
+          "id": "CAKE_WHOLE_SHA_CHO_SAENG"
+        },
+        {
+          "id": "CAKE_WHOLE_SO_CHO_SAENG_FRAISIER"
+        },
+        {
+          "id": "CAKE_PARTYPACK_ABAK"
+        },
+        {
+          "id": "CAKE_PARTYPACK_SO_CHO_SAENG"
+        },
+        null,
+        null,
+        {
+          "id": "CAKE_WHOLE_WHITE_SHA_CHO_SAENG"
+        },
+        {
+          "id": "CAKE_WHOLE_SO_CHO_SAENG_2TIER"
+        },
+        {
+          "id": "CAKE_PARTYPACK_MATCHA_ABAK"
+        },
+        {
+          "id": "CAKE_PARTYPACK_PEACH_SAENG"
+        },
+        null,
+        {
+          "id": "CANDLE_BIG"
+        },
+        null,
+        null,
+        {
+          "id": "CAKE_PARTYPACK_MASCARPONE_TIRAMISU"
+        },
+        {
+          "id": "CAKE_PARTYPACK_MANGO_SAENG"
+        },
+        null,
+        {
+          "id": "CANDLE_SMALL"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "CAKE_BOX_PLASTIC_BAG"
+        }
+      ]
+    },
+    "menu3-3": {
+      "screenId": "menu3-3",
+      "cells": [
+        {
+          "id": "CAKE_WHOLE_STRAWBERRY_FRESHCREAM"
+        },
+        {
+          "id": "CAKE_WHOLE_SWEETPOTATO_FRESHCREAM"
+        },
+        {
+          "id": "CAKE_WHOLE_NEWYORK_CHEESE"
+        },
+        {
+          "id": "CAKE_WHOLE_BLUEBERRY_YOGURT_FRESHCREAM"
+        },
+        {
+          "id": "CAKE_WHOLE_HAPPYDAY_BEAR"
+        },
+        {
+          "id": "CAKE_WHOLE_BASQUE_GORGONZOLA"
+        },
+        {
+          "id": "CAKE_WHOLE_STRAWBERRY_FRESHCREAM_CLASSIC"
+        },
+        {
+          "id": "CAKE_WHOLE_BLACK_GRUYERE_CHEESE_1HO"
+        },
+        {
+          "id": "CAKE_WHOLE_RED_VELVET"
+        },
+        {
+          "id": "CAKE_WHOLE_MANGO_FRESHCREAM"
+        },
+        {
+          "id": "CAKE_WHOLE_PAVE_CHOCOLATE"
+        },
+        {
+          "id": "CAKE_WHOLE_BRIJIT_EARLGREY"
+        },
+        {
+          "id": "CAKE_WHOLE_STRAWBERRY_CHOCOLATE_FRESHCREAM"
+        },
+        {
+          "id": "CAKE_WHOLE_OVAL_TIRAMISU"
+        },
+        {
+          "id": "CAKE_WHOLE_QUEENS_CARROT"
+        },
+        {
+          "id": "CAKE_WHOLE_CHOCOLATE_FRESHCREAM"
+        },
+        {
+          "id": "CAKE_WHOLE_CLASSIC_GATEAU_CHOCOLAT"
+        },
+        {
+          "id": "CANDLE_BIG"
+        },
+        {
+          "id": "CAKE_WHOLE_WHITE_STRAWBERRY_CHOCOLATE_FRESHCREAM"
+        },
+        {
+          "id": "CAKE_WHOLE_MICKEY_MASCARPONE_CHOCO_FRESHCREAM"
+        },
+        {
+          "id": "CAKE_WHOLE_MY_TWOSOME_HEART"
+        },
+        null,
+        {
+          "id": "CAKE_WHOLE_ABAK"
+        },
+        {
+          "id": "CANDLE_SMALL"
+        },
+        {
+          "id": "CAKE_WHOLE_FRUIT_DUO_STRAWBERRY_MANGO"
+        },
+        {
+          "id": "CAKE_WHOLE_TWG_EARLGREY_MILKTEA_CHIFFON"
+        },
+        {
+          "id": "CAKE_WHOLE_MY_TWOSOME_HEART_DUO"
+        },
+        null,
+        {
+          "id": "CAKE_WHOLE_MATCHA_ABAK"
+        },
+        null
+      ]
+    },
+    "menu3-4": {
+      "screenId": "menu3-4",
+      "cells": [
+        {
+          "id": "CAKE_SEASON_MARSHMALLOW_CHOCO"
+        },
+        {
+          "id": "CAKE_SEASON_TWOSOME_SAENG_II_SPECIAL_EDITION"
+        },
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "CAKE_SEASON_STRAWBERRY_MILK_FRESHCREAM"
+        },
+        {
+          "id": "CAKE_SEASON_MATCHA_SO_CHO_SAENG"
+        },
+        null,
+        null,
+        null,
+        {
+          "id": "CANDLE_BIG"
+        },
+        {
+          "id": "CAKE_SEASON_STRAWBERRY_MATCHA_GANACHE"
+        },
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "CANDLE_SMALL"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "CAKE_BOX_PLASTIC_BAG"
+        }
+      ]
+    },
+    "menu3-5": {
+      "screenId": "menu3-5",
+      "cells": [
+        {
+          "id": "DESSERT_MACARON_MADAGASCAR_VANILLA"
+        },
+        {
+          "id": "DESSERT_MACARON_GRAPE_YOGURT"
+        },
+        {
+          "id": "DESSERT_MACARON_SET_6"
+        },
+        null,
+        null,
+        {
+          "id": "PAPER_BAG_SMALL"
+        },
+        {
+          "id": "DESSERT_MACARON_SANPEEL"
+        },
+        {
+          "id": "DESSERT_MACARON_HWANGCHI"
+        },
+        {
+          "id": "DESSERT_MACARON_SET_12"
+        },
+        null,
+        null,
+        {
+          "id": "PAPER_BAG_LARGE"
+        },
+        {
+          "id": "DESSERT_MACARON_CHOCOLATE"
+        },
+        {
+          "id": "DESSERT_MACARON_BLUEBERRY"
+        },
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "menu4-1": {
+      "screenId": "menu4-1",
+      "cells": [
+        {
+          "id": "SET_DELI_PANINI_BBQ_CHICKEN"
+        },
+        {
+          "id": "SET_DELI_ENGLISH_MUFFIN_SOFT_EGG"
+        },
+        {
+          "id": "SET_DELI_RISOTTO_OVEN_TRUFFLE"
+        },
+        {
+          "id": "SET_DELI_PANINI_BULGOGI_CHEESE_MELT"
+        },
+        {
+          "id": "SYRUP_VANILLA"
+        },
+        {
+          "id": "DISPOSABLE_FORK"
+        },
+        {
+          "id": "SET_DELI_PANINI_MEXICAN"
+        },
+        {
+          "id": "SET_DELI_CROQUE_MONSIEUR"
+        },
+        {
+          "id": "SET_DELI_BRIOCHE_BUN_EGG_HAM"
+        },
+        {
+          "id": "SET_DELI_PANINI_BULDAK_CHEESE_MELT"
+        },
+        {
+          "id": "SYRUP_HAZELNUT"
+        },
+        {
+          "id": "DISPOSABLE_KNIFE"
+        },
+        {
+          "id": "SET_DELI_PANINI_PESTO_HAMCHEESE"
+        },
+        {
+          "id": "SET_DELI_BAGEL_BACON_CHEDDAR"
+        },
+        {
+          "id": "SET_DELI_FOCACCIA_GRILLED_ONION_CHEESE"
+        },
+        null,
+        {
+          "id": "SYRUP_CARAMEL"
+        },
+        {
+          "id": "DELI_HEAT_OPTION"
+        },
+        {
+          "id": "SET_DELI_PANINI_TRUFFLE_MUSHROOM_OMELET"
+        },
+        {
+          "id": "SET_DELI_SANDWICH_SCRAMBLE_EGG"
+        },
+        {
+          "id": "SET_DELI_FOCACCIA_OLIVE_HAMCHEESE"
+        },
+        null,
+        {
+          "id": "SIZE_UP_LARGE"
+        },
+        {
+          "id": "PAPER_BAG_LARGE"
+        }
+      ]
+    },
+    "menu4": {
+      "screenId": "menu4",
+      "cells": [
+        {
+          "id": "DELI_PANINI_BBQ_CHICKEN"
+        },
+        {
+          "id": "DELI_WRAP_SOFT_EGG_MILK"
+        },
+        {
+          "id": "DELI_MUFFIN_OVEN_BAKED"
+        },
+        {
+          "id": "DELI_PANINI_BULGOGI_CHEESE"
+        },
+        null,
+        {
+          "id": "DISPOSABLE_FORK"
+        },
+        {
+          "id": "DELI_PANINI_MEXICAN"
+        },
+        {
+          "id": "DELI_CROQUE_MONSIEUR"
+        },
+        {
+          "id": "DELI_BRIOSSE_EGGHAM"
+        },
+        {
+          "id": "DELI_PANINI_SPICY_CHEESE_BULDAK"
+        },
+        null,
+        {
+          "id": "DISPOSABLE_KNIFE"
+        },
+        {
+          "id": "DELI_PANINI_PESTO_HAM_CHEESE"
+        },
+        {
+          "id": "DELI_BAGEL_MAPLE_CHEDDAR_BACON"
+        },
+        {
+          "id": "DELI_FOCACCIA_GRILLED_ONION_CHEESE"
+        },
+        null,
+        {
+          "id": "DELI_PANINI_CHICKEN_SALAD"
+        },
+        {
+          "id": "DELI_HEAT_OPTION"
+        },
+        {
+          "id": "DELI_PANINI_SHRIMP_BACON_Omelet"
+        },
+        {
+          "id": "DELI_SANDWICH_SCRAMBLE_EGG"
+        },
+        {
+          "id": "DELI_FOCACCIA_GRILLED_ONION_CHEESE"
+        },
+        null,
+        {
+          "id": "DELI_PANINI_EGG_SALAD"
+        },
+        {
+          "id": "PAPER_BAG_SMALL"
+        }
+      ]
+    },
+    "menu5": {
+      "screenId": "menu5",
+      "cells": [
+        {
+          "id": "BAKERY_BAGEL_CLASSIC"
+        },
+        {
+          "id": "BAKERY_FINANCIER_CHOCOLATE_BATON"
+        },
+        {
+          "id": "BAKERY_SCONE_BLUEBERRY"
+        },
+        {
+          "id": "BAKERY_MADELEINE_BRIJIT_VANILLA_CHOCOLATE"
+        },
+        {
+          "id": "OPT_HEAT_NONE"
+        },
+        {
+          "id": "BAKERY_BAGEL_BLUEBERRY"
+        },
+        {
+          "id": "BAKERY_FINANCIER_HAZELNUT_BATON"
+        },
+        {
+          "id": "BAKERY_SCONE_FRESHCREAM_BUTTER"
+        },
+        null,
+        {
+          "id": "OPT_HEAT_DELI"
+        },
+        {
+          "id": "BAKERY_BAGEL_SALT_PRETZEL"
+        },
+        {
+          "id": "BAKERY_COOKIE_WALNUT_CHOCOLATE"
+        },
+        {
+          "id": "BAKERY_CROISSANT_COCONUT_COVER"
+        },
+        null,
+        null,
+        {
+          "id": "BAKERY_BAGEL_OLIVE_CHEESE"
+        },
+        {
+          "id": "BAKERY_COOKIE_CHOCOLATE_MACADAMIA"
+        },
+        {
+          "id": "BAKERY_CROISSANT_BLUEBERRY_ALMOND"
+        },
+        null,
+        {
+          "id": "PAPER_BAG_SMALL"
+        },
+        {
+          "id": "BAKERY_SPREAD_PLAIN_CREAMCHEESE"
+        },
+        {
+          "id": "BAKERY_JAM_SMUCKERS_STRAWBERRY"
+        },
+        null,
+        null,
+        null
+      ]
+    },
+    "menu6": {
+      "screenId": "menu6",
+      "cells": [
+        {
+          "id": "SNACK_BAR_SWEETPOTATO"
+        },
+        {
+          "id": "SNACK_BROWNIE_SEASONAL_PREMIUM_CHOCO"
+        },
+        {
+          "id": "SNACK_CANDY_STYLELAB_CANDY_PEACH"
+        },
+        null,
+        {
+          "id": "SNACK_SABLE_CHOCOLATE_PECAN"
+        },
+        null,
+        {
+          "id": "SNACK_BAR_GRAHAMCOOKIE"
+        },
+        {
+          "id": "SNACK_NUTS_AND_FRUITS"
+        },
+        {
+          "id": "SNACK_CANDY_STYLELAB_CANDY_MINT"
+        },
+        null,
+        {
+          "id": "SNACK_COOKIE_ALMOND_CRANBERRY"
+        },
+        null,
+        {
+          "id": "SNACK_BISCUIT_PIECE_CHOCO"
+        },
+        {
+          "id": "SNACK_BREAD_RUSK_CHOCOLATE"
+        },
+        null,
+        null,
+        {
+          "id": "SNACK_COOKIE_GLUTENFREE_ALMOND_COCONUT"
+        },
+        {
+          "id": "PAPER_BAG_SMALL"
+        },
+        {
+          "id": "SNACK_BISCUIT_PIECE_CHOCO_MILK"
+        },
+        null,
+        null,
+        null,
+        {
+          "id": "SNACK_COOKIE_SET_3"
+        },
+        {
+          "id": "PAPER_BAG_LARGE"
+        }
+      ]
+    },
+    "menu7-1": {
+      "screenId": "menu7-1",
+      "cells": [
+        {
+          "id": "MD_TWG_FRENCH_EARLGREY"
+        },
+        {
+          "id": "MD_TWG_CHAMOMILE"
+        },
+        {
+          "id": "MD_ALIST_HEADDRIP_BLACKROUND"
+        },
+        {
+          "id": "MD_ALIST_CAPSULE_BLACKROUND"
+        },
+        {
+          "id": "MD_ALIST_COLD_BREW_CONCENTRATE"
+        },
+        {
+          "id": "MD_TWG_GRAND_TEA"
+        },
+        {
+          "id": "MD_TWG_CREAM_CARAMEL"
+        },
+        {
+          "id": "MD_ALIST_HEADDRIP_AROMANOTE"
+        },
+        {
+          "id": "MD_ALIST_CAPSULE_AROMANOTE"
+        },
+        null,
+        {
+          "id": "MD_TWG_ENGLISH_BREAKFAST"
+        },
+        null,
+        {
+          "id": "MD_ALIST_HEADDRIP_DECAF"
+        },
+        {
+          "id": "MD_ALIST_CAPSULE_DECAF"
+        },
+        {
+          "id": "MD_BEANS_BLACKROUND_200G"
+        },
+        {
+          "id": "MD_TWG_1837_BLACK_TEA"
+        },
+        null,
+        {
+          "id": "MD_ALIST_STICK_COFFEE"
+        },
+        {
+          "id": "MD_ALIST_VANILLA_LATTE"
+        },
+        {
+          "id": "MD_BEANS_AROMANOTE_200G"
+        },
+        null,
+        null,
+        {
+          "id": "MD_ALIST_STICK_COFFEE_DECAF"
+        },
+        {
+          "id": "MD_ALIST_CHOCOLATE_LATTE"
+        },
+        {
+          "id": "MD_BEANS_DECAF_200G"
+        }
+      ]
+    },
+    "menu7-2": {
+      "screenId": "menu7-2",
+      "cells": [
+        {
+          "id": "MD_TUMBLER_SIGNATURE_HANDLE_DIAMOND_ORANGE"
+        },
+        {
+          "id": "MD_TUMBLER_SIGNATURE_MAX_HANDLE_DIAMOND_ORANGE"
+        },
+        {
+          "id": "MD_BOTTLE_HF_MICRO_HIDE_320_WHITE"
+        },
+        {
+          "id": "MD_BOTTLE_HF_MICRO_HIDE_320_TEA_ROSE"
+        },
+        {
+          "id": "MD_STAGE_MUG_GREY"
+        },
+        null,
+        {
+          "id": "MD_TUMBLER_SIGNATURE_HANDLE_PASTEL_YELLOW"
+        },
+        {
+          "id": "MD_TUMBLER_SIGNATURE_MAX_HANDLE_PASTEL_YELLOW"
+        },
+        {
+          "id": "MD_BOTTLE_HF_MICRO_HIDE_320_BLACK"
+        },
+        {
+          "id": "MD_BOTTLE_HF_MICRO_HIDE_320_ALOE_GREEN"
+        },
+        {
+          "id": "MD_TUMBLER_MAX_STEEL"
+        },
+        null,
+        {
+          "id": "MD_TUMBLER_SIGNATURE_HANDLE_SKY_BLUE"
+        },
+        {
+          "id": "MD_TUMBLER_SIGNATURE_MAX_HANDLE_SKY_BLUE"
+        },
+        {
+          "id": "MD_BOTTLE_HF_MICRO_HIDE_320_OAT"
+        },
+        {
+          "id": "MD_BOTTLE_HF_TRAVEL_709_SUPER_BLUE"
+        },
+        null,
+        {
+          "id": "PAPER_BAG_SMALL"
+        },
+        null,
+        null,
+        {
+          "id": "MD_BOTTLE_HF_MICRO_HIDE_320_AGAVE"
+        },
+        {
+          "id": "MD_BOTTLE_HF_TRAVEL_709_ALOE_GREEN"
+        },
+        null,
+        {
+          "id": "PAPER_BAG_LARGE"
+        },
+        {
+          "id": "MD_MUG_PEARL_HANDLE"
+        },
+        {
+          "id": "MD_MUG_NAVY_HANDLE"
+        },
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+}

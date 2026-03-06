@@ -1,0 +1,38 @@
+.menu-grid-cell {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 89px;
+  padding: 0;
+  font-size: 14px;
+  line-height: 1.15;
+  text-align: center;
+  white-space: normal;
+  word-break: keep-all;
+  overflow: hidden;
+  border: none;
+  margin: 0;
+  border-radius: 0;
+}
+
+.menu-grid-cell .price {
+  font-size: 12px;
+  color: gray;
+}
+
+.tile-gray {
+  background: #d3d3d3; /* Light gray */
+}
+
+.tile-green {
+  background: #32cd32; /* Lime green */
+}
+
+.tile-yellow {
+  background: #ffd700; /* Gold */
+}
+
+.tile-blue {
+  background: #1e90ff; /* Dodger blue */
+}

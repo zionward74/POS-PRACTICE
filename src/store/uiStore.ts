@@ -1,81 +1,107 @@
-import { createStore, StateCreator } from "zustand/vanilla";
+// src/store/uiStore.ts
+import { createStore } from "zustand/vanilla";
 import type { MenuUI } from "../data/loadData";
+import { makePagesKey } from "../ui/makePagesKey";
 
 interface UiState {
   activeTopTabId: string;
   activeSubTabId: string;
   activePageIndex: number;
+
   initFromUi: (ui: MenuUI) => void;
+
   setTopTab: (ui: MenuUI, topTabId: string) => void;
   setSubTab: (ui: MenuUI, subTabId: string) => void;
+
   nextPage: (ui: MenuUI) => void;
   prevPage: (ui: MenuUI) => void;
-  getCurrentCatSubKey: () => string;
 }
 
-const uiStoreCreator: StateCreator<UiState> = (set, get) => ({
+function firstTopTabId(ui: MenuUI): string {
+  return ui.topTabs?.[0]?.id ?? "";
+}
+
+function firstSubTabId(ui: MenuUI, topTabId: string): string {
+  const subs = ui.subTabsByTopTab?.[topTabId] ?? [];
+  return subs?.[0]?.id ?? "";
+}
+
+function pagesCount(ui: MenuUI, topTabId: string, subTabId: string): number {
+  if (!topTabId || !subTabId) return 0;
+  const key = makePagesKey(topTabId, subTabId);
+  const pages = ui.pages?.[key];
+  return Array.isArray(pages) ? pages.length : 0;
+}
+
+export const uiStore = createStore<UiState>((set, get) => ({
   activeTopTabId: "",
   activeSubTabId: "",
   activePageIndex: 0,
 
-  initFromUi: (ui: MenuUI) => {
-    const topTabId = ui.topTabs[0]?.id;
-    const subTabId = ui.subTabsByTopTab[topTabId]?.[0]?.id;
-    if (!topTabId || !subTabId) {
-      throw new Error("Invalid UI structure");
+  initFromUi: (ui) => {
+    const top = firstTopTabId(ui);
+    const sub = top ? firstSubTabId(ui, top) : "";
+
+    if (!top || !sub) {
+      console.warn("[uiStore] UI structure is empty or missing tabs.", {
+        topTabs: ui.topTabs?.length ?? 0,
+        subTabsForTop: top ? (ui.subTabsByTopTab?.[top]?.length ?? 0) : 0,
+      });
     }
+
+    set({
+      activeTopTabId: top,
+      activeSubTabId: sub,
+      activePageIndex: 0,
+    });
+  },
+
+  setTopTab: (ui, topTabId) => {
+    const sub = firstSubTabId(ui, topTabId);
+
     set({
       activeTopTabId: topTabId,
+      activeSubTabId: sub,
+      activePageIndex: 0,
+    });
+  },
+
+  setSubTab: (_ui, subTabId) => {
+    set({
       activeSubTabId: subTabId,
       activePageIndex: 0,
     });
   },
 
-  setTopTab: (ui: MenuUI, topTabId: string) => {
-    const subTabs = ui.subTabsByTopTab[topTabId];
-    if (!subTabs || subTabs.length === 0) {
-      throw new Error(`No subTabs found for topTabId: ${topTabId}`);
-    }
-    set({
-      activeTopTabId: topTabId,
-      activeSubTabId: subTabs[0].id,
-      activePageIndex: 0,
-    });
-  },
-
-  setSubTab: (ui: MenuUI, subTabId: string) => {
-    set({
-      activeSubTabId: subTabId,
-      activePageIndex: 0,
-    });
-  },
-
-  nextPage: (ui: MenuUI) => {
+  nextPage: (ui) => {
     const { activeTopTabId, activeSubTabId, activePageIndex } = get();
-    const catSubKey = `${activeTopTabId}|${activeSubTabId}`;
-    const pages = ui.pages[catSubKey];
-    if (!pages) {
-      throw new Error(`No pages found for category-subcategory key: ${catSubKey}`);
+    const count = pagesCount(ui, activeTopTabId, activeSubTabId);
+
+    if (count <= 0) {
+      const key = makePagesKey(activeTopTabId, activeSubTabId);
+      console.warn("[uiStore] nextPage: no pages for key:", key);
+      return;
     }
-    const nextPageIndex = (activePageIndex + 1) % pages.length;
-    set({ activePageIndex: nextPageIndex });
+
+    const nextIndex = Math.min(count - 1, activePageIndex + 1);
+    if (nextIndex === activePageIndex) return;
+
+    set({ activePageIndex: nextIndex });
   },
 
-  prevPage: (ui: MenuUI) => {
+  prevPage: (ui) => {
     const { activeTopTabId, activeSubTabId, activePageIndex } = get();
-    const catSubKey = `${activeTopTabId}|${activeSubTabId}`;
-    const pages = ui.pages[catSubKey];
-    if (!pages) {
-      throw new Error(`No pages found for category-subcategory key: ${catSubKey}`);
+    const count = pagesCount(ui, activeTopTabId, activeSubTabId);
+
+    if (count <= 0) {
+      const key = makePagesKey(activeTopTabId, activeSubTabId);
+      console.warn("[uiStore] prevPage: no pages for key:", key);
+      return;
     }
-    const prevPageIndex = (activePageIndex - 1 + pages.length) % pages.length;
-    set({ activePageIndex: prevPageIndex });
-  },
 
-  getCurrentCatSubKey: () => {
-    const { activeTopTabId, activeSubTabId } = get();
-    return `${activeTopTabId}|${activeSubTabId}`;
-  },
-});
+    const nextIndex = Math.max(0, activePageIndex - 1);
+    if (nextIndex === activePageIndex) return;
 
-export const uiStore = createStore<UiState>(uiStoreCreator);
+    set({ activePageIndex: nextIndex });
+  },
+}));
