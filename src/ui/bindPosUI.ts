@@ -13,7 +13,7 @@ import { loadColorMap, saveColorMap } from "./colorMap";
 import type { ColorKey } from "./colorMap";
 import { makePagesKey } from "./makePagesKey";
 
-// ✅ 추가: 표시용(이름/가격) 오버라이드 저장
+// 표시용(이름/가격) 오버라이드 저장
 import { getOverride, setOverride, clearOverride } from "./keyOverrides";
 
 let bindPosUICalled = false;
@@ -43,18 +43,25 @@ export async function bindPosUI(): Promise<void> {
   buildReverseIndex(data);
 
   // 4) Init UI store
-  await uiStore.getState().initFromUi(data.ui);
+  uiStore.getState().initFromUi(data.ui);
 
   // 5) DOM refs
   const gridRootEl = document.querySelector<HTMLElement>("#menu-grid-root");
-  if (!gridRootEl) throw new Error("Grid root element not found. '#menu-grid-root' missing.");
+  if (!gridRootEl) {
+    throw new Error("Grid root element not found. '#menu-grid-root' missing.");
+  }
+
+  const subTabsRowEl = document.getElementById("sub-tabs-row");
+  if (!subTabsRowEl) {
+    throw new Error("Sub tabs row element not found. '#sub-tabs-row' missing.");
+  }
 
   const editPanel = document.getElementById("edit-panel");
   const palette = document.getElementById("palette");
   const btnEditToggle = document.getElementById("btn-edit-toggle");
   const btnEditLock = document.getElementById("btn-edit-lock");
 
-  // ✅ 추가: 키 편집 UI (표시용 이름/가격)
+  // 키 편집 UI (표시용 이름/가격)
   const inputKeyLabel = document.getElementById("edit-key-label") as HTMLInputElement | null;
   const inputKeyPrice = document.getElementById("edit-key-price") as HTMLInputElement | null;
   const btnKeySave = document.getElementById("btn-key-save") as HTMLButtonElement | null;
@@ -85,18 +92,99 @@ export async function bindPosUI(): Promise<void> {
   updateEditPanelVisibility();
 
   // -------------------------
+  // Top / Sub tab active styles
+  // -------------------------
+  function synchronizeTabStyles() {
+    const { activeTopTabId, activeSubTabId } = uiStore.getState();
+
+    document.querySelectorAll<HTMLButtonElement>("[data-top-tab-id]").forEach((button) => {
+      const topTabId = button.getAttribute("data-top-tab-id");
+
+      button.classList.remove("top-tab-active", "top-tab-inactive");
+      button.classList.add(topTabId === activeTopTabId ? "top-tab-active" : "top-tab-inactive");
+    });
+
+    document.querySelectorAll<HTMLButtonElement>("[data-sub-tab-id]").forEach((button) => {
+      const subTabId = button.getAttribute("data-sub-tab-id");
+
+      button.classList.remove("sub-tab-active", "sub-tab-inactive");
+      button.classList.add(subTabId === activeSubTabId ? "sub-tab-active" : "sub-tab-inactive");
+    });
+  }
+
+  // -------------------------
+  // Rebuild sub tabs for current top tab
+  // -------------------------
+  function rebuildSubTabs(loadedData: LoadedData) {
+    const { activeTopTabId } = uiStore.getState();
+    const subs = loadedData.ui.subTabsByTopTab?.[activeTopTabId] ?? [];
+
+    // 기존 내용을 완전히 재구성
+    subTabsRowEl.innerHTML = "";
+
+    // 서브탭 슬롯은 최대 7칸 유지
+    const maxVisibleSubTabs = 7;
+
+    for (let i = 0; i < maxVisibleSubTabs; i += 1) {
+      const sub = subs[i];
+
+      if (sub) {
+        const button = document.createElement("button");
+        button.setAttribute("data-sub-tab-id", sub.id);
+        button.className = "col-span-1 bg-[#888] text-white text-[10px] py-1";
+        button.textContent = sub.label;
+        subTabsRowEl.appendChild(button);
+      } else {
+        const filler = document.createElement("div");
+        filler.className = "col-span-1 bg-[#888]";
+        subTabsRowEl.appendChild(filler);
+      }
+    }
+
+    // 서브탭 pager 유지
+    const prevButton = document.createElement("button");
+    prevButton.setAttribute("data-action", "SUBTAB_PREV");
+    prevButton.className = "bg-[#888] text-white text-lg py-1";
+    prevButton.textContent = "<";
+    subTabsRowEl.appendChild(prevButton);
+
+    const nextButton = document.createElement("button");
+    nextButton.setAttribute("data-action", "SUBTAB_NEXT");
+    nextButton.className = "bg-[#888] text-white text-lg py-1";
+    nextButton.textContent = ">";
+    subTabsRowEl.appendChild(nextButton);
+  }
+
+  // -------------------------
   // Render helper
   // -------------------------
   const rerender = () => {
     const { activeTopTabId, activeSubTabId, activePageIndex } = uiStore.getState();
-    const screenId = getActiveScreenId(data.ui, activeTopTabId, activeSubTabId, activePageIndex);
+
+    console.log("[POS] rerender state", {
+      activeTopTabId,
+      activeSubTabId,
+      activePageIndex,
+    });
+
+    const screenId = getActiveScreenId(
+      data.ui,
+      activeTopTabId,
+      activeSubTabId,
+      activePageIndex
+    );
+
     (window as any).__pos_screenId = screenId;
 
-    console.log("[POS] activeTopTabId =", activeTopTabId);
-    console.log("[POS] activeSubTabId =", activeSubTabId);
-    console.log("[POS] screenId =", screenId);
+    console.log("[POS] resolved screenId", screenId);
+
+    // 현재 메인 탭에 맞게 서브탭 줄부터 재구성
+    rebuildSubTabs(data);
 
     renderMenuGrid(data, screenId, gridRootEl);
+
+    // 현재 active 상태에 맞게 탭 색상 동기화
+    synchronizeTabStyles();
 
     // 편집 모드에서 선택 강조 유지
     if (editModeOn && selectedCellIndex !== null) {
@@ -109,7 +197,7 @@ export async function bindPosUI(): Promise<void> {
   rerender();
 
   // -------------------------
-  // TopTab / SubTab buttons
+  // TopTab buttons (static)
   // -------------------------
   document.querySelectorAll<HTMLButtonElement>("[data-top-tab-id]").forEach((button) => {
     const topTabId = button.getAttribute("data-top-tab-id");
@@ -117,29 +205,84 @@ export async function bindPosUI(): Promise<void> {
       console.warn("TopTab button missing data-top-tab-id attribute.");
       return;
     }
-    button.addEventListener("click", () => {
-      uiStore.getState().setTopTab(data.ui, topTabId);
-      rerender();
-    });
-  });
 
-  document.querySelectorAll<HTMLButtonElement>("[data-sub-tab-id]").forEach((button) => {
-    const subTabId = button.getAttribute("data-sub-tab-id");
-    if (!subTabId) {
-      console.warn("SubTab button missing data-sub-tab-id attribute.");
-      return;
-    }
     button.addEventListener("click", () => {
-      uiStore.getState().setSubTab(data.ui, subTabId);
+      console.log("[TOP CLICK]", {
+        topTabId,
+        before: uiStore.getState(),
+      });
+
+      uiStore.getState().setTopTab(data.ui, topTabId);
+
+      console.log("[TOP CLICK AFTER]", uiStore.getState());
+
       rerender();
     });
   });
 
   // -------------------------
-  // Action buttons (pager)
-  // - PAGE_PREV/NEXT
+  // SubTab row (dynamic) - event delegation
+  // -------------------------
+  subTabsRowEl.addEventListener("click", (event) => {
+    const target = event.target as HTMLElement;
+    const button = target.closest("button");
+
+    if (!button) return;
+
+    const subTabId = button.getAttribute("data-sub-tab-id");
+    if (subTabId) {
+      console.log("[SUB CLICK]", {
+        subTabId,
+        before: uiStore.getState(),
+      });
+
+      uiStore.getState().setSubTab(data.ui, subTabId);
+
+      console.log("[SUB CLICK AFTER]", uiStore.getState());
+
+      rerender();
+      return;
+    }
+
+    const action = button.getAttribute("data-action");
+    if (!action) return;
+
+    const state = uiStore.getState();
+    const { activeTopTabId, activeSubTabId } = state;
+
+    if (action === "SUBTAB_PREV" || action === "SUBTAB_NEXT") {
+      const subs = (data.ui.subTabsByTopTab as Record<string, Array<{ id: string }>> | undefined)?.[
+        activeTopTabId
+      ] ?? [];
+
+      if (!Array.isArray(subs) || subs.length === 0) {
+        console.warn("No subTabs for activeTopTabId:", activeTopTabId);
+        return;
+      }
+
+      const found = subs.findIndex((s) => s.id === activeSubTabId);
+      const curIndex = found >= 0 ? found : 0;
+
+      const delta = action === "SUBTAB_NEXT" ? 1 : -1;
+      const nextIndex = (curIndex + delta + subs.length) % subs.length;
+      const nextSubTabId = subs[nextIndex]?.id;
+      if (!nextSubTabId) return;
+
+      uiStore.getState().setSubTab(data.ui, nextSubTabId);
+
+      console.log("[ACTION AFTER SUBTAB]", {
+        action,
+        nextSubTabId,
+        stateAfter: uiStore.getState(),
+      });
+
+      rerender();
+    }
+  });
+
+  // -------------------------
+  // Static action buttons
   // - TOPTAB_PREV/NEXT
-  // - SUBTAB_PREV/NEXT
   // -------------------------
   document.querySelectorAll<HTMLButtonElement>("[data-action]").forEach((button) => {
     const action = button.getAttribute("data-action");
@@ -148,23 +291,21 @@ export async function bindPosUI(): Promise<void> {
       return;
     }
 
+    // 동적으로 다시 만들어지는 SUBTAB_* 버튼은 위임 처리
+    if (action === "SUBTAB_PREV" || action === "SUBTAB_NEXT") {
+      return;
+    }
+
     button.addEventListener("click", () => {
       const state = uiStore.getState();
-      const { activeTopTabId, activeSubTabId } = state;
+      const { activeTopTabId } = state;
 
-      // 1) Page nav
-      if (action === "PAGE_PREV") {
-        uiStore.getState().prevPage(data.ui);
-        rerender();
-        return;
-      }
-      if (action === "PAGE_NEXT") {
-        uiStore.getState().nextPage(data.ui);
-        rerender();
-        return;
-      }
+      console.log("[ACTION CLICK]", {
+        action,
+        stateBefore: state,
+      });
 
-      // 2) Top tab pager
+      // 1) Top tab pager
       if (action === "TOPTAB_PREV" || action === "TOPTAB_NEXT") {
         const topTabs = data.ui.topTabs ?? [];
         if (!topTabs.length) {
@@ -181,32 +322,18 @@ export async function bindPosUI(): Promise<void> {
         if (!nextTopTabId) return;
 
         uiStore.getState().setTopTab(data.ui, nextTopTabId);
+
+        console.log("[ACTION AFTER TOPTAB]", {
+          action,
+          nextTopTabId,
+          stateAfter: uiStore.getState(),
+        });
+
         rerender();
         return;
       }
 
-      // 3) Sub tab pager
-      if (action === "SUBTAB_PREV" || action === "SUBTAB_NEXT") {
-        const subs = (data.ui.subTabsByTopTab as any)?.[activeTopTabId] ?? [];
-        if (!Array.isArray(subs) || subs.length === 0) {
-          console.warn("No subTabs for activeTopTabId:", activeTopTabId);
-          return;
-        }
-
-        const found = subs.findIndex((s: any) => s.id === activeSubTabId);
-        const curIndex = found >= 0 ? found : 0;
-
-        const delta = action === "SUBTAB_NEXT" ? 1 : -1;
-        const nextIndex = (curIndex + delta + subs.length) % subs.length;
-        const nextSubTabId = subs[nextIndex]?.id;
-        if (!nextSubTabId) return;
-
-        uiStore.getState().setSubTab(data.ui, nextSubTabId);
-        rerender();
-        return;
-      }
-
-      console.warn("Unknown action:", action);
+      console.warn("Unknown static action:", action);
     });
   });
 
@@ -239,7 +366,7 @@ export async function bindPosUI(): Promise<void> {
   }
 
   // -------------------------
-  // ✅ Grid click handler (single)
+  // Grid click handler (single)
   // 1) grid nav (< >)
   // 2) edit mode: select
   // 3) normal: order add
@@ -254,7 +381,7 @@ export async function bindPosUI(): Promise<void> {
       if (!activeTopTabId || !activeSubTabId) return;
 
       const key = makePagesKey(activeTopTabId, activeSubTabId);
-      const pages = (data.ui.pages as any)?.[key] ?? [];
+      const pages = (data.ui.pages as Record<string, Array<{ screenId: string }>> | undefined)?.[key] ?? [];
       if (!Array.isArray(pages) || pages.length === 0) return;
 
       const dir = navBtn.dataset.gridNav; // "prev" | "next"
@@ -263,11 +390,19 @@ export async function bindPosUI(): Promise<void> {
       if (nextIndex === activePageIndex) return;
 
       uiStore.setState({ activePageIndex: nextIndex });
+
+      console.log("[GRID NAV]", {
+        dir,
+        key,
+        activePageIndex,
+        nextIndex,
+      });
+
       rerender();
       return;
     }
 
-    // ✅ Always resolve to a cell button
+    // Always resolve to a cell button
     const cellBtn = target.closest("button[data-cell-index]") as HTMLButtonElement | null;
 
     // 2) Edit mode: select cell
@@ -279,14 +414,15 @@ export async function bindPosUI(): Promise<void> {
 
       console.log("[EDIT] selected applied", { cellIndex: selectedCellIndex });
 
-      // ✅ fill inputs (override first, fallback to displayed text)
       const screenId = (window as any).__pos_screenId as string;
       const ov = getOverride(screenId, selectedCellIndex);
 
       const nameEl = cellBtn.querySelector(".name");
       const priceEl = cellBtn.querySelector(".price");
 
-      if (inputKeyLabel) inputKeyLabel.value = ov?.label ?? (nameEl?.textContent ?? "");
+      if (inputKeyLabel) {
+        inputKeyLabel.value = ov?.label ?? (nameEl?.textContent ?? "");
+      }
 
       if (inputKeyPrice) {
         const rawPrice = ov?.price ?? (priceEl?.textContent ?? "");
@@ -294,6 +430,7 @@ export async function bindPosUI(): Promise<void> {
           typeof rawPrice === "number"
             ? rawPrice
             : Number(String(rawPrice).replace(/[^\d]/g, ""));
+
         inputKeyPrice.value = Number.isFinite(num) && num > 0 ? String(num) : "";
       }
 
@@ -315,8 +452,16 @@ export async function bindPosUI(): Promise<void> {
       return;
     }
 
-    orderStore.getState().addItem({ id: itemId, name: item.name, price: item.price });
-    renderOrderTable(orderStore.getState().lines, orderStore.getState().selectedIndex);
+    orderStore.getState().addItem({
+      id: itemId,
+      name: item.name,
+      price: item.price,
+    });
+
+    renderOrderTable(
+      orderStore.getState().lines,
+      orderStore.getState().selectedIndex
+    );
     renderSummary();
   });
 
@@ -335,7 +480,12 @@ export async function bindPosUI(): Promise<void> {
       const chosenKey = (colorBtn.dataset.color as ColorKey | undefined) ?? "gray";
 
       const { activeTopTabId, activeSubTabId, activePageIndex } = uiStore.getState();
-      const screenId = getActiveScreenId(data.ui, activeTopTabId, activeSubTabId, activePageIndex);
+      const screenId = getActiveScreenId(
+        data.ui,
+        activeTopTabId,
+        activeSubTabId,
+        activePageIndex
+      );
 
       const map = loadColorMap();
       if (!map[screenId]) map[screenId] = Array(30).fill("gray");
@@ -343,12 +493,18 @@ export async function bindPosUI(): Promise<void> {
       map[screenId][selectedCellIndex] = String(chosenKey);
       saveColorMap(map);
 
+      console.log("[COLOR SAVE]", {
+        screenId,
+        selectedCellIndex,
+        chosenKey,
+      });
+
       rerender();
     });
   }
 
   // -------------------------
-  // ✅ Key editor: save / clear (표시용 이름/가격)
+  // Key editor: save / clear (표시용 이름/가격)
   // -------------------------
   if (btnKeySave) {
     btnKeySave.addEventListener("click", () => {
@@ -365,6 +521,13 @@ export async function bindPosUI(): Promise<void> {
 
       setOverride(screenId, selectedCellIndex, {
         label: label.trim().length ? label.trim() : undefined,
+        price: Number.isFinite(priceNum) ? priceNum : undefined,
+      });
+
+      console.log("[KEY OVERRIDE SAVE]", {
+        screenId,
+        selectedCellIndex,
+        label,
         price: Number.isFinite(priceNum) ? priceNum : undefined,
       });
 
@@ -385,6 +548,11 @@ export async function bindPosUI(): Promise<void> {
 
       if (inputKeyLabel) inputKeyLabel.value = "";
       if (inputKeyPrice) inputKeyPrice.value = "";
+
+      console.log("[KEY OVERRIDE CLEAR]", {
+        screenId,
+        selectedCellIndex,
+      });
 
       rerender();
     });

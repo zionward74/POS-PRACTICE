@@ -91,21 +91,15 @@
       .tile-orange {
         background: #ffc48a;
       }
-
-      /* ✅ 추가: 보라 */
       .tile-purple {
         background: #d9c6ff;
       }
-
-      /* ✅ 추가: 선택없음(흰색) */
       .tile-white {
         background: #ffffff;
       }
     </style>
 
-    <!-- ✅ 추가만: 팔레트(색편집) UI를 "색칩"처럼 보이게 -->
     <style data-purpose="palette-styling">
-      /* 팔레트 컨테이너 */
       #palette.palette {
         display: flex;
         gap: 6px;
@@ -114,7 +108,6 @@
         margin-top: 6px;
       }
 
-      /* 색칩 버튼 */
       #palette .palette-swatch {
         width: 34px;
         height: 18px;
@@ -124,7 +117,6 @@
         cursor: pointer;
       }
 
-      /* 선택없음 버튼(흰색 + 글자) */
       #palette .palette-none {
         height: 18px;
         padding: 0 10px;
@@ -137,7 +129,6 @@
         color: #111;
       }
 
-      /* 눌렀을 때 피드백 */
       #palette .palette-swatch:active,
       #palette .palette-none:active {
         transform: translateY(1px);
@@ -212,14 +203,11 @@
       }
     </style>
 
-    <!-- 서브탭을 상단탭과 같은 모양/사이즈로 + 오른쪽 < > 폭 더 좁게 (메인과 동일 높이 유지) -->
     <style data-purpose="subtabs-match-top-tabs">
-      /* ✅ 오른쪽 < > 버튼 폭을 고정폭으로 더 줄이기 */
       #sub-tabs-row {
         grid-template-columns: repeat(7, 1fr) 34px 34px !important;
       }
 
-      /* ✅ 서브탭 높이를 메인탭 느낌으로 키워서 동일하게 */
       #sub-tabs-row > button,
       #sub-tabs-row > div {
         height: 36px;
@@ -240,18 +228,10 @@
         font-weight: 600;
       }
 
-      /* 선택된 서브탭 (빨강) */
-      #sub-tabs-row > button.bg-\[\#c0003e\] {
-        background: #c0003e !important;
-        font-weight: 700 !important;
-      }
-
-      /* 가운데 채움용 영역 톤 맞춤 */
       #sub-tabs-row > div.bg-\[\#888\] {
         background: #666 !important;
       }
 
-      /* 좌/우 버튼만 크게 */
       #sub-tabs-row > button:nth-last-child(2),
       #sub-tabs-row > button:last-child {
         font-size: 18px !important;
@@ -260,7 +240,6 @@
     </style>
 
     <style data-purpose="adjust-first-subtab">
-      /* Allow the first sub-tab button to display text on two lines */
       #sub-tabs-row > button:first-child {
         white-space: normal;
         display: -webkit-box;
@@ -272,14 +251,12 @@
     </style>
 
     <style data-purpose="adjust-main-tabs">
-      /* Adjust grid-template-columns for the first tab row to reduce < > button width */
       section[data-purpose="menu-grid"] > div.grid:first-of-type {
         grid-template-columns: repeat(7, 1fr) 34px 34px !important;
       }
     </style>
 
     <style data-purpose="match-main-tab-height">
-      /* Ensure main menu buttons match the height of sub-tabs */
       section[data-purpose="menu-grid"] > div.grid:first-of-type > button {
         height: 36px;
         padding-top: 0;
@@ -290,7 +267,32 @@
       }
     </style>
 
-    <!-- ✅ 추가만: 선택 표시 -->
+    <style data-purpose="tab-active-states">
+      section[data-purpose="menu-grid"] > div.grid:first-of-type > button.top-tab-active {
+        background: #c0003e !important;
+        color: #ffffff !important;
+        font-weight: 700 !important;
+      }
+
+      section[data-purpose="menu-grid"] > div.grid:first-of-type > button.top-tab-inactive {
+        background: #666666 !important;
+        color: #ffffff !important;
+        font-weight: 400 !important;
+      }
+
+      #sub-tabs-row > button.sub-tab-active {
+        background: #c0003e !important;
+        color: #ffffff !important;
+        font-weight: 700 !important;
+      }
+
+      #sub-tabs-row > button.sub-tab-inactive {
+        background: #888888 !important;
+        color: #ffffff !important;
+        font-weight: 400 !important;
+      }
+    </style>
+
     <style>
       .cell-selected {
         outline: 3px solid #7c3aed;
@@ -309,12 +311,12 @@
             <table class="w-full text-center border-collapse">
               <thead>
                 <tr class="table-header">
-                  <th class="w-[322px] border-r border-white/20">상품명</th>
+                  <th class="w-[290px] border-r border-white/20">상품명</th>
                   <th class="w-[65px] border-r border-white/20">수량</th>
                   <th class="w-[85px] border-r border-white/20">정가</th>
                   <th class="w-[80px] border-r border-white/20">할인</th>
                   <th class="w-[85px] border-r border-white/20">금액</th>
-                  <th class="w-auto">비고</th>
+                  <th class="w-[32px]">비고</th>
                 </tr>
               </thead>
               <tbody id="order-table-body">
@@ -375,7 +377,7 @@
       <div class="right-column border-l border-gray-400">
         <div class="flex h-full">
           <!-- Main Panel Content -->
-          <div class="flex-1 flex flex-col">
+          <div class="flex-1 min-w-0 flex flex-col">
             <!-- Black Header -->
             <div class="h-[120px] bg-[#221f1f] border-b border-gray-600"></div>
 
@@ -429,7 +431,7 @@
                   <button class="palette-none" data-color="white">선택없음</button>
                 </div>
 
-                <!-- ✅ 추가: 선택된 키 이름/가격 편집 UI (추가만, 아직 기능 연결 X) -->
+                <!-- ✅ 추가: 선택된 키 이름/가격 편집 UI -->
                 <div
                   id="key-editor"
                   style="margin-top: 8px; display: grid; grid-template-columns: 1fr; gap: 6px;"
@@ -517,18 +519,51 @@
               <span class="font-bold text-sm">현금<br />결제</span>
             </button>
 
-            <div class="flex-1 flex flex-col bg-[#606366]">
-              <button class="flex-1 text-white font-bold border-b border-white/10">판매</button>
-              <button class="flex-1 text-white font-bold border-b border-white/10">할인</button>
-              <button class="flex-1 text-white font-bold border-b border-white/10">결제</button>
-              <button class="flex-1 text-white font-bold border-b border-white/10">영업</button>
-              <button class="flex-1 text-white font-bold">관리</button>
-            </div>
+            <button class="h-[75px] text-white font-bold border-b border-white/10">판매</button>
+            <button class="h-[75px] text-white font-bold border-b border-white/10">할인</button>
+            <button class="h-[75px] text-white font-bold border-b border-white/10">결제</button>
+            <button class="h-[75px] text-white font-bold border-b border-white/10">영업</button>
+            <button class="h-[75px] text-white font-bold">관리</button>
           </div>
         </div>
       </div>
       <!-- END: RightColumn -->
     </div>
+
+    <!-- ✅ 추가: 기존 HTML은 건드리지 않고, JS가 인식할 data-* 속성을 로드 후 주입 -->
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const menuSection = document.querySelector('section[data-purpose="menu-grid"]');
+        const topRow = menuSection?.querySelector("div.grid:first-of-type");
+        const topButtons = topRow?.querySelectorAll("button");
+
+        if (topButtons && topButtons.length >= 9) {
+          topButtons[0].setAttribute("data-top-tab-id", "CAT_COFFEE");
+          topButtons[1].setAttribute("data-top-tab-id", "CAT_ICE");
+          topButtons[2].setAttribute("data-top-tab-id", "CAT_CAKE");
+          topButtons[3].setAttribute("data-top-tab-id", "CAT_DELI");
+          topButtons[4].setAttribute("data-top-tab-id", "CAT_BAKERY");
+          topButtons[5].setAttribute("data-top-tab-id", "CAT_GOODS");
+          topButtons[6].setAttribute("data-top-tab-id", "CAT_MD");
+
+          topButtons[7].setAttribute("data-action", "TOPTAB_PREV");
+          topButtons[8].setAttribute("data-action", "TOPTAB_NEXT");
+        }
+
+        const subRow = document.getElementById("sub-tabs-row");
+        const subButtons = subRow?.querySelectorAll("button");
+
+        if (subButtons && subButtons.length >= 6) {
+          subButtons[0].setAttribute("data-sub-tab-id", "SUB_ESPRESSO_VAR");
+          subButtons[1].setAttribute("data-sub-tab-id", "SUB_TEA_VAR");
+          subButtons[2].setAttribute("data-sub-tab-id", "SUB_DRINK");
+          subButtons[3].setAttribute("data-sub-tab-id", "SUB_BOTTLE");
+
+          subButtons[subButtons.length - 2].setAttribute("data-action", "SUBTAB_PREV");
+          subButtons[subButtons.length - 1].setAttribute("data-action", "SUBTAB_NEXT");
+        }
+      });
+    </script>
 
     <script type="module" src="/src/main.ts"></script>
   </body>

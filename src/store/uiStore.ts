@@ -57,6 +57,17 @@ export const uiStore = createStore<UiState>((set, get) => ({
   },
 
   setTopTab: (ui, topTabId) => {
+    const topTabs = ui.topTabs ?? [];
+    const topExists = topTabs.some((t) => t.id === topTabId);
+
+    if (!topExists) {
+      console.warn("[uiStore] setTopTab blocked: invalid topTabId", {
+        topTabId,
+        validTopTabs: topTabs.map((t) => t.id),
+      });
+      return;
+    }
+
     const sub = firstSubTabId(ui, topTabId);
 
     set({
@@ -64,10 +75,35 @@ export const uiStore = createStore<UiState>((set, get) => ({
       activeSubTabId: sub,
       activePageIndex: 0,
     });
+
+    console.log("[uiStore] setTopTab", {
+      activeTopTabId: topTabId,
+      activeSubTabId: sub,
+      activePageIndex: 0,
+    });
   },
 
-  setSubTab: (_ui, subTabId) => {
+  setSubTab: (ui, subTabId) => {
+    const { activeTopTabId } = get();
+    const subs = ui.subTabsByTopTab?.[activeTopTabId] ?? [];
+    const exists = subs.some((s) => s.id === subTabId);
+
+    if (!exists) {
+      console.warn("[uiStore] setSubTab blocked: invalid subTab for activeTopTabId", {
+        activeTopTabId,
+        subTabId,
+        validSubs: subs.map((s) => s.id),
+      });
+      return;
+    }
+
     set({
+      activeSubTabId: subTabId,
+      activePageIndex: 0,
+    });
+
+    console.log("[uiStore] setSubTab", {
+      activeTopTabId,
       activeSubTabId: subTabId,
       activePageIndex: 0,
     });
@@ -87,6 +123,12 @@ export const uiStore = createStore<UiState>((set, get) => ({
     if (nextIndex === activePageIndex) return;
 
     set({ activePageIndex: nextIndex });
+
+    console.log("[uiStore] nextPage", {
+      activeTopTabId,
+      activeSubTabId,
+      activePageIndex: nextIndex,
+    });
   },
 
   prevPage: (ui) => {
@@ -103,5 +145,11 @@ export const uiStore = createStore<UiState>((set, get) => ({
     if (nextIndex === activePageIndex) return;
 
     set({ activePageIndex: nextIndex });
+
+    console.log("[uiStore] prevPage", {
+      activeTopTabId,
+      activeSubTabId,
+      activePageIndex: nextIndex,
+    });
   },
 }));
